@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xmlns="http://lynx-technik.de/Programmer"
+    targetNamespace="http://lynx-technik.de/Programmer"
+    elementFormDefault="qualified"  
+    version= "2.0">
+    <xs:element name="LYNX_ASSETDB">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="LxzPathIntern" type="xs:string" />
+                <xs:element name="LxzPathExtern" type="xs:string" />
+                <xs:element name="Boards" minOccurs="0" >
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element  ref="Board" minOccurs="0" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                        <xs:attribute name="size" use="optional" type="xs:int"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Products" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="Product" minOccurs="0" maxOccurs="unbounded" />
+                        </xs:sequence>
+                        <xs:attribute name="size" use="optional" type="xs:int"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Softwareversions"  minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="Softwareversion"  minOccurs="0" maxOccurs="unbounded" />
+                        </xs:sequence>
+                        <xs:attribute name="size" use="optional" type="xs:int"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Producttypes" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Producttype" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="name" use="required" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>                            
+                        </xs:sequence>
+                        <xs:attribute name="size" use="optional" type="xs:int"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Jtagdevices"  minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="Jtagdevice"  minOccurs="0" maxOccurs="unbounded" />
+                        </xs:sequence>
+                        <xs:attribute name="size" use="optional" type="xs:int"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+            <xs:attribute name="version" use="required" type="xs:string"/>
+            <xs:attribute name="creationTime" use="required" type="xs:dateTime"/>
+            <xs:attribute name="sourceURL" use="required" type="xs:anyURI"/>
+            <xs:attribute name="size" use="optional" type="xs:anyURI"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="BoardsSoftwareversion">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="softwareversion_id" type="xs:IDREF"/>
+                <xs:element name="status" type="xs:string"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="BoardsJtagdevice">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="jtagdevice_id" type="xs:IDREF"/>
+                <xs:element name="bridge_addr" type="xs:string"/>
+                <xs:element name="bridge_port" type="xs:integer"/>
+                <xs:element name="devices_before" type="xs:integer"/>
+                <xs:element name="devices_after" type="xs:integer"/>
+                <xs:element name="regs_before" type="xs:integer"/>
+                <xs:element name="regs_after" type="xs:integer"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Board">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="BoardsSoftwareversions" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="BoardsSoftwareversion" minOccurs="0" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                        <xs:attribute name="size" use="optional" type="xs:int"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="products_ids" type="xs:IDREFS" minOccurs="0"/>
+                <xs:element name="BoardsJtagdevices" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="BoardsJtagdevice"  minOccurs="0" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                        <xs:attribute name="size" use="optional" type="xs:int"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+            <xs:attribute name="name" use="required" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Jtagdevice">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="mask" type="TypeHex"/>
+                <xs:element name="device_id" type="TypeHex"/>
+            </xs:all>
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Product">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="boards_ids" type="xs:IDREFS"/>
+                <xs:element name="type" type="TypeHex"/>
+                <xs:element name="subtype" type="TypeHex"/>
+            </xs:all>
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+            <xs:attribute name="name" use="required" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Softwareversion">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="download_url" type="xs:anyURI"/>
+                <xs:element name="download_size" type="xs:integer" />
+                <xs:element name="base_name" type="xs:string"/>
+                <xs:element name="software_number" type="xs:integer"/>
+                <xs:element name="description_extern" type="xs:string"/>
+                <xs:element name="addresses" type="xs:string"/>
+            </xs:all>
+            <xs:attribute name="id" use="required" type="xs:ID"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="TypeHex">
+        <xs:restriction base="xs:token">
+            <xs:pattern value="0x[0-9a-fA-F]{1,8}"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

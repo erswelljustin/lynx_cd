@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema	
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:xse="http://www.codesynthesis.com/xmlns/xml-schema-extension"
+   targetNamespace="http://lynx-technik.com/xsd"
+   xmlns = "http://lynx-technik.com/xsd"
+   elementFormDefault="qualified"
+   attributeFormDefault="unqualified"
+   xml:lang="en-US"
+   version = "1.0">
+
+  <!-- Type definitions -->
+  <xs:simpleType name="TypeType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9a-fA-F]{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="ServerConnectionType">
+    <xs:sequence>
+      <xs:element name="name" type="xs:normalizedString"/>
+      <xs:element name="host" type="xs:normalizedString"/>
+      <xs:element name="username" type="xs:normalizedString"/>
+      <xs:element name="password" type="xs:normalizedString"/>
+      <xs:any processContents="skip" minOccurs="0" maxOccurs="unbounded" namespace="##any"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID"/>
+    <xs:anyAttribute namespace="##any" processContents="skip"/>
+  </xs:complexType>
+  
+  <!-- Elements definitions -->
+  <xs:element name="Device">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:normalizedString"/>
+        <xs:element name="type" type="TypeType"/>
+        <xs:element name="subtype" type="TypeType"/>
+        <xs:element name="serverConRef" type="xs:normalizedString"/>
+        <xs:any processContents="skip" minOccurs="0" maxOccurs="unbounded" namespace="##any"/>
+      </xs:sequence>
+      <xs:attribute name="rackNum" type="xs:int" use="required"/>
+      <xs:attribute name="slotNum" type="xs:int" use="required"/>
+      <xs:attribute name="i2cBusNum" type="xs:int" use="required"/>
+      <xs:attribute name="i2cAddress" type="xs:int" use="required"/>
+      <xs:attribute name="position" type="xs:int" use="required"/>
+      <xs:anyAttribute namespace="##any" processContents="skip"/>
+    </xs:complexType >
+  </xs:element>
+
+  <xs:element name="DeviceGroup">
+    <xs:complexType >
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="Device"/>
+        <xs:element ref="DeviceGroup"/>
+      </xs:choice>
+      <xs:attribute name="name" type="xs:normalizedString" use="required"/>
+      <xs:attribute name="position" type="xs:int" use="required"/>
+      <xs:anyAttribute namespace="##any" processContents="skip"/>
+    </xs:complexType>
+  </xs:element>
+
+
+  <xs:element name="ConfigElement">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="key" type="xs:normalizedString"/>
+        <xs:element name="value" type="xs:normalizedString"/>
+        <xs:any processContents="skip" minOccurs="0" maxOccurs="unbounded" namespace="##any"/>
+      </xs:sequence>
+      <xs:anyAttribute namespace="##any" processContents="skip"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="ServerConnections">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ServerConnection" type="ServerConnectionType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name = "ConfigElements" >
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ConfigElement" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+
+  <!-- Root Element declaration -->
+  <xs:element name="UserConfig">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ServerConnections"/>
+        <xs:element ref="DeviceGroup"/>
+	<xs:element minOccurs="0" ref="ConfigElements"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

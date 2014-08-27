@@ -1,0 +1,58 @@
+#############################################################################
+## CVS $Id: RCPParamGroups.txt,v 1.5 2013/08/19 15:56:48 jvo Exp $
+#############################################################################
+##  These coded instructions, statements, and computer programs  contain
+##  unpublished proprietary information  written  by LYNX Technik AG and
+##  are protected by Federal copyright law. They  may  not  be disclosed
+##  to  third  parties  or copied or duplicated in any form, in whole or
+##  in part, without the prior written consent of LYNX Technik AG.
+#############################################################################
+#
+# This file defines how to put the UI parameters of a LYNX device
+# into groups and how to arrange those groups in a menu hierarchy.
+# Each group is specified by a group name, followed by a colon and
+# a Qt-style regular expression defining the associated parameters.
+# The group names must not contain any colons. The regular expressions
+# after the first colon may contain further colons.
+#
+# The syntax of Qt-style regular expressions is defined here:
+# http://doc.qt.nokia.com/qregexp.html#details
+#
+# Empty lines and comments starting with a hash (#) are ignored.
+
+# groups inspired by PTG5610
+Channel 1:Channel1(?!CoupleTo).+
+Channel 2:Channel2(?!CoupleTo).+
+PatternSettings:PatternSettings/.+
+
+# groups inspired by PVD5660
+SDI In/In 1:SDIIn1/.+
+SDI In/In 2:SDIIn2/.+
+Converter/Conv 1:Conv1/(?!Meta/).+
+Converter/Conv 2:Conv2/(?!Meta/).+
+Converter/Conv 3:Conv3/(?!Meta/).+
+Converter/Conv 4:Conv4/(?!Meta/).+
+MetaData/Meta 1:Conv1/Meta/.+
+MetaData/Meta 2:Conv2/Meta/.+
+MetaData/Meta 3:Conv3/Meta/.+
+MetaData/Meta 4:Conv4/Meta/.+
+Audio XBar/XBar In:SourceInternAudio.+
+Audio XBar/XBar Out1:SourceAudioOutMUX1.+
+Audio XBar/XBar Out2:SourceAudioOutMUX2.+
+Audio XBar/XBar Out3:SourceAudioOutMUX3.+
+Audio XBar/XBar Out4:SourceAudioOutMUX4.+
+Audio XBar/XBar Emb:SourceEmbAES.+
+Audio XBar/XBar AES:Source(AESOut|AudioOutAES).+
+SDI Out/Out 1:Out1.+
+SDI Out/Out 2:Out2.+
+SDI Out/Out 3:Out3.+
+SDI Out/Out 4:Out4.+
+
+# some more groups, helpful for various device
+AES:AES.+
+Audio:Audio.+
+Analog Video:(aVid\\d*|Ch\\d+)/.+
+
+# common device information
+Events:Event_.+
+Status:(Status.*|[Tt]ype.*|Version|position|displayName|uptime|Lock|Locate|FactoryReset)

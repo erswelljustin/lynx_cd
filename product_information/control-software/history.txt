@@ -1,0 +1,3795 @@
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 7.3.0 (build 607, Feb 27 2014)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 7.3.0
+
+------------------------------------------------
+New features & enhancements in GUI functionality
++ Added new Redundant Servers feature
++ Last selected device in a GUI session is persisted
+
+Improvements in GUI functionality
+* Revised backup job process
+* Optimized backup job progress information viewed for larger Control Systems
+* Revised permissions for Read Only parameters in User Access Feature
+* Revised filter feature in devices parameter tab
+
+Device specific improvements
+* PVD5840: Revised manual line selection for DVITC timecode
+* PVD5840: Added VideoDelayTrackingAESOut parameter in flex gui delay box (AudioDelay - Ext. AES Out)
+* PVD5840: Revised Scaler Parameter ConvX/AspectInSelect shall read 16:9 in case of HDTV
+* various smaller optimizations
+
+Device specific features
++ PVD5840: Added information for the last loaded User Presets
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 7.2.0 (build 603, Feb  6 2014)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 7.2.0
+
+------------------------------------------------
+New features & enhancements in GUI functionality
++ Added flexGUI for Boards (from Version):
+    - PDM 5289 (551)
+    - PDM 5290 (570)
+    - DVA5718L/24/60L (504)
++ Updated functional diagram documentation for several modules
+
+Improvements in GUI functionality
+* Revised path highlighting for Test Pattern and Test Tone in flexGUI
+* Revised input mask from entry fields for IP addresses
+* User Presets: Removed unused GPI columns for modules without GPI
+* Revised communication between Connection Manager and network-enabled LYNX devices
+* USB Device Discovery improved
+* User folder management revised in Windows 7
+* Collect Service does not provide mandatory info to log in as admin
+* Pixel delays entry revised
+* Event log time and date revised
+* Network IP address visualization revised
+* Revised behaviour of GPI (AutoControl) issues, which can occur in some special cases when GUI is closed
++ Connection Manager shows local PC's IP addresses
+
+Device specific enhancements
++ Added UI support for RFR 5041-1 and RFR 5041-1S
++ PVD 5800/5810/5660: Added indication of last loaded user preset and modification state
++ PDM 5280/5290: Added indication of last loaded user preset and modification state
+* Flex-GUI PVD5840: Revised path highlighting and GPI info-text
+* DVD5820-Relay: revised output crossbar control
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 7.1.1 (build 588, Nov 25 2013)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 7.1.1
+
+------------------------------------------------
+Fixes in GUI functionality
+- Fixed support for optical SFPs
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 7.1.0 (build 584, Oct 25 2013)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 7.1.0
+
+------------------------------------------------
+New features & enhancements in GUI functionality
+- New control windows are placed in the screen with a slight offset to each other
+- Added anti-aliasing for text items in flexGUI
+- ComboBoxes in flexGUI can be used with the wheel once having been clicked
+- SpinBoxes in flexGUI can be used with the wheel as soon as the cursor is shown
+- Sort Indicator in Tree View headers
+- Keep warning color of text in tree widget for selected items
+- Added support for optical multi-mode SFPs
+
+Fixes in GUI functionality
+- Fixed persistent storage of DeviceUIHandle in various GUI classes
+
+Device specific bugs / fixes
+- PDM 5289: Fixed bug in ANC deletion
+- PDM 5289: Added UI parameter OutputLineField2
+
+Device specific features
+- PVD 5840 and PVD5822: Added TestTone in flexGUI
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 7.0.1 (build 580, Sep 27 2013)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 7.0.0
+
+------------------------------------------------
+Fixes in GUI functionality
+- Revised tab shortcut handling in Blockdiagrams of some devices which could lead to GUI shutdown
+
+Device specific bugs / fixes
+- Added missing teletext decoder mode parameter in flexGUI of PVD5840
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 7.0.0 (build 579, Sep 25 2013)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 7.0.0
+
+------------------------------------------------
+New features & enhancements in GUI functionality
+- Added AutoControl Base
+- Added GPI Trigger Control
+- Added config variable SHOW_USB_PROGRAMMER_SETTINGS
+- Added Collapse Expand Buttons at the top of device tree in backup, restore and update manager
+- Network Connection Manager opens at last chosen tab
+- Auto-locate selected device now also in Network Connections Editor tab
+- Full Screen Mode hides tool bar and status bar
+- Import/Export Server Settings
+- Show which event corresponding to an alarm is on in power supply tab of controllers
+- Added flexGUI for Boards (from Version):
+    - PVD5840 (555)
+    - PVD5822 (516)
+    - PVD5810/00 (564)
+    - OTX5840/ORX5800/OTR5840 (526)
+    - DVD5810/20 (516)
+    - DVD5830 (494)
+    - DVD5021 (516)
+    - DVO5810/20 (516)
+    - PDM5280 (564)
+    - PDM5240 (559)
+    - PDM5380 (556)
+    - PDM5340 (530)
+
+Fixes in GUI functionality
+- #2572 - GUI: locking UIParam "displayName" does not prevent from changing the display name
+- #2583 - Server behind gateway
+- #2593 - Deleted backup file in the list will renew itself after approx. 5 seconds
+- #2594 - Navigating through the device tree with arrow up/down keys is an idly process
+- #2595 - APPoloGUI BETA 6.3.0: Backup list contains modules which are possibly removed in the meantime
+- #2599 - GUI Instability when Connection Manager is immediately started after GUI-startup
+- #2614 -Sometimes RCT5022, RCT5023-S/GS won't show up in Network Component Editor after reset via its reset button
+- #2647 - After start of programming job: entering a COMMENT has no effect
+- #2671 - Params-Tab, Filtered results change spontaneously
+- #2673 - Simulated devices output error messages
+- #2677 - Collect Service Info does not download display names DB file from server
+- Keyboard shortcuts now working also in new control window
+- Backup: fixed problem with selectall button for servers with custom names
+- Fixed password input bug in controller settings tab
+- Fixed slow switching of user presets caused by consecutive preset switch command
+  sent to the same device very quickly
+- Added Speed configuration variables for USB Programming
+- Fixed Identify Board issues in USB Programming
+- Fixed Board ID setting issues in USB Programming
+- Fixed bug in manual search for boards in usb programmer - the list wasn't cleared between two searches
+- Fixed Registration Dialog in dark mode - added popup indicating offline status after save
+
+Device specific bugs / fixes
+- #2392 - GUI PVD5660: embedded audio removed by converter - not displayed in MUX
+- #2643 - DVD5810: Meaningless SourceOut Parameter
+- PVD5822: removed inactive DelayPulseAssign Parameter (Timing Tab)
+
+Device specific features
+- Added Documentation Panel for Controllers
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 6.5.0 (build 573, Aug 12 2013)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 6.5.0
+
+------------------------------------------------
+Fixes in GUI functionality
+- Setting the value of a config variable to an empty string sets the value back to default
+- Changed default behaviour of automatic device rescan to depend on the controller type
+  RCT 5020/5021/5030/5031 and RFR 5003/5004/5041: No automatic rescan
+  RCT 5022/5023: Automatic rescan immediately after detection of data loss
+  Operation can still be customized with config variable DEVICE_AUTO_RESCAN_PERIOD
+
+Device specific bugs / fixes
+- Fixed Layout Problem for Converter GUI of PVD 5660 with FW version 307
+
+Device specific features
+- Added UI support for PDM 5290 D/U
+- Added Test Tone support for PVD 5840
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 6.4.0 (build 569, Jul 05 2013)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 6.4.0
+
+------------------------------------------------
+New features & enhancements in GUI functionality
+- Added config variable DEVICE_AUTO_RESCAN_PERIOD, enabling customization of
+  automatic device rescan
+
+Fixes in GUI functionality
+- Bug 2649: GUI PTG 5610: UIParam PatternSettings/EbuAvSyncMotionSequenceVideo
+  does not work
+
+Device specific features
+- Added UI support for PDM 5280 D/U/DO/UO
+- Added UI support for PDM 5240 D/U
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 6.3.2 (build 566, Jun 26 2013)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 6.3.2
+
+------------------------------------------------
+Fixes in GUI functionality
+- Improved stability of the communication to locally attached rack controller
+  under "My Computer"
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 6.3.1 (build 563, Jun 10 2013)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 6.3.0
+
+------------------------------------------------
+Device specific bugs / fixes
+- Added Timing parameters in Video Proc Tab of PVD 5800
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 6.3.0 (build 562, Jun 07 2013)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 6.3.0
+
+------------------------------------------------
+New features & enhancements in GUI functionality
+- Backup File Manager offers function "Import To", allowing to import a backup file
+  into a server selected by the user
+- Show advanced settings in usb programmer with SHOW_USB_PROGRAMMER_SETTINGS
+
+Fixes in GUI functionality
+- #2583: Network communication to servers behind gateway
+- #2584: Performance and stability issues with installations with a large number of controllers
+- Fixed stability problem in deselecting devices for Restore
+- Fixed "Go to Hosted Server" function for RCT 5023-GS
+
+Device specific features
+- Added UI support for PDM 5380 O
+- Added UI support for PVD 5810
+- Added UI support for PVD 5800
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 6.2.1 (build 553, Apr 10 2013)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 6.2.1
+
+------------------------------------------------
+Fixes in GUI functionality
+- #2484: Logfile does not show UTF-8 encoded user name and comment of SmartUpdate jobs correctly
+- #2583: Network Connections Editor shows address conflict for server behind gateway
+- #2586: RemoteIF: Connection reset by the client can crash the APPolo server
+- Removed temporary GUI deadlocks in Update Manager
+
+Device specific features
+- Added UI support for RCT 5023-G
+- Added UI support for PDM 5340
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 6.2.0 (build 547, Feb 21 2013)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 6.2.0
+
+------------------------------------------------
+New features & enhancements in GUI functionality
+- Allow custom names for audio/video signals
+- Changed TreeSearch to TreeFilter for ParamTab and ConfigEditor Tab
+- Added Tool Tip with complete column text for elided text in TreeWidgets
+- Changed wording of license check popup for backup of multiple devices
+- #576: Function keys for some commonly used operations
+- #749: GUI: allow renaming of IP-address node
+- #2485: Set single instance of APPolo Control to foreground
+- Added gotofile and mailto links in collect service info last page
+- Parameters in Paramtab sorted as a tree
+- Added Web Link to download.lynx-technik.com in Generic Device GUI
+- Added Tree Filter to Event Log Panel
+- USB Programmer integrated
+- Added Controllers HotSync Status in Server UI
+- Description of Config Key now shown in last column of config list
+
+Fixes in GUI functionality
+- #965: Confusing feature of the sliders
+- #995: Incorrect display of 5-Fan RFR 5011 in GUI
+- #2046: GUI Network Management: Detaching Server moves selection
+- #2084: GUI 4.8.2, Collect Service Info: Unclear status "unable to connect"
+- #2246: GUI @ Win7 as non-admin: UserDefinedTree specifications are NOT stored in a Win7-compatible place
+- #2466: Inconsistant color of Radio XBar Buttons and XBar Buttons in dark mode
+- #2467: Mono Control Popup XBar only updates its display after the mouse has been moved
+- #2468: RCT 5023: changing IP settings should only be possible with ADMIN password
+- #2469: SmartUpdate: Ghost Device remains in Device Tree when the device is removed during a SmartUpdate Process
+- #2470: GUI Update Manager: Function 'Include all ...' does not work
+- #2473: Network Connection Manager: Impossible to login to a controller with a non-default password
+- #2475: APPolo GUI: User Management: Default Access Rights, radio buttons hidden labels
+- #2482: GUI stores custom device tree configuration at wrong location
+- #2483: GUI 6.1.2, Main Control: Device GUI of devices being updated does not show UTF-8 encoded user name correctly
+- #2493: GUI FlexCard AudioTiming: adding Minus sign is not commited
+- #2494: GUI Backup/Restore: removing device can crash GUI
+- #2495: GUI Backup - selection of devices can generate double entries in list
+- #2523: GUI 6.1.2, Collect Service Info: Servers not shown if not connected to LYNX intranet
+
+Device specific features
+- Added UI support for PVD 5840-DOW/UOW
+- Added UI support for PVD 5822-DOW/DOW
+- Added UI support for OTX 5840
+- Added UI support for OTR 5840
+- Added UI support for ORX 5840
+- User interface for PDM 5289-U
+- Added HFlip UIParam for FlexCards (SW Version >= 530)
+- Added UI support for PDM 5380
+
+Device specific bugs / fixes
+- #2491: PDM 5289 v506/514: Wrong Meta Data labeling at H-/ V-blanking mode
+- #1148: PTG x610: mute button for audio level to be added
+- #1366: PTG 5010 text insertion does not work with 4.3.1
+- #2393: GUI: Simulation PVD 5660 with wrong current values
+- #2464: GUI simulation PVD 5840: SRCs need to be ON at all inputs
+- Fixed layouting problem in Main Tab of DVD 5620
+- PDM 5289: Fixed audio status colors in SDI Deembedder block on main tab
+- Bug 2533 - hotsync Parameter should not be shown for RCT 5010
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 6.1.2 (build 519, Sep 27 2012)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 6.1.2
+
+------------------------------------------------
+Fixes & enhancements in GUI functionality
+- #2481: GUI 6.1.1 may shutdown while starting SmartUpdate if REGISTRATION_NAME contains special characters
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 6.1.1 (build 516, Sep  5 2012)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 6.1.1
+
+------------------------------------------------
+Fixes & enhancements in GUI functionality
+- #2112: GUI, Network Connections Editor: Cannot remove server connection if not logged in
+- #2293: APPolo GUI: Network Connection Manager does not update the displayed controller names
+- #2381: GUI: Network Connection Editor: configuration of server connections not preserved
+- #2390: GUI: add ability to "get temporary admin rights" in context of "Server Configuration
+- #2455: GUI: F5 shortcut on new control window does not trigger rescan
+- #2457: IBeam Cursor in Dark Mode practically invisible
+- #2458: Network Connection Manager: Wrong Status information for Local Serial Connections
+- #2460: Backup/Restore Problem with equally named files on different servers
+- #2461: Server Web Interface disabled while server is updating
+
+Device specific fixes & enhancements
+- PDM 5289: Added UI support for Time Code Video Burn-In
+- #2385: GUI: highlight modified timing values (FlexCard, PDM52xx)
+- #2387: GUI (all converters): place link to configuration of DVITC reader into contect of converter
+- #2394: GUI (FlexCards): UserPresets managment buttons to be disabled while loading preset by GPI
+- #2456: PVD 5840: Auto Aspect Ratio Parameters for Converter 4 controlling Converter 3
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 6.1.0 (build 512, Aug 22 2012)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 6.1.0
+
+------------------------------------------------
+Enhancements in GUI functionality
+- Integrated web interface for remote servers / controllers
+- Redesigned Backup/Restore GUI
+- Added support for Copy/Paste of device settings
+- Enabled three attachments for RCT 5022 and RCT 5023
+- Zoomable Block Diagram View
+- Menu Tabs for PVD GUIs
+- Locked Aspect Ratio in Scaler Preview
+
+Fixes in GUI functionality
+- #1223: Pattern list of P TG x610 jumps
+- #2382: Network Component Configuration: false popup about unsaved changes
+- #2383: Network Configuration: various entry fields for IP addresses do not work
+- #2384: video / audio xbars are not readble when disabled
+- #2388: Device menu shows "Debugging" entry
+- #2389: Collect Maintenance Information - Recorder: Wheel on white background
+- #2391: Device Properties show incomplete Stack address
+- #2397: RCP Simulation: support different types of panels
+- #2419: High CPU Load for Frame Synchronizer Main Tab
+- NetworkConfigWizard sends initial auto-locate request to a controller only
+  after switching to the component configuration panel
+
+Device specific fixes & enhancements
+- Added support for new LYNX product series "bluBox"
+- Added support for RCT 5023 and RCT 5023-S
+- PVD 5840: Added Input to REF Tolerance Parameter
+- PVD and PIE devices: Added psf support and Segmented Frame format detection parameter
+- #2032: PIE delay setting behaves strange near terminal line count
+- #2401: PVD 5840: The SDTV ARC, Noise Reduction & Color Correction functions
+  should always be visible
+- #2420: PDM 5289: ATC-LTC deletion does not work in 625
+- #2427: CDA 5220: Audio mono gain sliders are swapped
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 6.0.1 (build 499, May 4 2012)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 6.0.1
+
+------------------------------------------------
+Fixes in GUI functionality
+- #2365: APPolo GUI: High CPU Load while rendering CrossBars
+- #2366: APPolo GUI: GUI flickers when updating tabs of devices with multirow tabs
+
+Device specific fixes & enhancements
+- Added mono gain control for CDA 5220 (SW label 269 and above)
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 6.0.0 (build 495, Apr 10 2012)
+
+Compatible with APPolo | Control Server Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 6.0.0
+
+------------------------------------------------
+Enhancements in GUI functionality
+- Integrated Update Manager for device programming
+- Upgraded graphics framework from Qt 3.1 to Qt 4.7
+
+Device specific fixes & enhancements
+- Added UI support for PVD 5822-DO/-UO/-D/-U
+- Added UI support for PVD 5840-D/-U
+- Added UI support for RCT 5022
+- Added UI support for RPS 5018
+- Added GPI2 Control for PVD 5840 (SW label 486 and above)
+- Added Fast Converter Delay Mode for CDX 5624 (SW label 488 and above)
+- Added YCrCb Clipping Level control for FlexCard product family (SW label 489 and above)
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 5.1.1 (build 483, Jan 30 2012)
+
+Compatible with APPolo | Control Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 5.1.1
+
+------------------------------------------------
+Device specific fixes & enhancements
+- Added UI support for RFR 5041
+- Added UI support for PVD 5840-DO
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 5.1.0 (build 469, Dec  8 2011)
+
+Compatible with APPolo | Control Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 5.1.0
+
+------------------------------------------------
+Enhancements in GUI functionality
+- The "params" panel of each device GUI offers buttons for exporting the device parameter
+  lists to HTML or XML
+
+Fixes in GUI functionality
+- #2238: APPolo GUI: Event parameters of all devices do not show the actual event status
+
+Device specific fixes & enhancements
+- Added UI support for PVD 5840-UO
+- Added UI support for DVA 5718L, DVA 5724 and DVA 5760L
+- Added meta data control for PDM 5289-D
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 5.0.3 (build 458, Sep 22 2011)
+
+Compatible with APPolo | Control Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 5.0.3
+
+------------------------------------------------
+Enhancements in GUI functionality
+- Network Connection Manager performs automatic login to new connected servers
+- New 3D effects for block diagram panels in the device GUIs
+
+Fixes in GUI functionality
+- #2187: Network Connection Manager shows address conflicts
+- #2188: GUI 5.0.2 does not connect to remote servers if C:\WINDOWS\System32\ping.exe does not exist
+- #2189: GUI does not write setting to hardware until you press F5
+
+Device specific fixes & enhancements
+- #1793: CDA 5005: No popup menu for UI parameters
+- #1794: PAD 5212: No popup menu for UI parameters
+- #1795: CAD 5135: No popup menu for UI parameters
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 5.0.2 (build 451, Aug  3 2011)
+
+Compatible with APPolo | Control Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 5.0.2
+
+------------------------------------------------
+Fixes in GUI functionality
+- Improved login to running servers while there are many offline server connections
+- #2111: GUI may shutdown if started with "-style Windows"
+- #2119: Click&drag in UserDefinedTree (non-edit-mode) confuses mouse
+- #2127: Added notification to device GUI indicating that no backpanel was found
+- #2143: Connection Status "Transient...while talking to new client" appears
+  if the GUI tries to connect to Appolo Server before the PC has an ethernet connection
+
+Device specific fixes & enhancements
+- Added UI support for PDM 5289-D
+- #978: CMX 5110: Blank VBI completely (Filter VBI) does not work
+- #2163: PVD 5630, PVD 5660, PVD 5612, PVD 5806, PVD 5812 (SW label 401 and above):
+  Audio Input crosspoints are not set correctly after they have been configured
+  to "unassigned" by the ASCA function
+- PVD 5660, PIE 5610, PVD 5806, PIE 5810 (SW label 429 and above):
+  Added UI support for embedding teletext into alternating progressive frames
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 5.0.1 (build 442, Jun 21 2011)
+
+Compatible with APPolo | Control Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 5.0.1
+
+------------------------------------------------
+Fixes in GUI functionality
+- #2054: Changed application config dir and log dir on windows to common app-data dir
+  (or user's app-data dir as fallback), targeting improved Windows 7 support
+- #2125: Deactivated malicious code lines in specialized simulateEvent()
+  implementations causing suppression of simulated events for various products
+- Fixed occasional display of communication error messages in Network Connection Manager
+- Fixed closing of SiLib USB port so that YelloBriks re-appear after WriteToFlash / Reset
+
+Device specific fixes & enhancements
+- Added UI support for PVD 5630-O
+- OTX 5844, OTR 5842, DVO 5810, DVO 5820: Corrected display of output fiber wavelength
+- ORX 5804, OTR 5842: Changed GUI layout to avoid flicker shen showing/hiding overload warning
+- #2108: DVO 5810, DVO 5820, ORX 5804 and OTR 5842: Added signal overload warning for SFP inputs
+- #2134/2135: Removed UI parameter SFPPinning from ORX 5804, OTR 5842 and OTX 5844
+
+==================================================================
+LYNX APPolo | Control GUI - RELEASE 5.0.0 (build 432, Mar 21 2011)
+
+Compatible with APPolo | Control Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended APPolo | Control Server with this GUI Release: 5.0.0
+
+------------------------------------------------
+Fixes in GUI functionality
+- #1921: improvements at display of "Collect Service Information" Window
+- Collect Service Information: Improved FTP error handling, added error logging
+
+Device specific fixes & enhancements
+- Added UI support for PVD 5660-O
+- #2053: PVD 5630, PVD 5612, PVD 5812, PVD 5806:
+  Corrected the list of selection values in UI parameter AudioDolbyETiming
+- #2104: PMX 5364: improved presentation of the overflow at audio inputs
+- PDX 5362: extended range of audio gain
+  (enabled by config switch PDX 5362_AUDIO_GAIN_EXTENDED_RANGE)
+- PDM 5288: improved the AudioContent controls
+- PDM 5288: Added min/max signal level detection on optical input
+- PDM 5288: Added warning label "unknown SFP module" for SFP modules not accredited by LYNX
+- OET 1540: Added UI parameter "EthernetDuplexMode"
+- OTX 5844, OTR 5842, DVO 5810, DVO 5820:
+    - Added UI parameter AutoDisableOpticalOutput
+    - GUI shows output fiber wavelength
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.9.0 (build 425, Feb  2 2011)
+
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended Device Server with this GUI Release: 4.9.0
+
+------------------------------------------------
+Enhancements in Desktop Controller functionality
+- Added device search in tree panel
+- Added search for individual network components with known IP addresses
+  to the network connection management dialog
+- Added support for configuring network settings and admin/ctrl passwords of the
+  Master Controllers RCT 5030 and RCT 5031 and the Panel Controller RCP 5000
+
+Device specific fixes & enhancements
+- Added UI support for DVD 5830
+- Added UI support for OTX 5844
+- Added UI support for ORX 5804
+- Added UI support for OTR 5842
+- #1998 PVD 5812: Added control "Synchronisation Mode"
+- #1999 PVD 5612, PVD 5812: Removed tab "Private ARC" with unsupported functionality
+- #2000 PVD 5612, PVD 5812: Removed unsupported UI parameters for meta-data handling
+- #2001 PVD56xx: Improved display of ASCA Resource Assignment Warnings
+- #2028 PTG 5610: Loading pattern list in the GUI of the PTG 5610 sometimes fails
+- DVO 5810, DVO 5820: Added detection of SFP-Modules
+- PIE 5610, PIE 5810, PVD 5660, PVD 5806 (SW label 403 and above):
+  Added control "Lock Image Converter Settings" /  UI parameter "Conv3/LockImgConvSettings"
+  for prevention of automatic reconfiguration of output format for Scaler-3 (HiQ)
+- PVD 5660 (SW label 425 and above): Added support for OP47 field inversion
+- PTG 3610, PTG 5610: Corrected loading of CF-card patterns
+- SVD 5842: Added controls "FallbackInputX" for fallback functionality
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.8.2 (build 405, Nov  4 2010)
+
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended Device Server with this GUI Release: 4.8.2
+
+------------------------------------------------
+Enhancements in Desktop Controller functionality
+- Added serial connection configuration to the network connection management dialog
+
+Fixes in Desktop Controller functionality
+- #1938: GUI may shutdown when PTG 3610 is attached
+- #1978: Configuration panel and logfile panel request server data in GUI thread
+- #1985: Communication with Testor does not work correctly
+
+Device specific fixes & enhancements
+- PVD 5612, PVD 5630, PVD 5660, PVD 5812 (SW label 401 and above):
+    - Added UI parameter "ASCAResourceAssign"
+- PDL 5600, PIE 5610, PIE 5810, PVD 5612, PVD 5630, PVD 5660, PVD 5806, PVD 5812 (SW label 402 and above):
+    - Added controls for ANC line selection
+    - Added selection "Psf to P" to UI parameter "OutX/ModifyPsF"
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.8.1 (build 403, Oct 22 2010)
+
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended Device Server with this GUI Release: 4.8.1
+
+------------------------------------------------
+Enhancements in Desktop Controller functionality
+- New network connection management dialog
+
+Fixes in Desktop Controller functionality
+- #1878: Device "Lock" function does not work correctly with PVD 56xx devices
+- #1918: C3: UIParams do not respect locking state when instanciated late
+- #1924: GUI shows different temperature status colour than power supply LED
+- #1930: User can enter any new key and value into server configuration panel
+- #1937: lock symbol does not appear in user-defined tree
+- #1950: Server does not start after downgrade from 4.8.0 to 4.7.4
+- #1954: Device GUI appears to be detached from HW
+- #1984: GUI 4.7.0 - 4.8.0: McAfee reports trojan "FakeAlert-PK.b" in setup files and c3_local.exe
+
+Device specific fixes & enhancements
+- #1925: RFR 5004: Event Tab Parameter "one RPS unit missing" marked red
+- #1935: Fixed support of Option "Color-Correction" for PVD 5660 (SW label 394 and above)
+- PVD 5660: Added parameter OutX/ModifyPsF for "P to PsF" conversion at SDI output
+  (SW label 396 and above)
+- PVD 5660: Added control for "Automatic Audio Channel Synchronization and Assignment"
+  (SW label 401 and above)
+- Added UI support for SVD 5842
+- Added UI support for PVD 5806-O
+- Added UI support for PVD 5810-O
+- Added UI support for PVD 5812-O
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.8.0 (build 395, Aug 25 2010)
+
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended Device Server with this GUI Release: 4.8.0
+
+------------------------------------------------
+Enhancements in Desktop Controller functionality
+- Added attach functionality for LYNX network devices
+
+Fixes in Desktop Controller functionality
+- #1691: GUI: Eventtab-Checkboxes for SNMP-Traps are grey when server restarts
+  while GUI is connected
+- Backup/restore GUI allows selection and deletion of corrupt backup jobs
+- Backup/restore GUI allows import and export of backup jobs to root directory of a disk drive
+
+Device specific fixes & enhancements
+- Added UI support for SVD 5812
+- Added UI support for DVD 5021
+- Added UI support for PVD 5812
+- Added UI support for PVD 5806
+- Added UI support for PIE 5810
+- PVD 5660 and PIE 5610: added user interface for Teletext
+- PDM 5288: Added UI support for audio content detection (SW label 386 and above)
+- PDM 5288: Added UI support for 3GBit standards (SW label 387 and above)
+- DVO 5810 and DVO 5820: Added UI parameter SfpModuleType
+- DVO 5820: Improved GUI-Layout
+- PVD 5660: Added user controls for MetaData LineSelection (SW label 395 and above)
+- #1901: New block diagram for DVO 5810
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.7.5 (build 386, Jun 28 2010)
+
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended Device Server with this GUI Release: 4.7.5
+
+------------------------------------------------
+Fixes in backup/restore engine
+- #1830: Device display names with special characters cannot be backed up
+- #1873: Importing a Backup Set (with devices) from a RCT 5030 into a RCT 5031 does not work
+- #1875: GUI 4.7.3 Backup/Restore Problem with equally named files
+
+Device specific fixes & enhancements
+- PIE 5610: Added UI support for Color-Correction
+- Added UI support for DVO 5810 and DVO 5820
+- Added UI support for DVD 5810-R and DVD 5820-R
+- DVD 5610 and DVD 5620: Fixed incorrect SDI format detection on SDI input
+- #1866: GUI does not show any COM ports upon changing the serial no. of CDH 1811
+- PVD 5660-0: Added UI parameters Conv3/Detail/Level and Conv3/Detail/Threshold
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.7.4 (build 384, Jun 15 2010)
+
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended Device Server with this GUI Release: 4.7.4
+
+------------------------------------------------
+Enhancements in Desktop Controller functionality
+- Fast backup/restore of all devices with a configuration block spanning over multiple flash page
+  (requires SW label 377 or above in rack controller RCT 5020/21/30/31)
+- Logfiles panel uses internal timer to load selected logfiles
+- #1203: closing backpanel selection with OK always writes to flash, even if no change
+- #1622: GUI: Connect dialog does not let me change an invalid password
+- Fixed display of device names in status bar while moving mouse over devices in device tree
+- Fixes in user-defined tree:
+   - #1869: Suffix ".xml"   is not added if a User Defined Tree File is exported
+   - #1825: Function "select in browser" in user-defined tree influences size of main window
+   - Disallowed dragging root and stack items into the user-defined tree
+- A lock icon appears when a device is locked
+
+Device specific fixes & enhancements
+- PAR 5610: Enabled selection of output aspect ratio for SD input
+- PVD 5660-1 (BS5613-A):
+   - Removed SW option "Down Converter" for devices with SW label 376 and above
+   - Reduced user interface for non-existing functions in devices with SW label 376 and above
+     (no Lynx scaler, 1 x Dolby Framesync, 1 x SDI input, 2 x SDI output, only WSS meta data)
+- PVD 5660 (BS5613-B):
+   - Added GUI-Tab "AFD Extension"
+   - Added UI parameters OutX/PrivateARC_GPION and OutX/PrivateARC_GPIOFF
+     (only if enabled by config variable SHOW_PRIVATE_ARC_CONTROLS)
+   - Corrected clickable link of box "Conv2" in main tab to tab "Conv2"
+   - Disabled clickable link of box "NR" in main tab if device is configured to line-sync mode
+- #927:  CDX 5024: (auto)testpattern only available on the analog outputs
+- #1088: CDX 5024: The video schematic on the "Main" page is misleading
+- #1229: DVD 5604: Backpanel and block diagram pictures missing
+- #1132: CAD 5112: The video delay limits are not set correctly
+- #1180: CAD 5320: Description for AES channel identifier needs to be a little more precise
+- #1411/1424: GUI CAD513x: "First active line" parameter is missing on the "Expert" tab for
+  this device
+- #1443: CDX 5024: Incorrect schematic of SDI outputs
+- #1470: GUI: Maximum value for the black level parameter must be limited to 15 dB for all
+  video DA-converters and monitoring downconverters using the ADV 7320 DAC
+- #1504: DAD 5220: Wrong Descriptions
+- #1871: PVD 5612: Format Description Insertion UIParams are superfluous
+- Added pictures for series 1000 modules SPG 1707 and CDH 1811
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.7.3 (build 380, May 27 2010)
+
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended Device Server with this GUI Release: 4.7.3
+
+------------------------------------------------
+Enhancements in Desktop Controller functionality
+- Backup/restore GUI remembers recent working directory between successive clicks on import/export
+- Updated the catalogue of simulated devices
+
+Device specific fixes & enhancements
+- Added UI support for PDM 5288
+- Added UI support for DVD 5810 and DVD 5820
+- PIE 5610: New GUI control EnableBits
+- PVD 5660: New GUI controls StatusFormatReactOnChange, StatusFormatReactOnLoss,
+  SnapToReferenceFrameLength
+- #1496: PDX 3362: Added missing block diagram
+- #1720: PDX 3362: Added control for "phase aligned demux"
+- #1664: PVD 5612: Removed meaningless mode "Fixed Processing Time"
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.7.2 (build 372, Mar 31 2010)
+
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended Device Server with this GUI Release: 4.7.2
+
+------------------------------------------------
+New Features
+- #1814: Text search function in logfiles panel of local COM ports and server connections
+
+Fixes GUI
+- #1599: GUI: Connect dialog sorts servers alphabetically
+- #1806: ServerConnection: Logout and login as a different user is not possible
+- Installer: removed registration of *.lxz files for opening with c3_local
+
+Fixes backup/restore
+- Backup job editor remembers working directory for import/export
+- Improved data conversion when restoring backups sets from older SW labels into updated
+  PVD56xx/PDL 5600/PIE 5610
+- Corrected handling of excluded backup job items
+- Corrected update of backup job status in job list view
+- #1813: Corrected flash data verification in restore of RCT503x
+- #1830: Device display names with special characters cannot be backed up
+
+Device specific fixes and enhancements
+- Added UI support for DVD 5810 and DVD 5820
+- PVD 5660/PIE 5610: Added controls for "Closed Caption" and "Time Code"
+  (SW label 368 and above)
+- PVD56xx/PIE 5610: Added selection "Test Pattern" to control Out(x)/FreezeMode
+- PVD56xx/PDL 5600/PIE 5610: disable controls Out(x)\FixedProcTime and Out(x)\DelayMode
+  if "Couple to Channel 1" is checked
+- PVD56xx: Fixed UI parameters Conv1/AspectInSelect, Conv2/AspectInSelect
+  (SW label 322 and above)
+- PVD56xx: Scaler preview pictures in Conv1 and Conv2 reflect automated conversion modes
+  (SW label 373 and above)
+- #1661: GUI PIE 5610/PVD 5660: Hi-Q scaler output format list is not correct for
+  some input standards
+- #1841: GUI PIE 5610/PVD 5660: ColorSpaceConversion status display sometimes not accurate
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.7.1 (build 366, Feb  8 2010)
+
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended Device Server with this GUI Release: 4.7.1
+
+------------------------------------------------
+New Features
+- User Defined Device Tree
+- Added "Collect Service Information" functionality
+- Multi-line tab-bar for GUI of PVD56xx
+- Popup window with zoomed block diagram can be moved on the screen
+- Added pointing-hand cursor to all widgets linking to another tab of the same device GUI
+
+Fixes GUI
+- Fixed UI parameter selection from device GUI to param tab and vice versa
+- Removed old device programming and user registration functionality
+- Fixed device selection when adding or deleting items in user-defined tree
+
+Fixes B&R engine
+- Fixed device type mismatch in B&R of combo devices
+- Added B&R support for simulated devices with multi-page flash
+- Improved resend mechanism for unreplied write messages to a device
+- Restore of PTGx610 "Testor" is finalized by triggering a device reset
+
+Fixes B&R GUI
+- Added functionality to exclude backup job items recursively
+- Changed handling of updated backup job list to avoid redrawing the complete list view contents
+- TreePanel in backup window creates device popup menu without F2 key binding for rename
+- TreePanel rejects drag&drop if running in backup window or if user-defined tree is read-only
+- Avoid including the same item into a backup job twice
+- Fixed recursive removal of items from a backup job
+- Changed usage hints during a running B&R operation
+- Do not change job status when adding/removing items while job has an error status
+
+Device specific fixes
+- #776: RCP 5000 serial number cannot easily be assigned
+- #1654: GUI PVD 56xx: mono control leftovers (red circles) are sometimes still displayed
+  in the audio crossbar by mistake
+- #1722: Mono Crossbar control does not allow the selection of all possible crosspoints
+- #1766: GUI PVD/PDL/PIE: Update of "Total Delay usec" calculation does not work
+- #1768: CDX 5624, CDX 3624 Analog Video Output is 525 if the last input standard is 1080i/50
+- CDX 3624: Added UI support for selection of output format RGB (SW label 345 and above)
+- PVD56xx: New UI parameter "OutX/DelayMode"
+- PVD56xx: Removed selections "Freeze Feeld1", "Freeze Feeld2" from UI parameter "OutX/IfNoInput"
+- PVD56xx: Corrected clickable links from Timing tab to VideoProc tab
+- PVD56xx: Fixed control "Output Format" on "HiQ Conv" tab
+- PVD56xx: Added existing control "Fixed Processing Time" additionally to the "OutProc x" tabs
+- PIE 5610: Added checkbox "fixed processing delay" in tab "Out Proc"
+- PVD 5612: Removed control for fixed processing delay
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.6.7 (build 347, Nov 19 2009)
+
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended Device Server with this GUI Release: 4.6.7
+
+------------------------------------------------
+New Features
+- PMX 5264, PMX 5268, PMX 3362: Added parameter control for Channel Status Block
+  Transparency in SDTV (release 344 and higher)
+- PMX 5364, PMX 5264, PMX 5268, PMX 3362: Added parameter controls for H- and
+  V-Blanking (release 338 and higher)
+- PMX 5364, PMX 5264, PMX 5268, PDX 5264, PDX 5268, PMX 3264, PMX 3362, PDX 3264, PDX 3362:
+  Added parameter control for "Fast Genlock" (release 338 and higher)
+- Added UI support for CDX 5025
+
+------------------------------------------------
+Fixes
+- Fixed GUI shutdown occurring when switching between multiple PVD56xx quickly
+- #1654: Removed marking of the selected crosspoints when the Mono-Controls dialog
+  box is closed
+- #1692: Combo-Devices do not update UI parameters on spontaneous change in device
+- #1722: Allows the selection of all possible crosspoints in the Mono-Crossbar
+- #1758: DVA 5710/20: The maximum value of UI parameters Equ will change spontaneously
+- #1763: Backup fails after cancelled restore
+- #1764: Rack controller does not re-activate hotsync after cancelled restore operation
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.6.6 (build 341, Oct  6 2009)
+
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended Device Server with this GUI Release: 4.6.6
+
+------------------------------------------------
+Fixes B&R engine
+- Added correction of server names in backup jobs (handle potential changes of
+  the server IP address)
+- Changed default value of BACKUP_MAX_ITEMS_PER_STACK to 1
+- COLLECT_MAINTENANCE_INFORMATION enables verbose backup logging
+- Disable stack hotsync during B&R regardless of the setting read from the controller
+- Open write requests are discarded before starting backup (enabling start of
+  backup after previous failure)
+- Improved retransmission of write messages on rackbus (fixing former timeout
+  failures during restore)
+
+Fixes B&R GUI
+- Allow starting multiple jobs on different servers concurrently
+- Switch to the appropriate tab (backup or restore) when selecting a running job
+- Move device tree to the selected job when switching jobs in the list
+- Allow adding/removing items in backup jobs after they have already been
+  transferred to the server
+- Display progress of running items in percent
+- Fixed GUI shutdown in device popup menu executing device lock, locate, reload and
+  factory reset
+- Reload of device tree remembers selected device
+
+Fixes in user preset handling
+- All device registers & parameter values cached in the GUI are invalidated when
+  loading/activating a user preset
+- Parameter changes (e.g. from remote IF) are deferred until the invalidated data
+  receives a server update
+- Changed UI parameter "Presets_active" to read-only
+
+Device specific fixes
+- #1658: Pairing of two PAD 5212 within a Stack did not work
+- DVD560x: Added support for new video standards (device SW label 331 and above)
+- PVD56xx etc: Corrected locking of complete GUI if device is set to locked state
+- PVD56xx etc: Corrected register/selection mapping of UI parameter Out*/CSCMode
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.6.5 (build 332, Aug 4 2009)
+
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended Device Server with this GUI Release: 4.6.5
+
+------------------------------------------------
+Fixes B&R
+- #1685: B&R: Restore times out on DVA 5710 and other devices rebooting very fast
+- Hotsync of RCT 5020/21/30/31 is temporarily disabled during B&R operation
+- Backup of root device (server IP address in device tree) contains all
+  confiuration variables having non-default values
+- Force read-back & verification of restored flash if the device does not
+  confirm the write message
+- Added COM port adjustment in display name restoration between RCT 5030 and RCT 5031
+
+Fixes in UI Layer & RemoteIF
+- #1669: GUI 4.6.0: Writing FactoryReset on RemoteIF can invalidate device type
+- Removed assignment of working register 0x00 from UI parameters using special
+  methods for reading and writing
+
+Device Specific Fixes
+- #1670: GUI shows audio inputs of PMX 5364 always green
+- PVD 5630 (1st hardware BS5612): Added UI support for release 326 and higher
+- RCT 5010 supports B&R
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.6.4 (build 331, Jul 24 2009)
+
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up
+Recommended Device Server with this GUI Release: 4.6.4
+
+------------------------------------------------
+New Features
+- added support for next generation DVD 5602 with video output crossbar
+
+------------------------------------------------
+Fixes B&R
+- Further improved stability
+
+Device Specific Fixes
+- PVD 5630: Corrected register mapping of parameter Conv(x)/AspectInSelect
+- #1668: GUI of PVD56xx did not correctly grey out MUX pages based on 'Couple-To-Input-1' settings
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.6.3 (build 330, Jul 16 2009)
+
+------------------------------------------------
+Fixes B&R
+- #1518: Backup can lead to server shutdown
+- #1635: Backup fails with error "no data"
+- Generally improved stability
+- Improved behaviour when GUI to server connection is lost during backup/restore
+- Problem of not selectable backup jobs is solved
+
+Fixes Remote IF
+- Remote IF is opened after completion of start-up auto-initialization
+- #1456: writing to some read-only parameters isn't blocked
+- #1655: c3_server 4.6.2 and older: Unsubscribe commands are not executed
+- Improved stability with high traffic on RIF
+
+Device Specific Fixes
+- #1650: PVD 5660 Testpattern "follow last input" doesn't work
+- #1647: Ä and Ö cause the GUI character inserter to shutdown
+- #1658: PVD 5660 Selection box Conv(1/2)OutputFormat is empty for some HD input standards
+- SVD 3062 fixed GUI-shutdown
+- PVD 5660/PVD 5630-1/PVD 5612 release 313 and higher show DelayPulseAssign parameter on "Timing" tab
+- PIE 5610 GUI shows Conv3/ControlMode parameter on "HiQ Conv" tab
+- PVD 5660/PVD 5630-1/PVD 5612 release 326 and higher show Out(x)/ClipHeadroom and Out(x)/FixedProcTime parameter
+- PIE 5612/PDL 5600 release 326 and higher show Out(x)/ClipHeadroom parameter
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.6.3
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.6.2 (build 327, Jun 25 2009)
+
+------------------------------------------------
+Fixes
+
+- general stability improvements
+- no blocking of GUI when loosing a server.
+- improve login process into remote server (stability / speed)
+- fixed bug #1613: GUI connection dialog would eventually not list individual servers
+- fixed bug #1623: under certain circumstances, not all devices of a remote
+                   server would be displayed in the GUI device tree
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.6.2
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.6.1 (build 326, Jun 23 2009)
+
+------------------------------------------------
+New Features
+
+- added support for next generation CDX 5624 with 4 AES outputs and RGB
+
+------------------------------------------------
+Fixes
+
+- HotSync switch fixed
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.6.1
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.6.0 (build 324, Jun 8 2009)
+
+------------------------------------------------
+New Features
+
+- GUI PVD 5660: added controls for AFD, WSS and VI (release 322 and higher)
+- GUI PVD 5660: supports "Dolby E" detection (release 322 and higher)
+- GUI PVD 5660: added "DolbyE" frame sync paths (release 322 and higher)
+- GUI PVD 5660/30/12: modified timing page
+- GUI PVD 5660/12: new blockdiagram to fit timing page
+
+------------------------------------------------
+Fixes
+
+- bug 1020:
+  GUI CMX 5110/12: added backpanel pictures
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.6.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.5.4 (build 322, May 22 2009)
+
+------------------------------------------------
+New Features
+
+- PDX 3362, PDX526x: New UI parameter "FastGenlock" enables faster SDI and
+  audio outputs after a disturbance / reconnection of the SDI input
+
+------------------------------------------------
+Fixes
+
+- bug 1619: Fixed asynchronous client-server communication to ensure that
+  parameter changes are sent to the devcie registers in the correct order
+- Fixed installer problem in section "RCP Simulation"
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.5.4
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.5.3 (build 318, Apr 28 2009)
+
+------------------------------------------------
+New Features
+
+- All devices with video DAC:
+  Changed step width of parameter "Sharpness" from 0.66 to 0.666667
+
+------------------------------------------------
+Fixes
+
+- Further enhanced rounding correction of float-type UI parameters
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.5.3
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.5.2 (build 315, Apr  1 2009)
+
+------------------------------------------------
+New Features
+
+- Switch 'Freeze Mode' offers option 'Force Freeze' if new config switch
+  PVD56xx_FORCE_FREEZE is TRUE
+- Added UI support for new ARC mode and slow HDTV-standards for DVD 3601 (as of release 308)
+- Added UI support for new UIParam 'DeembPhaseSyncVerify' for all devices (SWLABEL >= 310) with
+  deembedders that support phase synchronous deembedding (CDX*, PDX*, PVD*, PMX 5364, ...)
+- Config switch DEBUG_CREATE_PVD_SCALER_PARAMS leads to generation of UIParams for
+  direct control of parameters for LYNX scaler (and implicitly to generation of
+  separate page in GUI with appropriate sliders)
+- Added UI support for RCT 5031
+- Added UI support for PIE 5610 and PVD 5612
+- c3_local installer contains USB driver for RCT50x1 front connector
+
+------------------------------------------------
+Fixes
+
+- PMX 5364: Fixed GUI error that 24 bit embedding could not be selected
+  for some HD standards
+- PMX 3264, PMX 5264, PMX 5268, PDX 3264, PDX 5264, PDX 5268:
+  Simulated PmxPdx Devices show 1080i50 as SDI input output standard
+  (was: 1080p50, which is not even supported by these devices)
+- bug #837: Corrected rounding error between user values and register
+  values of float parameters
+- Changed CORBA initialization to use one single TCP connection
+- Some minor improvements in backup/restore GUI
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.5.2
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.5.1 (build 310, Mar  2 2009)
+
+------------------------------------------------
+New Features
+
+- Backup & restore:
+    - Added support for CAD 5320, CAD 5321, CDX 5024 and DVD 5002
+    - Backup/restore can be started even if some selected devices are
+      missing or do not support backup
+    - Progress bar changes its colour when job operation finishes
+    - Function "Remove all" is applied recursively to entire device subtree
+    - Backup jobs accept extended character set incl. German umlaut etc.
+
+- Added UI parameters for SDTV aspect ratio conversion function
+  in down-converter products
+
+- CDX 5624, PDX 5362 GUI:
+  Corrected display of SDI input standards
+
+- New backpanels and blockdiagrams for CAD 5131 and CAD 5132
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.5.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.5.0 (build 305, Jan 28 2009)
+
+------------------------------------------------
+New Features
+
+- Reworked backup & restore functionality including support for PVD 5660
+  Note: Backup & restore on a connected RCT 5030 controller requires
+  LYNX Device Server Release 4.5.0 or above
+
+- Added display of audio break-out cables on the "backpanel" tab
+  of devices having a Sub-D audio connector
+
+- PVD 5660 / PVD 5630-1 GUI:
+  Added selections Linesync(H) and Linesync(V) in UI-Parameter
+  Linesync-Mode
+
+- PDX326x, PDX526x, PMX326x, PMX526x, PMX 3362, PDX 3362, PDX 5362,
+  CDX36xx, CDX 5624, DVD 3601 GUI:
+  Display of new HD standards is supported.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.5.0
+
+================================================================
+LYNX Desktop Controller - BETA 4.4.2 (build 232, Dec 19 2008)
+
+------------------------------------------------
+New Features
+
+- added support for next generation PVD 5630-1 in GUI
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.4.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.4.1 (build 231, Dec 09 2008)
+
+------------------------------------------------
+New Features
+
+- PVD 5660 / PVD 5630 GUI:
+  audio-gain in "db" for audio processing (release 285 and higher)
+
+- PDX 5264:
+  added controls for "phase synchronous deembedding" (release 276 and higher)
+
+- added support for new CDA 3010 generation
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #1201:
+  PTG 3610 / PTG 5610: improving the behaviour of patternlist in GUI
+
+- Fixed bug #1453: improving the behaviour of "text ensertion" in GUI
+
+- Fixed bug #1450: PDX 3010 Audio Mute (AES1 & AES2) has to be coupled
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.4.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.4.0 (build 229, Oct 23 2008)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for PDL 5600
+  Dual SD/HD Programmable Video Delay Line
+
+- Added User Interface for PAR 5610
+  Aspect Ratio Converter with Optional UP/DOWN/CROSS conversion
+
+- PVD 5660:
+  added User Presets controls
+
+- PVD 5660:
+  audio group status detection (release 275 and up)
+
+- PDX 3264:
+  added control for "Phase Aligned Deembedding" (release 274 and up)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #1339
+  CAD 5122: the setting "blank VBI completely" did not have effect
+
+- Fixed bug #1349
+  PVD 5660: 24bit switches did not have effect
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.4.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.3.1 (build 226, Oct 01 2008)
+
+------------------------------------------------
+New Features
+
+- Graphical User Interface:
+  GUI of PVD 5660: added graphical scaling controls for HiQ scaler
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.3.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.3.0 (build 223, Aug 26 2008)
+
+------------------------------------------------
+New Features
+
+- Graphical User Interface:
+  support for Windows Vista
+
+- PVD 5630:
+  added controls for "Group-Deletion" functionality (release 257)
+
+- PVD 5630:
+  added controls for "Phase aligned deembedding" functionality (release 257)
+
+- PVD 5660:
+  added controls for "Group-Deletion" functionality
+
+- added support for next-generation CDA 5011 User Interface (board type BS5010_05)
+
+- DVD 5002:
+  added controls to set PAL M video output format (release 125)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #1297:
+  CDX 3610: corrected signal presence status display in GUI
+
+- Fixed bug #1302:
+  CDA 5011: corrected functionality of "Delay Pixel" and "Delay Lines" controls in GUI
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.3.0
+
+================================================================
+LYNX Desktop Controller - BETA 4.3.0 (build 222, Aug 05 2008)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for PVD 5660
+  (HD/SD Framesynchronizer with Aspect Ration Converter, Option Up/Down Converter)
+
+- Added User Interface for DVD 5426
+  (HD/SD SDI/ASI distribution amplifier with reclocking / inversion)
+
+- New USB device driver for RCT 3602 including Microsoft certificate
+
+------------------------------------------------
+Fixes
+
+- Fixed bug:
+  FTP upload/download problems, e.g. customer registration data and
+  LYNX programming database, are solved. Customer registration data
+  will be transmitted in files with unique names including timestamp.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.3.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.2.1 (build 220, Jun 13 2008)
+
+------------------------------------------------
+New Features
+
+- PTG 3610 / Testor:
+  Added control button "Write to Flash"
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #1211:
+  GUI Connection Dialog: error at Inputfield for IP-Address (x.160 vs. x.16)
+
+- Fixed bug:
+  PDXxxxx GUI: group presence detection
+
+- Fixed bug:
+  Serial ports listed in registry key [HKLM\HARDWARE\DEVICEMAP\SERIALCOMM]
+  with a name other than "\Device\Serial..." are supporessed. A customer
+  has reported that his USB-COM is listed as "\Device\VCP...".
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.2.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.2.0 (build 218, May 26 2008)
+
+------------------------------------------------
+New Features
+
+- Graphical User Interface:
+  new audio Cross-Bars with special mono-controls
+
+- Connection with Remote Server:
+  opening the "connect ..." dialog will start looking for current
+  servers in the network.
+
+- PVD 5630:
+  Timing page replaced by graphical view.
+
+- Graphical User Interface:
+  only available serial ports are monitored. GUI "local Com ports"
+  will auto-adjust when a new serial port is added/removed to/from the
+  system while application is running.
+
+- Added general stability by fixing several minor weaknesses in the
+  internal processing.
+
+------------------------------------------------
+Fixes
+- Fixed bug #593:
+  GUI/Server: Serial port maintenance
+
+- Fixed bug #838:
+  After a power cycle of the RCT 3002, the usb-controller is not detected by c3-local
+
+- Fixed bug #1151:
+  disconnecting USB can kill application
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.2.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.1.5 (build 217, Mar 22 2008)
+
+------------------------------------------------
+New Features
+
+- PVD 5630:
+  add controls for "Line-Sync" settings
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.1.3
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.1.4 (build 216, Mar 07 2008)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #1137:
+  GUI of PTG 5610: The list of available patterns was incorrect for the simulated device.
+                  The actual device (not simulated) was not affected.
+
+- Fixed bug #1144:
+  GUI of DVD 3601: simulation of DVD 3601 shows too many events and parameters.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.1.3
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.1.3 (build 215, Feb 26 2008)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for PTG 5610:
+  (HD/SD Digital Audio&Video Testsignal Generator)
+
+- Added User Interface for DVD 3601:
+  (HD/SD Downconverter)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #1022:
+  GUI Registration-Dialog: verification rules of email address entry were too restrictive
+
+- Fixed bug #1135:
+  GUI of CAD 5112: Testpattern-controls did not work for devices with subversion > 0x30
+
+- Fixed bug #1137:
+  GUI of PTG 3610: The list of available patterns was incorrect for the simulated device.
+                  The actual device (not simulated) was not affected.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.1.3
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.1.2 (build 214, Jan 30 2008)
+
+------------------------------------------------
+New Features
+
+- PTG 3610:
+  add controls for special settings of "EBU AV Sync" pattern
+
+------------------------------------------------
+Fixes
+
+- PVD 5005:
+  remove non-functional controls
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.0.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.1.1 (build 213, Nov 29 2007)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #1055:
+  GUI of SVD 5612: added backpanel and block diagram graphics
+
+- Fixed bug #1075:
+  GUI (Version > 3.12.3) of PTG 3010/PTG 5010 did not contain any
+  graphical controls for the "Text Position X", "Text Position Y",
+  "Foreground Color" and "Background Color"
+
+- improve reliability of LOCATE button
+
+- rename all temperature names from "Intern"/"Extern" to "PCB"/"FPGA"
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.0.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.1.0 (build 212, Nov 15 2007)
+
+------------------------------------------------
+New Features
+
+- PDX 3010 GUI
+  add controls to set PAL M/N video output format
+
+- PVD 5630 GUI
+  add controls to couple SDI-Out2/3 to SDI-Out1 (sync all settings)
+
+- PMX 5262/PMX 5264/PMX 3262/PMX 3264 GUI
+  add control for optional "Auto-Black" (generate black output if no input signal)
+
+- Added User Interface for SVD 5612
+  (HD/SD Change-Over Switch)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #1013:
+  removed void controls "Swap left/right" from CDX 3624 GUI
+
+- Fixed bug #1015:
+  Text-inserter in GUI of PTG 5010/PTG 3010 would behave incorrectly
+
+- Fixed bug #1045:
+  GUI of RCT 5030: UIParameter "Alarm1/2" corrected settings "Minor" and "Major"
+
+- Backup/Restore:
+  Fix risk of instability when restoring a larger system.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.0.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.0.1 (build 211, Nov  2 2007)
+
+------------------------------------------------
+New Features
+
+- GUI of PVD 5630:
+  support for new options-concept
+  (requires P_VD_INPUT2 option to enable SDI Input 2)
+
+- Added User Interface for PDX 3264
+  (HD/SD Audio Deembedder)
+
+- Added User Interface for PMX 3264
+  (HD/SD Audio Embedder)
+
+- Added User Interface for PMX 3362
+  (HD/SD Analog Audio Embedder)
+
+------------------------------------------------
+Fixes
+
+- GUI of CAD 5122
+  Control for parameter "OutputIfNoInput" was not shown in the GUI
+
+- Fixed bug #1000
+  CAD 5011 shows green Status-Led together with "no Input"
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 4.0.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 4.0.0 (build 210, Sep 28 2007)
+
+------------------------------------------------
+New Features
+
+- Support new User-Access Functionality:
+  The Administrator can specify write-permissions per Device-Parameter
+  for individual users. This feature is available when GUI is connected
+  to RCT 5030 Matsre Controller (running software >= 3.12.1) with
+  Software-Option RSLAC30 enabled
+
+- PTG 3610
+  SDI/sync delay can be modified based on enable bits from cygnal
+
+- GUI SVD 5012:
+  add controls for enhanced GPI latch mode (as of device version 208)
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.12.1
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.13.1 (build 209, Sep 17 2007)
+
+------------------------------------------------
+New Features
+
+- PVD 5610/PVD 5630 GUI:
+  added controls for Audio-Delay functionality
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.9.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.13.0 (build 208, Aug 22 2007)
+
+------------------------------------------------
+New Features
+
+- Adapted User Interface for PTG 3610 Testor (new firmware 205 and above)
+
+------------------------------------------------
+
+Fixes
+
+- Fixed bug #958
+  CAD51xx/CAD31xx GUI did report the input signal as "unknown" instead of "none"
+  (if no signal connected)
+
+- Fixed bug #956
+  GUI PDX 5264: Embedded Group detection shows audio present when no SDI signal is connected
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.9.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.12.3 (build 207, Aug 22 2007)
+LYNX Desktop Controller - RELEASE 3.12.2 (build 206, Aug 16 2007)
+
+------------------------------------------------
+
+Fixes
+
+- Fixed bug #953
+  PDX 3212: GUI status GREEN while module status RED
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.9.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.12.1 (build 205, Aug  7 2007)
+
+------------------------------------------------
+Fixes
+
+- The "Options" Tab on various devices did not always display correct contents
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.9.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.12.0 (build 204, Aug  6 2007)
+
+------------------------------------------------
+New Features
+
+- Added "Param" tab to each Device-GUI, showing systematic list of all available parameters
+
+- Added User Interface for DVD 3601
+  (MultiFormat Digital Video Dist-Amp w/ DownConverter)
+
+- GUI PVD56xx
+  added support for H-/V- Transparency settings
+
+------------------------------------------------
+Fixes
+
+- GUI of CAD51xx:
+  corrected signal presence status display
+
+- GUI PVD56xx
+  Fixed a display-issue: some parts of the GUI were drawn to
+  invalid/random locations on the screen.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.9.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.11.6 (build 203, Jul  6 2007)
+
+------------------------------------------------
+New Features
+
+- add controls for extended Framesync-Control in CAD 5112, CAD 5132, CAD 5122
+
+- significant speed-up when bringing a device to foreground.
+
+- Added User Interface for PDX 3262
+  (HD/SD Audio Deembedder)
+
+- Added User Interface for PDX 3362
+  (HD/SD Analog Audio Deembedder)
+
+------------------------------------------------
+Fixes
+
+- GUI of PVD 5005: remove controls for SPLIT mode for device versions
+  that do not support this function.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.9.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.11.3 (build 200, Jun 14 2007)
+
+------------------------------------------------
+New Features
+
+- Update USB drivers for use with RTC 3002
+
+------------------------------------------------
+Fixes
+
+- GUI of PVD 5010: correct functionality of "Sample Rate Conversion" controls.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.9.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.11.2 (build 199, May 30 2007)
+
+------------------------------------------------
+New Features
+
+- PVD 5630/5610 GUI:
+  added controls for audio processing functionality
+  added (checkbox) controls for 20/24 Bit Audio conversion
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.9.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.11.1 (build 198, May 18 2007)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for PDX 5362
+  (HD/SD Analog Audio Deembedder)
+
+- Added control for "Auto-TestPattern" to GUI of PDX 5262/PDX 5264
+
+------------------------------------------------
+Fixes
+
+- GUI of PVD 3010 / PVD 5010
+  Fixed an issue where the lines/pixel delay could not be set in the
+  GUI while no reference input connected.
+
+- GUI of DVD 3620 / DVD 5620
+  Modified textual selection of bandwidth control setting to contain
+  correct frequencies.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.9.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.11.0 (build 197, May  2 2007)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for CDX 3624
+  (Single-Input HDTV Deembedder and Down Converter with Analog and Digital Audio/Video Outputs)
+
+- PVD 5005/PVD 5010/CMX 5112 GUI:
+  added control for audiodelay functionality
+  added (checkbox) controls for "Sample Rate Conversion"
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.9.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.10.3 (build 197, Apr 27 2007)
+LYNX Desktop Controller - RELEASE 3.10.2 (build 196, Apr 13 2007)
+
+------------------------------------------------
+New Features
+
+- GUI of PVD56xx: add scaler control for ARC functionality
+  (requires P_VD_CONV option in PVD56xx)
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.9.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.10.0 (build 194, Mar 22 2007)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for PVD 5600
+  (Single-Input HDTV Framesync with optional image converter)
+
+- Added User Interface for PVD 5610
+  (Single-Input HDTV Framesync with optional image converter and audio processing)
+
+- Added User Interface for PVD 5620
+  (Dual-Input HDTV Framesync with optional image converters)
+
+- added support for next-generation PVD 5630 GUI (release 183)
+  - optional reference by SDI input (instead of Reference-Input)
+  - GPI input can control Video-Crossbars
+
+- Added User Interface for PMX 5262
+  (Dual AES HDTV Embedder)
+
+- Added User Interface for PMX 5264
+  (Quad AES HDTV Embedder)
+
+- Added User Interface for DVA 5720
+  (Dual Analog Video Distribution Amplifier, HDTV capable)
+
+- Added User Interface for DVA 5710
+  (Single Analog Video Distribution Amplifier, HDTV capable)
+
+- Added User Interface for DVA 3720
+  (Dual Analog Video Distribution Amplifier, HDTV capable)
+
+- Added User Interface for DVD 5610
+  (Single HD-SDI Distribution Amplifier with optional reclocking)
+
+- Added User Interface for CDX 5024C
+  (Analog Audio Demultiplexer w/ Component Video Output)
+
+- Added control for "group deletion" functionality in GUI of PVD 5010
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #909:
+  GUI of CAD 5111 would set GainCr to MAX when moving Saturation slider on MAIN page
+
+- Fixed bug #912:
+  GUI of PVD 5000/5005/5010: Saturation and Hue Sliders would not influence the Cr component correctly.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.9.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.9.0 (build 193, Feb 26 2007)
+
+------------------------------------------------
+New Features
+
+- PVD 5005/PVD 5010 GUI:
+  added (checkbox) controls for individual group deletion
+
+- added support for next-generation PVD 5630 GUI (release 182)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #877
+  PAD 5212 GUI: The board PAD 5212 do not support Sample Rate Conversion
+  with modus "auto".
+  Modus "auto" is removed from GUI.
+
+- Fixed bug #897
+  DVD 3620: GUI showed singlechannel-mode(not dualchannel-mode)
+  after "Reset Factory defaults"
+
+- Fixed bug #877
+  Removed "auto" from selection of possible Sample Rate Conversion modes.
+  (not supported by device)
+
+- Fixed bug #885:
+  PDX 3214 GUI: could not control second deembedder group
+
+- Fixed bug #886:
+  CDX 5624 GUI: some parameters of the Video-DA-Conversion
+  could not be controlled correctly.
+
+- Fixed bug #897:
+  DVD 3620/DVD 5620 GUI: After a reset to factory defaults (in the
+  device), it was possible that the GUI did not display the correct
+  cross-bar configuration.
+
+- Fixed bug #905:
+  Application startup problem on mal-formatted Backup file. As a
+  result the RCT 5030 controller can appear to be completely locked
+  (application not running).
+
+- Fixed bug:
+  PVD 5000/PVD 5005 GUI: (variants without GPI) would display the
+  current input as "SDI1" even if currently operating at "SDI2"
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.9.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.8.2 (build 192, Jan 12 2007)
+
+------------------------------------------------
+New Features
+
+- support new generation of PVD 5630
+
+- Fixed appearance of User Interface for CDX 3610
+  (broken in RELEASE 3.8.1 only)
+
+- Fixed navigation in RCP-simulation (delivered with the same
+  installer-setup, but installed as separate optional item)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #858
+  In the GUI of PVD 3010, PVD 5000, PVD 5005, PVD 5010 the total delay
+  (DelayUS) is changed from microsec to nanosec.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.8.2
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.8.1 (build 191, Dec 19 2006)
+
+------------------------------------------------
+New Features
+
+- completely replaced GUI for CMX 5112 (consisting of two devices)
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.7.2
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.8.0 (build 190, Dec 18 2006)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for CDX 3610
+  (Multi-Format DownConverter with Analog Video output)
+
+- support Aperture correction controls in GUI of DVD 5602/DVD 5604
+
+- Run FTP transfers in FTP-passive mode by default. In certain
+  environments, this helps avoiding connectivity problems when doing
+  FTP transfers (e.g. for transferring user registration data to the
+  LYNX servers)
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.7.5
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.7.4 (build 188, Nov 23 2006)
+
+------------------------------------------------
+New Features
+
+- Added UI support for new generation of PMX 3212 (type 06.07)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #828
+  In the GUI of CAD 5121/CAD 5122, the "Chroma" slider on main page of
+  "Channel 1" works only on the Cr-signal, not on the Cb-signal. It
+  should work on Cr/Cb simultaneously.
+
+- Fixed bug that would cause GUI instabilities when modifying the
+  "Background Color" parameter of the the PTG 3610 "Testor".
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.7.2
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.7.3 (build 187, Nov 14 2006)
+
+------------------------------------------------
+New Features
+
+- Support Aspect Ratio Conversion Settings in CDX 5624
+
+- Support User Delay Settings in PVD 5630
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #827
+  The new GUI of the CAD 5121 and CAD 5122 did not correctly implement
+  dependency between "Contrast" and "Gain" for Channel 1. As an effect,
+  the "Contrast" slider would not be enabled in the GUI as expected.
+
+- Fixed bug #832
+  In the GUI of PVD 3010, the external AES connections would be shown as
+  "enabled" if only option P_VD_MXDX was active. In fact, the external
+  AES connections are active only on option P_VD_AP. The display in the
+  GUI has now been adapted accordingly.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.7.2
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.7.2 (build 186, 11.Oct.2006)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for DVD 5604
+  (Dual-Channel MultiFormat Digital Video Dist-Amp w/ DownConverter and output XBar)
+
+- Added User Interface for CMX 5112
+  (Framesync with analog and digital Audio/Video inputs)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #807
+  The new GUI of the PVD 5010 did not set/display the deembedding group
+  3 and 4 correctly.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.7.2
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.7.1 (build 185, 20.Sep.2006)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for DAA 5321
+  (Dual-Channel Analog Audio DAmp with audio transformers)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug
+  Video output XBar of PVD 5630 did not display the correct current
+  settings under all circumstances. This was a pure presentation
+  problem, fixed now.
+
+- Fixed bug #802
+  GUI of Video-DA-Converters (CDAxxxx) indicates a "missing reference"
+  even for type variants that do not have a reference input.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.7.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.7.0 (build 184, 20.Sep.2006)
+
+------------------------------------------------
+New Features
+
+- moved configuration variable GUI_SHOW_EMPTY_SLOTS into user-scope,
+  allowing for a (startup) configuration that does *not* show any
+  un-populated slots in the GUI-tree.
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #787
+  Framesync GUI allows embedding into same group twice.
+  This was a problem in the presentation layer (GUI). The device itself
+  would always work correctly anyways.
+
+- Fixed bug #788
+  Activating GUI of PVD50xx would modify current values of
+  Brightness/Saturation.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.7.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.6.9 (build 183, 05.Sep.2006)
+
+------------------------------------------------
+Fixes
+
+- Modified GUI for DVD 5602, corrected output assignment.
+
+- Fixed bug #740
+  GUI of SVD 3062 indicated missing reference, even if 625 reference present.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.6.8
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.6.8 (build 182, 15.Aug.2006)
+
+------------------------------------------------
+New Features
+
+- Added control of "Locked" status to GUI of individual Device.
+  (in Device-specific pulldown menu)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #775
+  GUI of PDX 3010 and CDX 5024 did not offer the "Mute" Checkbox
+  for muting analog Audio outputs.
+
+- Fixed bug in GUI of CDX 5624:
+  input signal standard 525 (SDTV) would not be displayed correctly.
+  (device operation not limited, just display in UI was incorrect)
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.6.1
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.6.7 (build 181, 04.Aug.2006)
+LYNX Desktop Controller - RELEASE 3.6.5 (build 179, 02.Aug.2006)
+LYNX Desktop Controller - RELEASE 3.6.4 (build 178, 31.Jul.2006)
+
+Small adaptions during deployment phase of PVD 5630.
+Final productive version: RELEASE 3.6.8
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.6.1
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.6.3 (build 177, 28.Jul.2006)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #775: PDX 3010 GUI:
+  Fix instability issues with GUI of PDX 3010.
+  prevent analog audio gain from muting when selecting 22/24dB
+  FS level and a positive gain, thus exceeding the available range.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.6.1
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.6.2 (build 176, 20.Jul.2006)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #771: PDX 3010 and CDX 5024 GUI: Analog Audio Gain sliders
+  In the GUIs of PDX 3010 and CDX 5024, the sliders for analog audio
+  gain are not supplying the full range of available values.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.6.1
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.6.1 (build 175, 07.Jul.2006)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #768: With multiple BackupSets in the current storage,
+  there was a certain risk of an application deadlock at startup
+  (during initialization)
+
+- Fixed an initialization detail in the local serial (COM) ports.
+  This fix may have the effect that certain third-party USB->COM
+  adapters will work more reliably with this application now.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.4.3
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.6.0 (build 174, 03.Jul.2006)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for DVD 5602
+  (Dual-Channel MultiFormat Digital Video Dist-Amp w/ DownConverter)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #763: GUI CAD 3320/PMX 3312: "overload" indication not correct.
+  In the GUI of CAD 3320/PMX 3312 (Audio AD-Converter), an overload
+  situation on audio input channel 2 would be displayed in the context
+  of channel 1. A missing external reference (CAD 3320 only) would be
+  displayed as "overload channel 2"
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.4.3
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.5.0 (build 173, 21.Jun.2006)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for SVD 5412
+  (ASI Change Over Switch)
+
+- Completely rebuilt the Analog Deembedder GUI
+  (Products PDX 3010, CDX 5024, CDX 5624) for more intuitive
+  user interaction and clearer presentation of device capabilities.
+
+- Store Backup-Data in an installation independent location, so
+  that they do not get lost on a de-/re- installation of the software.
+  All Backup-Data is now stored in a directory similar to
+  C:\documents and settings\all users\application data\Lynx\c3_local\device_backup
+  (exact directory names depend on MS-Windows language settings)
+
+- re-formatted the Logfile-entries about device-specific events to
+  describe the reporting device (name and position) as human readable
+  text.
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #760: Restore a Backup-Set into multiple MiniModules fails
+  with timeout. When restoring a Backup-Set spawning multiple
+  MiniModules (in a RFR 3010, requires SW-license RSL_BR20 or
+  RSL_BR30), then a certain percentage of Device-Items would always
+  end up in a "restore failed on timeout" state.
+
+- Fixed bug #762: In the GUI of the DAD 5220, the individual input
+  channel status indication was always green ("present"), even if no
+  input signal was connected at all. This was a pure presentation
+  issue. The master-LED (module and GUI) was correct at all times.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.4.3
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.4.3 (build 172, 05.Jun.2006)
+
+------------------------------------------------
+Fixes
+
+- In the GUI of the CDX 5624: correctly support switching to "S-Video"
+  on the analog video output.
+
+- Fixed bug: On relatively slow machines, removing a Device
+  immediatley after it had just been detected by the system could lead
+  to a situation where the device was never removed from the
+  system. This has been fixed now.
+
+- Fixed bug: Under very rare circumstances it could happen, that a
+  device is not shown in the tree-graph although it has correctly been
+  detected (as can be seen in the logfiles). This was a bug in the
+  presentation logic. Fixed now.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.4.1
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.4.2 (build 171, 31.May.2006)
+
+------------------------------------------------
+New Features
+
+- In the GUI of the CDX 5624: added controls for ColorSpace-Conversion modes.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.4.1
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.4.1 (build 170, 29.May.2006)
+
+------------------------------------------------
+New Features
+
+- Significantly reduce network traffic and server CPU load when
+  logging into a remote server (RCT 5030). This improvement is only
+  available when client and server are both using version 3.4.1 (or
+  above).
+
+------------------------------------------------
+Fixes
+
+- Fixed PTG 3610 (Testor) GUI: The PTG 3610 (Testor) GUI was not
+  always showing the correct list of available patterns/sequences,
+  especially when multiple such modules were in the system.
+  Also: the Sync/Video delay was not displayed reliably.
+
+- Fixed bug #754: DVD 5420: Master LED in GUI sometimes not correct.
+  The Master LED color of a DVD 5420 in the GUI/RCP 5000 is sometimes
+  not correct (according to master LED on the module)
+
+- Fixed connection bug: when a server was restarted (e.g. because it
+  was being re-configured) while a client was just logging in, the
+  client (here: c3-local) would appear to be locked for a long time
+  (depending on number of devices at that server), before resuming
+  normal operation. Now the client returns to the "disconnected" state
+  within very short time, as expected.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.4.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.4.0 (build 167, 20.Apr.2006)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for CDX 5624
+  (Multi-Format DownConverter with Analog Audio/Video output)
+
+- Significant speed-up of the loading of all pattern/sequence names in
+  a system with multiple units of type PTG 3610 (Testor).
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #739: application terminates on assertion-failure when
+  hitting the RETURN key twice (and very quickly, i.e. within 200 ms)
+  in certain (very few) textual entry fields.
+
+- Fixed the internal ftp client to properly close the connection
+  before disconnecting from the server.
+
+- Fixed issue in the VideoADC-GUIs: The "Y-shaping filter" selection
+  would be displayed as "unknown" as long as there is no valid input
+  signal. With this fix, setting the "Test pattern Standard" to
+  "525"/"625" works around this inconvenience.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.4.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.3.5 (build 166, 07.Apr.2006)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for PTG 3610 (Testor)
+  (Multi-Format Testsignal Generator with AES)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #721: PVD 5005G: Factory Reset disables input selection
+  Setting the PVD 5005G to "factory reset" while GUI is open would disable
+  the "Input Selection" switch. It can be re-enabled by (re)setting
+  the "GPI Influence" switch to "none".
+
+- Fixed bug #722: PVD50xx: Layout problem on "Expert" page.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.3.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.3.1 (build 162, 16.Mar.2006)
+
+------------------------------------------------
+New Features
+
+- The Backup of the "local COM ports" node also contains the
+  user defined device-names of all hosted devices.
+
+- In the Backup UI, the context-sensitive popup-menu (right-click on
+  an item in the device-tree) offers a new "Backup-Details" window
+  with additional info about the BackupData for this device.
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #712: Backup sometimes not complete
+  A Backup of one of the following device types would sometimes
+  not be complete. This applies to devices CAD 5121, CAD 5122,
+  PVD 5010, CAD 5135, CMX 5110.
+
+- Fixed bug #715: GUI of PDX 3010 did not allow selection of
+  all video standards. I.e. "RGB" and "YUV" were missing from the
+  selection.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.3.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.3.0 (build 161, 03.Mar.2006)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for DVD 5000
+  (Single channel SDI Distribution Amplifier)
+
+- Added User Interface for DVD 5010
+  (Single channel SDI Distribution Amplifier w/ reclocking)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #698: GUI tree sometimes does not show existing boards.
+  Loading the tree of devices in the GUI could sometimes leave
+  individual slots empty, while there is an actual device present
+  at the associated position. This would affect single slots as
+  well as groups of slots.
+
+- Fixed bug #708: Removing the RFR 5011 from the system will not
+  remove textual info from the GUI.
+
+- Fixed bug #709: Starting GUI on CDA 5010 will influence Auto-Testsignal
+  Starting the GUI on a system with CDA 5010 boards will reset the
+  Auto-Testsignal setting to factory default.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.3.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.2.0 (build 160, 23.Feb.2006)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for DAD 5220WCB
+  (Digital Audio Distribution Amplifier Wordclock)
+
+- Added Configuration Editor per connected server. This is a convenient
+  way for GUI-users to adapt the configuration of the server (local or
+  remote). Remote server configuration requires a remote server version
+  above 3.1.1
+
+- Added Logfile browser per connected server. This is a convenient way
+  for GUI-users to browse the current and/or older logfiles on the
+  server (local or remote). Remote server configuration requires a
+  remote server version above 3.1.1
+
+- Added RCP Simulation Executable to Installer Package.
+  This is the PC-based simulation of the RCP 5000 Control Panel.
+  It runs on the local PC, connecting to a running instance
+  of the Desktop Controller Application (c3_local GUI). It allows
+  for demonstration of all menus that are available in the real
+  RCP 5000 panel, controlling the devicesthat are simulated in the
+  Desktop Controller Application.
+  NOTE: turn the rotation-knobs with a mouse-wheel or by dragging
+  it up/down with the right mouse button.
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #703: PTG 3010/PTG 5010: cannot switch to Sequence Patterns
+  It is not possible to activate a Sequence Pattern in the PTG 3010/PTG 5010
+  using the GUI. All static patterns are selectable OK.
+
+------------------------------------------------
+Compatible with Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.1.2
+
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.1.1 (build 158, 14.Feb.2006)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #701: Serial number of RCT 3000 could not be read in GUI
+  The GUI did not display the correct serial number for the RCT 3000
+
+- Fixed bug #702: A problem introduced in release 3.1.0 could block
+  all communication to MiniModule behind Service Adapter as well as i
+  to RackExpansions.
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.1.0 (build 157, 13.Feb.2006)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for RTC 3002
+  (USB ServiceAdapter)
+
+- Backup/Restore enabled for unlimited number of *simulated* devices.
+  The License codes RSLBR20 / RSLBR30 are required only when working
+  with more than one *real* device.
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #669: PVD 5010: AES Out 1/2 were swapped in GUI
+  In the GUI of the PVD 5010, the AES outputs 1 and 2 were
+  shown in the wrong order. These have been swapped now.
+
+- Fixed bug #681: PTG 3010/PTG 5010 Text insert cannot be switched on
+  In the GUI of the PTG 3010/PTG 5010 there is a checkbox missing that
+  enables the insertion of text. The text can be entered, but it
+  is never overlayed to the video output.
+
+- Fixed bug #686: AudioADC: ChannelID can only be set to one character
+  In the GUI of all Audio AD-Converters, the ChannelID can only be
+  set to one character.
+
+- Fixed bug #688: DVA 5110: status LED color in UI sometimes not correct
+  In the UI (GUI/RCP 5000/...) the color of the status LED of theDVA 5110
+  was sometimes not correct (i.e. not same color as LED on the board itself)
+
+- Fixed bug #693: PTG 3010/PTG 5010: Inserted Text filled to 8 chars with squares.
+  When entering a text of less than 8 characters for overlay, the
+  original text was implicitly filled with square-symboles to fill
+  the available 8 characters in the SDI.
+
+- Fixed bug: At the time a (RCT 5030) server becomes available in the
+  network, the GUI sometimes goes from state "trying to connect ..."
+  to "disconnected" instead of actually connecting to the newly
+  available server.
+
+------------------------------------------------
+Compatible to Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.1.0
+
+
+================================================================
+LYNX Desktop Controller - RELEASE 3.0.0 (build 155, 23.Dec.2005)
+
+------------------------------------------------
+New Features
+
+- Added Backup/Restore of device settings.
+
+  In the MainWindow, select menu "View -> Backup". Any single device
+  can be backed up to an internal BackupSet. Any such BackupSet can
+  be exported to a local file, for archiving. For Backup of more than
+  one device int one BackupSet, you need to activate one of the
+  Software Licenses RSLBR20 or RSLRB30.
+  (Please contact your local LYNX representative for details.)
+
+  NOTE that you need to activate RELEASE 3.0.0 or later in the
+  RCT 5030 / RCP 5000 to backup devices on these servers.
+
+
+- Added User Interface for DVD 5420
+  (SDI / ASI distribution amplifier with reclocking / inversion)
+
+- Added User Interface for CAD 5132
+  (Analog Video to SDI converter with Framesync)
+
+- Added User Interface for SVD 5082
+  (SDI Input Switch 2*8 -> 2)
+
+------------------------------------------------
+Fixes
+
+- Added general stability by fixing several minor weaknesses in the
+  internal processing.
+
+- Fixed bug #626: "PDX 3010: Assignment of outputs not possible in GUI"
+  The GUI of the PDX 3010 would not allow correct assignments of
+  AES putput channels to channels.
+
+- Fixed bug #632: MiniModule on ServiceAdapter was not recognized if
+  Simulation mode had been activated before.
+
+- Fixed bug #649: "strange UI status text if SVD 5012 in bypass"
+  The status text in the user interface (GUI / RCP 5000) was confusing
+  when the unit was running in "bypass mode".
+
+- Fixed bug #658: "SDI input missing" event available for just one channel
+  The Events-Tab in the GUI of the CAD 3002 showed only events for one
+  of the two channels.
+
+- Fixed bug #661: PTG 3010/PTG 5010: specifying shorter overlay text.
+  When reducing a longer overlay text to a shorter one, the remaining
+  characters would have to be explicitly specified as space-characters
+  in order to delete them from the resulting overlay string. While
+  this workaround worked ok, it is still inconvenient.
+
+- Fixed bug #662: "PMX 3312/3313 does not show events of AudioADC"
+  Input-lost Events from Audio-ADC combo are not shown in GUI of
+  PMX 3312 / PMX 3313
+
+- Fixed bug #667: "GUI block diagram of DVA 3120 does not cover DVA 3120L"
+  Replaced the block diagram for the DVA 3120 in the GUI, so that the
+  DVA 3120L is also covered by the illustration.
+
+- Fixed bug #677: "CMX 5110: Switching to Manual Gain not complete"
+  Switching between "Auto-Gain" and "Manual-Gain" (luminance and/or
+  chrominance) in the GUI of the CMX 5110 did not complete all required
+  internal changes. Some automatic behaviour remained in action.
+
+------------------------------------------------
+Compatible to Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 3.0.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.8.0 (build 150, 24.Oct.2005)
+
+------------------------------------------------
+New Features
+
+- Added User Interface for PVD 5000
+  (same as PVD 5000G Framesynchronizer, without GPI input)
+
+- Added User Interface for CMX 5110
+  (Deembedder with Analog Video and Analog Audio Output)
+
+- Added User Interface for DVD 5620
+  (MultiFormat HDTV/SDTV Dual Input SDI Distribution Amplifier with 2x4 crossbar)
+
+- Added User Interface for PMX 5212/PMX 5214 (BS509500)
+  (new AES Embedders, based on PCB BS509500)
+
+- Added User Interface for SVD 5012
+  (SDI Change-Over Switch)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug in PVD50x0 GUI: If switching input by GPI, the current
+  input was not correctly displayed by the (disabled) selection box.
+
+- Fixed bug #647: PTG 3010/PTG 5010 does not correctly show 20/24 Bit
+  Audio Status. There was a communication problem that prevented the
+  20/24 Bit Audio status from being displayed correctly at startup.
+  Any change was correctly written to the device. The device function
+  was not affected in any way.
+
+------------------------------------------------
+Compatible to Device Server (RCT 5030/RCP 5000) Release 2.2.3 and up.
+Recommended Device Server with this GUI Release: 2.8.0
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.7.1 (build 149, 16.Sept.2005)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #638: SNMP checkboxes in GUI grayed out while Option enabled.
+  The c3_local GU frontend did not correctly recognize the presence
+  of the RCT 5030 SW-Options, and thus did not show the "SNMP Traps"
+  checkboxes in a read-write state as appropriate.
+
+- Fixed bug #632: Initialization of serial port does not init all parameters
+  Fixed another rare instance under which the serial port could potentially
+  be initialized to incorrect parameters.
+
+------------------------------------------------
+can be connected to RCT 5030 RELEASE 2.2.3 (build 118) and up.
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.7.0 (build 148, 30.Aug.2005)
+
+------------------------------------------------
+New Features
+
+- Added Graphical User Interface for DVD 3620
+  (MultiFormat HDTV/SDTV Dual Input SDI Distribution Amplifier
+   with 2x4 crossbar)
+
+- Introduction of the new Remote Control Interface. All devices can be
+  controlled by an external application through the LYNX remote
+  control interface. This is a simple ASCII-based protocol over UDP/IP
+  that allows a third party application / script to control any
+  setting in the LYNX control system. A copy of the detailed
+  description of this remote interface can be requested with a short
+  email to support@lynx-technik.com.
+
+- The application is guaranteed to be started only once on a
+  computer. The attempt to start it a second time will simply bring
+  the already running instance to the foreground, propagating
+  command line options as appropriate (see below).
+
+- New commandline option -select can be used to request that the
+  application selects the GUI of a specific module (by position). The
+  actual position has to be specified using the addressing scheme of
+  the Remote Control Interface.
+  Example, adressing local COMport 1, stack 0, frame 1, slot 5:
+  c3_local.exe -select <local>:0.0.1.5
+  Example, adressing remote COMport 1, stack 4, frame 0, slot 7:
+  c3_local.exe -select 192.168.1.160:0.4.0.7
+
+- New commandline option -popup offers similar capabilities as option
+  -select (described above). The requested GUI page will be displayed
+  in a separate popup-window instead of the main window. This allows for
+  control of multiple devices at once. After application startup, any
+  Device-GUI can be sent to a new popup window through the appropriate
+  option from the "Device" pulldown menu.
+
+- The passwords for a remote connection (to RCT 5030) can optionally be
+  *not* stored persistently. If this option is activated, the password
+  needs to be re-entered every time the connection is used.
+
+- Leaving a textual entry field in the GUI by TAB-key or by clicking
+  the mouse outside the entry field applies the new value to the
+  device. In older versions, the described action used to discard the
+  new value and revert to the original value.
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #602: sync source of CAD 5121/CAD 5122 is identical for both
+  channels. The sync source of CAD 5121/CAD 5122 (intern/extern/off) is
+  always identical for channels 1 and 2. The client display (PC-GUI /
+  RCP 5000) was not guaranteed to be updated accordingly.
+
+- Fixed bug #607: application can terminate when pressing F5 in
+  GUI of PVD 5010 / RCT 5020 / RCT 5030
+
+- Fixed bug #620: setting overlay text in PTG 3010 / PTG 5010 GUI does
+  not work correctly. This bug existed in releases 2.6.2 and 2.6.3
+
+- Fixed bug #626: PTG 3010: Assignment of outputs not possible in GUI
+  clicking one of the radio-buttons to re-assign outputs would jump
+  back to the original position after ~2 seconds.
+
+- Fixed bug #629: CDA VideoDA-Converters: YLevel Betacam leads to wrong UVLevels.
+  On the Gain-Page ofall CDA VideoDA-Converters: Setting the YLevel to
+  "Betacam" lead to wrong UVLevels. Now the "Betacam" YLevel makes the
+  UVLevels read-only and implicitly sets them correctly.
+
+- Fixed bug #632: Initialization of serial port does not init all parameters
+  Under certain cirumstances, the code that initializes the serial
+  ports (COM1...8) does not make all required settings in a 100% correct
+  way. This can lead to communication failures, such as slow response
+  or inconsistent display of current status of individual boards.
+
+- Fixed bug: Display of false temperature/voltage peak values for PSUs.
+  The temperature and voltage displays of the PSU units could display
+  false peak values due to data transmission errors. These errors are
+  now filtered out and prevented from display.
+
+------------------------------------------------
+can be connected to RCT 5030 RELEASE 2.2.3 (build 118) and up.
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.6.3 (build 140, 24.June.2005)
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #604: incorrect read of data from the PAD 5212 could lead
+  to wrong display values on the client (c3_local / rcp). NOTE that
+  this bug is in the server part of the software. I.e. if the c3_local
+  is connected to the PAD 5212 through a RCT 5030 per LAN, then the
+  appropriate patch- release 2.6.3 needs to be installed in the
+  RCT 5030 also.
+
+- Fixed bug #605: Under certain conditions, modifying a value on the
+  GUI could lead to instability in the client-part of the
+  software. This issue exists only in the user interface. The signal
+  processing devices are not affected.
+
+------------------------------------------------
+can be connected to RCT 5030 RELEASE 2.2.3 (build 118) and up.
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.6.2 (build 139, 21.June.2005)
+
+------------------------------------------------
+Fixes
+
+- fix bug #601: "F5-Update of version info of Controllers incorrect"
+  Pressing F5 in the GUI of the RCT 5010 / RCT 5020 / RCT 5030 would lead
+  to an incorrect display of the version information in the GUI.
+
+- fix bug that would cause the device tree to display an incomplete
+  list of devices from a remote server (RCT 5030) under heavy network
+  load. Now the list will always be completed after a couple of
+  seconds, depending on available network resources.
+
+- fix bug that would intermittendly logout the GUI from a remote
+  server every once in a while. This was dependent on general network
+  traffic and a relogin would be done immediately. Fixed now. A
+  spontaneous logout happens only if the server cannot be reached for
+  a significant amount of time.
+
+------------------------------------------------
+can be connected to RCT 5030 RELEASE 2.2.3 (build 118) and up.
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.6.1 (build 138, 09.June.2005)
+
+------------------------------------------------
+New Features
+
+- New config variable GUI_EXPERT_MODE_PASSWORD can be supplied to
+  protect access to the contents of the "Expert" Tab in individual
+  device GUIs. The default is empty, which means that the "Expert" Tab
+  is accessible by default.
+
+------------------------------------------------
+Fixes
+
+- fix bug #599: "Series 3000 modules behind RCT 5010 not displayed correctly"
+  The tree display of Series 3000 modules behind an RCT 5010 would not
+  be correctly sorted.
+
+- fix bug in display of current status of SW options in GUI. Some
+  SW options would be displayed as "not active" even if activated
+  correctly.
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.6.0 (build 137, 08.June.2005)
+
+------------------------------------------------
+New Features
+
+- General rework of major parts of the software architecture,
+  resulting in a significant increase in overall stability and
+  performance.
+
+- More than one remote-server can be connected at the same time,
+  even in parallel to devices on the local COM-ports.
+
+- Enable the SIMULATION mode by default. The "local COM ports" panel
+  in the GUI provides a checkbox named "Simulation". Enabling this
+  option will simulate the complete product range of LYNX devices. The
+  simulation includes the Event-Subsystem, so that Device-specific
+  events can be simulated in all consequences. NOTE however, that
+  there might be particular situations where the simulated device does
+  not behave 100% like the real counterpart. Please contact you local
+  representative in case of any questions.
+
+- The GUI-layout (i.e. position of splitter lines) is persistently
+  stored between sessions.
+
+------------------------------------------------
+Fixes
+
+- fix bug #590: "GUI CAD 5320: left/right indication crossed"
+  The indication of input channel status was crossed between left and
+  right channel on the GUI of the CAD 5320. NOTE: When using a RCT 5030
+  (network connection, rather than local COM ports) you also need to
+  update the RCT 5030 to version 2.6.0 for this issue to be gone completely.
+
+- fix bug #594: "DVA 5120/DVA 3120: GUI initializes EQ sliders to wrong position"
+  The GUI of the DVA 5120/DVA 3120 somtimes initializes the two EQ
+  sliders to an incorrect position. This is a pure display issue; the
+  actual values in the board are ok.
+
+- fix bug #596: "PAD 5212: delay values are displayed as 16"
+  The GUI of the PAD 5212 (when connected to remote RCT 5030) could
+  display incorrect values for the msec-part of the delay and
+  negative delay. This was a pure display problem of the GUI. The
+  actual delay in the PAD 5212 was never changed in any way.
+
+- fix bug #597: "PVD 5000/5005/5010/3010: slider values displayed at min/max"
+  The GUI of the PVDxxx (when connected to remote RCT 5030) could
+  display incorrect values for the video-parameter sliders on the main
+  page. This was a pure display problem of the GUI. The actual delay
+  in the PVDxxx hardware was never changed in any way.
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.5.3 (build 134, 17.May.2005)
+
+------------------------------------------------
+New Features
+
+- Added Graphical User Interface for PVD 5000-ES
+  (SDI Framesync with Emergency-Switch)
+
+- Support frame synchronizers with two delays switched by GPI
+
+- Support frame synchronizers with vertical split
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.5.1 (build 130, 13.Apr.2005)
+
+------------------------------------------------
+Fixes
+
+- fix bug #565: "Instability when used with CAD 5131"
+  When connected to CAD 5131, the GUI may show some instability
+  and potentially disconnect. This issue is fixed in this release.
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.5.0 (build 129, 07.Apr.2005)
+
+------------------------------------------------
+New Features
+
+- Added Graphical User Interface for CDX 5024
+  (Analog SDI Deembedder)
+
+- Added Graphical User Interface support for RFR 5011
+  (Fan Unit)
+
+------------------------------------------------
+Fixes
+
+- elimitated a potential problem that would lead to very long update
+  times to a second connected GUI when a parameter was changed.
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.4.2 (build 128, 04.Apr.2005)
+
+------------------------------------------------
+New Features
+
+- GUI for RCT 5020 allows for additional assignment of board-edge
+  LEDs functionality ("show boards", "fixed pattern")
+
+------------------------------------------------
+Fixes
+
+- fix bug: "EQ slider in GUI for DVA 3120/DVA 5120/DVA 5110 clipping"
+  The GUI for the various Analog Video DAmps (DVA 3120/DVA 5120/DVA 5110)
+  had a bug in the handling of the Slider for the Equalizer value, that
+  would reject any values > 50.
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.4.1 (build 127, 21.Mar.2005)
+
+------------------------------------------------
+Fixes
+
+- fix bug #555: "c3-framework shutdown on CAD 3110"
+  Some versions of the CAD 3110 shutdown the GUI. Fixed by
+  eliminating a long-hidden bug in the framework.
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.4.0 (build 126, 16.Mar.2005)
+
+------------------------------------------------
+New Features
+
+- Added Graphical User Interface for CAD 5135
+  (12 Bit Video Analog Component to Digital Converter)
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.3.0 (build 125, 14.Mar.2005)
+
+------------------------------------------------
+New Features
+
+- Added Graphical User Interface for CAD 3100
+  (12 Bit Video Analog Composite to Digital Converter)
+
+- Added Graphical User Interface for PDX 5212 / PDX 5214
+  (Digital AES Deembedder, 2/4 Channel)
+
+- Added Graphical User Interface for PDX 5312 / PDX 5314
+  (Analog Audio Deembedder, 2/4 Channel)
+
+------------------------------------------------
+Fixes
+
+- fix bug #530: DVD 5002 "GUI's Input colour in single channel always green."
+  In the GUI the input indication in single channel mode is always green.
+  The master LED color is correct though. Just the info text on the panel is
+  not correct.
+
+- fix bug #532: "CAD51xx: in 525 mode, Y-Comb filter selection is wrong"
+  For all CAD51xx with ADV7189_02: In 525 mode, the available filter
+  selection for Y-Comb is "no comb" and "2H". This is wrong. Should be
+  "no comb" and "3H adaptive", same as offered in local menu (module
+  edge).
+
+- fix bug #535: "PVD50xx" GUI'S Master LED and current channel indication"
+  The Master LED color in the GUI, as well as the indication of
+  current channel in the GUI would not be accurate (i.e. in sync with
+  HW-device) if the current input is controlled by GPI.
+
+- fix bug #537: "login to RCT 5030 denied from a computer with multiple NICs"
+  When c3_local is running on a computer with multiple network cards (NICs), it
+  can happen that the wrong one is picked for network communication with
+  the RCT 5030 (remote login). In this case, the IP-address of the correct
+  network interface has to be entered into the file <config.txt> as
+  parameter ORB_ENDPOINT. See comments in file <config.txt> for details.
+
+- fix bug #554: "c3_local: possible dead-lock under heavy load."
+  Under very heavy load, the c3_local can dead-lock. A restart is needed
+  to return to normal operation.
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.2.3 (build 118, 18.Jan.2005)
+
+------------------------------------------------
+Fixes
+
+- fix bug #502: "register update from server to GUI not reliable."
+  It can happen that a spontaneous change of a register on the server is not
+  reflected in the GUI. As a workaround, pressing the F5 key on the control-page
+  for a specific device always forces an update of all controls to the correct
+  current state.
+
+- fix bug #503: GUI shutdown when renaming Stack/RCT 5020 (intermittent)
+  Under some circumstances it can happen that the application may shutdown on an
+  assertion violation when trying to rename a controller-type entry in the
+  device tree (RCT 5030 / RCT 5020 / RCT 5010 / Stack).
+
+------------------------------------------------
+can be connected to c3_server RELEASE 2.2.3 (build 118) and up.
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.2.2 (build 117, 17.Jan.2005)
+
+------------------------------------------------
+Fixes
+
+- fix bug #499: "GUI CAD 5121 / CAD 5122: init not complete"
+  The GUI pages for the LEFT module in CAD 5121 / CAD 5122 would
+  not be displayed correctly under certain init. circumstances.
+
+------------------------------------------------
+NOTE: when used with RCT 5030 (network login), this version of c3_local
+requires c3_server RELEASE 2.2.1 on the RCT 5030. It can not be used
+to login to an RCT 5030 running any older version of c3_server.
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.2.1 (build 116, 17.Jan.2005)
+
+------------------------------------------------
+Fixes
+
+- fix bug #492: "devices not removed."
+  A device would not be removed from the GUI after
+  the physical removal from the system
+
+- fix bug #493: "detection of devices *very* slow"
+  It took a long time after physically adding a device to the system,
+  until the new device was visible in the GUI.
+
+- fix bug #494: "Status LED of CAD 5010 (and other CAD*s) green"
+  The GUI's status LED for certain variants of the CAD (VideoADC)
+  would not follow the one on the device, but be green always.
+
+------------------------------------------------
+NOTE: when used with RCT 5030 (network login), this version of c3_local
+requires c3_server RELEASE 2.2.1 on the RCT 5030. It can not be used
+to login to an RCT 5030 running any older version of c3_server.
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.2.0 (build 115, 12.Jan.2005)
+
+------------------------------------------------
+New Features
+
+- Added Graphical User Interface for CAD 5122
+  (Dual Analog Video to SDI Converter with Frame Sync.)
+
+------------------------------------------------
+NOTE: when used with RCT 5030 (network login), this version of c3_local
+requires c3_server RELEASE 2.2.0 on the RCT 5030. It can not be used
+to login to an RCT 5030 running any older version of c3_server.
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.1.0 (build 112, 17.Dec.2004)
+
+------------------------------------------------
+New Features
+
+- Added Graphical User Interface for DVA 5110
+  (Single Analog Video DAmp)
+
+- Added Graphical User Interface for CAD 5121
+  (Dual Analog Video to SDI Converter with Line Sync.)
+
+------------------------------------------------
+Fixes
+
+- fix bug #424: GUI CAD 3321: Reference Preselection has no effect
+
+- fix bug #468: GUI CDA 3002: Master LED should be yellow
+  (not red) if only one of the channels has no input.
+
+- fix bug #471: GUI CAD 3321: GUI startup shows "internal ref",
+  even if running on AES ref. Need to press F5 for correct display.
+
+- fix bug #472: no message in log for new 'combo' devices
+
+- fix bug #475: GUI CAD 3321: video reference status wrong
+  while using AES reference
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.0.1 (build 111, 01.Dec.2004)
+
+------------------------------------------------
+New Features
+
+- Added Graphical User Interface for PVD 5010B
+  (Video Media Processor with AES, BNC Variant)
+
+- Added Graphical User Interface for PVD 3010 (AES)
+  (Video Media Processor with AES)
+
+- Added UI support for advanced features of the PAD 5212
+  (Audio Delay Line)
+
+- Release the Software-Options Framework. In the PVD 3010,
+  several functional options can be enabled per license key.
+  A licence key can be purchased separately from every
+  LYNX dealer.
+
+================================================================
+LYNX Desktop Controller - RELEASE 2.0.0 (build 109, 25.Nov.2004)
+
+------------------------------------------------
+New Features
+
+- Allow to connect to a remote RCT 5030 Server per LAN instead
+  of connecting to local COM ports (menu: Option - Configuration)
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.15.1 (build 108, 22.Nov.2004)
+
+------------------------------------------------
+New Features
+
+- Added UI support for H-Sync/V-Sync switch in new CDA 5011
+
+- Add PSU versions to logfile.txt for better remote diagnosis
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.15.0 (build 107, 17.Nov.2004)
+
+------------------------------------------------
+New Features
+
+- Added Graphical User Interface for DVA 5110
+  (Single Analog Video Dist. Amp)
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.14.0 (build 106, 15.Nov.2004)
+
+------------------------------------------------
+New Features
+
+- Added Graphical User Interface for SVD 3062
+  (Input Switch)
+
+- Added Graphical User Interface for PAD 5212
+  (Audio Delay Line)
+
+- Introducing the EventHandling subsystem.
+  Individual Modules will generate Events from the onboard signal
+  processing (such as "input signal lost" etc.). For each such event
+  there will be an entry in the <logfile.txt>. There will also be an
+  entry in the Log-Panel on the bottom of the GUI. The adding of entries
+  to the GUI's Log-Panel can be disabled for individual events from
+  individual modules (based on module type and position). These
+  configurations can be done from the new "Events" tab that is now part
+  of each Module's GUI.
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #454: Video DA-Conversion Luminance filter "Extended"
+  was not correctly initialized in GUI.
+  This only affected the display in the GUI at GUI startup. Signal
+  processing was not affected. This applied to GUIs of following devices:
+  CDA 3000, CDA 3002, CDA 3010, CDA 5010, CDA 5005, PDX 3010, DVD 5002.
+
+- Fixed bug #455: PTG 3010 / PTG 5010: Adjust Audio gain to <mute> does not work
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.13.3 (build 103, 19.Oct.2004)
+
+------------------------------------------------
+New Features
+
+- Added Graphical User Interface for PTG 5010 (Testsignal Generator)
+  (graphics of backpanel and functional diagram are still missing)
+
+- introduced new configuration variable COLLECT_MAINTENANCE_INFORMATION.
+  This switch should only be set to TRUE (in C:\Program Files\Lynx\c3_local\config.txt)
+  on specific request by LYNX service personel. It will generate a very
+  large logfile.txt, which should be sent to service@lynx-technik.com
+  for further analysis, together with a detailed description of the
+  problem.
+  NOTE that this switch will implicitly fall back to FALSE after running the
+  application once. So you should (1) set this switch to TRUE, (2) run the
+  application once and reproduce the problematic behaviour in question,
+  (3) terminate the application, (4) collect all files named logfile.* from the
+  installation directory and send them to service@lynx-technik.com, and finally
+  (5) restart the application
+
+- Allow overflow of numerical input value into next entry
+  field. E.g. increasing a pixel delay beyond the max. number of
+  pixels per line auto-increments the line-delay and sets pixels to
+  0. This applies to all GUIs where applicable.
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #429: block diagram of PVD 5010 was wrong
+
+- Fixed bug #430: block diagram of PVD 5000 was wrong
+
+- Fixed bug #439: intermittend: boards not displayed at startup
+  There has been a similar bug before (#435). But although the symptoms
+  are similar, these were independent bugs, thus independent bugfixes.
+
+- Fixed bug #440: select video reference source in GUI CAD 5320 not available
+
+- Fixed bug #444: GUI of CAD 5112 was missing the switch
+  to choose between Linesync/Framesync mode.
+
+- Fixed bug #447: GUI of PTG 3010: Delay adjustment wrong
+
+- Fixed bug #448: PMX 3312/PMX 3313: change of state in analog input
+  may shutdown PC-application
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.13.2 (build 102, 27.Sep.2004)
+
+------------------------------------------------
+New Features
+
+- Added support for AES gain and sample rate to PTG 3010 GUI.
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #435: sometimes no devices displayed at startup.
+  This bug has been seen on at least two systems with version 1.13.0
+  and 1.13.1 now. This problem does not seem to exist with pre-1.13
+  releases.
+  It turned out to be a compatibility problem with certain versions of
+  the RCT 5020.
+
+- Fixed bug #434: GUI CAD 3110: wrong color comb filter displayed as selected
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.13.1 (build 101, 20.Sep.2004)
+
+------------------------------------------------
+New Features
+
+- Added GUI Controls for PVD 5010's Audio Gain.
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.13.0 (build 100, 08.Sep.2004)
+
+------------------------------------------------
+New Features
+
+- Added Graphical User Interface for PTG 3010
+  (Testsignal Generator)
+
+- Added Graphical User Interface for PDX 3010
+  (Analog Audio Demultiplexer)
+
+- Added Graphical User Interface for PMX 5312
+  (Analog Audio Multiplexer)
+
+- Added Graphical User Interface for PMX 5315
+  (AES & Analog Audio Multiplexer)
+
+- In all GUIs: +/- push-buttons which increment/decrement numerical
+  values are auto-repeating (click and hold to keep modifying)#
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #399: Wrong FS level selection
+  The GUI for CAD 3321 did not set the FS-Levels correctly in the module.
+  (there was an implicit offset of 1, which would make it impossible to
+  select the 20dBu setting)
+
+- Fixed bug #396: GUI PVD50*: max. line-delay always depends
+  on standard of channel 1
+
+- Fixed bug #380: DAA 3320/DAA 5320 did not always display
+  0dB in GUI after factory reset.
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.12.3 (build 98, 10.Aug.2004)
+
+------------------------------------------------
+New Features
+
+- Added support for DVD 5020, HW-Version 2. Previous versions of
+  the c3_local SW would also work with this new HW-Version of the
+  DVD 5020, but the status LED in single channel mode would not
+  show the correct color.
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.12.2 (build 97, 14.July.2004)
+
+------------------------------------------------
+Fixes
+
+- Fixed more problems with the serial port under Windows
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.12.1 (build 96, 12.July.2004)
+
+------------------------------------------------
+Fixes
+
+- Fixed problems with the serial port under Windows causing blue screens
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.12.0 (build 94, 06.July.2004)
+
+------------------------------------------------
+New Features
+
+- Added Graphical User Interface for CAD 5320
+  (Dual Analog Stereo to AES Converter)
+
+- Added Graphical User Interface for PVD 5010
+  (Video Media Processor with AES)
+
+- Add support for version 109 of the PVD 5005:
+  GUI has controls for "AES phase invert" in Audio tab.
+
+------------------------------------------------
+Fixes
+
+- Fixed bug #376: flashing 'locate' LED in the RCT 5020's GUI never turns off
+
+- Fixed bug #374: c3_local GUI does not show page for DAD 5220
+
+- Fixed bug #349: wrong error indication (left/right) with DAA 3320/DAA 5320
+
+- Fixed bug #376: flashing 'locate' LED in the RCT 5020's GUI never turns off
+
+- Fixed bug #377: Status LED does not correctly initialize
+  to RED for some modules (e.g. CDA 5220)
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.11.0 (build 93, 28.May.2004)
+
+------------------------------------------------
+New Features
+
+- Added support for RCT 5020 version 100 and above. This includes the
+  Hotsync feature, Alarm configuration of Powersupply states and the
+  functional assignment of the chain of 10 LEDs on the frontside of
+  the controller board.
+
+- Reworked the event notification mechanism. As a first visible
+  consequence, there is a new tab in the Options-Configuration menu to
+  select which classes of events shall be logged in the GUI's log-view
+  (on the bottom of the screen).
+
+  A certain event can come (ON) and go (OFF). Both of these states can
+  be logged separately.
+
+- The contents of the <logfile.txt> are formatted differently and
+  a new <logfile.txt> is created on every new start of the
+  application. A previous <logfile.txt> is renamed to <logfile.1.txt>,
+  shifting a previous <logfile.1.txt> to <logfile.2.txt> etc. The
+  upper limit of this logfile-history is configurable by
+  LOGFILE_MAX_BACKUP (see config.txt for details)
+
+------------------------------------------------
+Fixes
+
+- fix bug #352: PMX 3313 type not displayed correctly in GUI
+
+================================================================
+PATCH RELEASE 1.10.1 (build 92, 07.May.2004)
+
+- Allow selection of input SDI 2 on GUI of PVD 5005 if device
+  supports it
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.10.0 (build 91, 29.Apr.2004)
+
+------------------------------------------------
+New Features
+
+- Replaced the handling of serial ports (aka COM
+  ports). Instead of switching between individual ports, you can now
+  select one or more ports to be scanned for LYNX controllers (through
+  the Options - Configuration menu). The maximum number of COM ports to
+  be made available in that dialog can be configured by config variable
+  LYNX_SERIAL_PORT_MAX (details in installation file config.txt)
+
+- GUI CDA 5011: in 525 mode, the allowed range for phase
+  adjustment (on the LineSync tab) is limited to values 0...3
+
+- By default, an empty slot in a RackFrame is visualized
+  as an <empty> line in the browser tree. This prevents the browser tree
+  from changing its vertical size when modules are added/removed. The
+  previous behaviour (empty slots do not appear at all) can be selected
+  by toggling the appropriate entry in the drop-down menu "View".
+
+------------------------------------------------
+Fixes
+
+- fix bug #344: GUI CDA 3002 shows gain-enable checkboxes
+  (-> offering entrypoint to invalid operation modes)
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.9.3 (build 90, 07.Apr.2004)
+
+------------------------------------------------
+New Features
+
+- CDA 5011: add control for subpixel delay adjustment if SW-version >= 97
+
+- PVD 5005:
+  - add "blank audio only" to available options in VBI control
+  - add control for "Synchronous SDI Input" (on expert tab)
+
+Fixes
+
+- Fixed bug #327: Menu 'Device' sometimes not available for individual device
+
+- Fixed bug #342: Configuration Dialog sometimes comes up empty (no controls visible)
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.9.2 (build 88, 29.Mar.2004)
+
+------------------------------------------------
+New Features in build 88
+
+- Replaced the handling of serial ports (aka COM ports). Instead of
+  switching between individual ports, you can now select one or more
+  ports to be used at the same time (through the Options -
+  Configuration menu). The maximum number of COM ports to be made
+  available in that dialog can be configured by config variable
+  LYNX_SERIAL_PORT_MAX (details in installation file config.txt)
+
+Fixes in version 88
+
+- GUI for all variants of Framesync's (PVDxxxx): Make sure that the
+  max-limit for input value of Frame-Delay equals the limit of the
+  actual hardware.
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.9.1 (build 87, 24.Mar.2004)
+
+------------------------------------------------
+New Features in build 87
+
+- new config variable FACTORYDEFAULT_VIDEO_REFERENCE allows specification
+  of factory default source of video reference (intern vs. extern)
+  NOTE: This applies to CardModules with Line/Frame sync functionality only.
+  See installation file <config.txt> for details.
+
+Fixes in version 87
+
+- Fixed some minor representation issues in the GUI of PVD 5000 / PVD 5005
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.9.0 (build 86, 23.Mar.2004)
+
+------------------------------------------------
+New Features in build 86
+
+- significant performance improvements when working with RCT 5020
+  (embedded version 92 or higher) in RFR 5000 (Series 5000 Rack).
+  -> building the device tree on initialization is much faster now.
+  -> communication with individual device is faster and more reliable.
+
+- Added Graphical User Interface for PVD 5005
+  (Frame Synchronizer w/ AES Extension)
+
+Fixes in version 86
+
+- fix bug #329: work around bug in GUI framework that would cause
+  window system to run into undefined behaviour when too many
+  devices are created.
+
+- fix bug #338: changing COM-ports at critical point in time can
+  hang application.
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.8.6 (build 85, 12.Mar.2004)
+LYNX Desktop Controller - RELEASE 1.8.5 (build 84, 11.Mar.2004)
+
+------------------------------------------------
+Fixes in version 84
+
+- fix bug #332: deadlock when switching away from USB/COM port on Cygnal USB Bridge.
+  This turned out to be a bug in the Cygnal drivers for their USB/COM bridge.
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.8.4 (build 83, 05.Mar.2004)
+
+------------------------------------------------
+New Features in build 83
+
+- Added Graphical User Interface for PTG 5000
+  (Dual Test Signal Generator)
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.8.3 (build 82, 27.Feb.2004)
+
+------------------------------------------------
+New Features in build 82
+
+- Add control for "Color Burst Phase" to GUI of CDA 5011 with embedded SW >= 95.
+
+------------------------------------------------
+Fixes in version 82
+
+- fix bug #328: GUI may shutdown when selecting second group in PDX 3214
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.8.2 (build 81, 19.Feb.2004)
+
+------------------------------------------------
+New Features in build 81
+
+- Added Graphical User Interface for CDA 5011
+  (Video SDI to Analog Converter with Line Sync.)
+
+------------------------------------------------
+Fixes in version 81
+
+- Fixed bug #303: reference indicator in GUI of CAD51xx does
+  not work correctly (applies to various Video A/D Converter
+  Modules with Line/Framesync functionality)
+
+- fix bug #308: GUI DAD 3220 / DAD 5220: rename mono/stereo to single/dual
+
+- fix bug in GUI of PMX 5212/PMX 5214: The "Alarm Enabled" and "Lock Group
+  4" selections on the "Expert" were enabled depening on wrong embedded
+  version.
+
+- Fix bug #316: Status LED for MONO-AnalogAudioDAmp is wrong while not in foreground.
+
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.8.1 (build 80, 09.Feb.2004)
+
+------------------------------------------------
+New Features in build 80
+
+- Added Graphical User Interface for PDX 5214
+  (Dual AES Demultiplexer)
+
+------------------------------------------------
+Fixes in build 80
+
+- fix bug #308: GUI DAD 3220 / DAD 5220: rename mono/stereo to single/dual
+
+- fix bug in GUI of PMX 5212/PMX 5214: The "Alarm Enabled" and "Lock Group 4"
+  selections on the "Expert" were enabled depening on wrong embedded
+  version.
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.8.0 (build 79, 27.Jan.2004)
+
+------------------------------------------------
+Fixes in build 79
+
+- fix bug #303: reference indicator in GUI of CAD51xx does not work correctly
+  (applies to various Video A/D Converter Modules with Line/Framesync functionality)
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.7.78 (23.Jan.2004)
+
+------------------------------------------------
+New Features in build 78
+
+- Support for Series 3000 Racks.
+  The Series 3000 MiniModules can be controlled not only through a RCT 3000
+  ServiceAdapter but also through the RCT 5020 RackController (Version
+  88 or higher) in the RFR 3010 RackFrame. The RCT 5010 Rack Expander
+  (Version 82 or higher) are also supported.
+
+- Added Graphical User Interface for CAD 3321
+  (Audio A/D Converter, U.S. Version)
+
+- Added Graphical User Interface for PMX 3313
+  (Analog Audio Embedder, U.S. Version)
+
+- Added Graphical User Interface for CAD 5111
+  (Video A/D Converter)
+
+- Added Graphical User Interface for DVD 5002
+  (SDI Distribution Amp w/ analog monitoring output)
+
+------------------------------------------------
+Fixes in build 78
+
+- fix bug #237: DAA 3320: starting GUI in <ganged> mode doesn't work
+
+- fix bug #267: incorrect term "Rack" in DeviceInfo Dialog box.
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.6.73 (16.Dec.2003)
+
+------------------------------------------------
+New Features in build 73
+
+- The Backpanel can be selected from available variants of graphics files.
+  The according button on the "backpanel" tab of an individual device GUI
+  is enabled only in "expert" mode.
+
+- added control for "Reference Selection" (intern/extern) to GUI of PVD 5000
+
+------------------------------------------------
+Fixes in build 73
+
+- fix bug #185: GUI shutdown when removing HW device
+  (This bug had been introduced in the BETA 1.6.72. The last RELEASE 1.5.70 is ok)
+
+- fix bug #189: GUI for Deembedder did sometimes show incorrect AES status
+
+- fix bug #171: GUI for Embedder did not show correct embedded input status
+  for an overwritten group when "delete all" was switched on.
+
+- Fixed bug #150:
+  CDA 3000 / CDA 3002 / CDA 5010 caused high traffic on rackbus.
+  To be fixed in embedded module code, but masked in the c3.local code for scurity.
+
+- Fixed bug #151:
+  GUI for CDA 3002 shows invalid info for 'left' module
+
+- Fixed bug #181:
+  application may shutdown when used with the AudioADC (CAD 3220 / CAD 5220)
+
+- Fixed bug #156:
+  GUI for Deembedder (PDX....) does not initialize Audio-Delay correctly
+
+- Fixed bug #166:
+  GUI for Dual Embedders (PMX??12) status message included AES 3/4 info
+
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.5.70 (19.Nov.2003)
+
+------------------------------------------------
+New Features in build 70
+
+- Add support for Series 5000 Racks. One single RCT 5020 RackController
+  and multiple attached RCT 5010 RackExpanders can be controlled with all their
+  attached Series 5000 CardModules.
+
+- Add entry <Properties> to <Device> menu (pulldown from menu-bar
+  or right-mouse-click on item in device-tree). The <Properties> Window shows
+  some details on the Device type, version, position etc.
+
+- All devices are named according to their Device-Type by default.
+  That name can now be modified according to the user's needs. The Rename-dialog
+  is available from the <Rename> entry in the <Device> menu. The custom device
+  nameswill be stored permanently in a special file (.deviceNames)
+
+- A Configuration panel is available from the <Options> menu. The only
+  configurable option there is the Serial Port (COM1...COM8).
+  Any change of any configuration setting will immediately be saved to the
+  <config.txt> file for permanent storage.
+
+- Added Graphical User Interface for PDX 3312
+  (Analog Audio Demultiplexer)
+
+- Added Graphical User Interface for PMX 3312
+  (Analog Audio Multiplexer)
+
+- Added Graphical User Interface for PDX 3212
+  (Audio Demultiplexer)
+
+- Support range of serial ports from COM1 ... COM8.
+  In earlier versions this used to be limited to COM1 ... COM4.
+
+------------------------------------------------
+Fixes in build 70
+
+- Fixed bug #114: GUI sliders were generating backlog
+
+- Fixed bug #126: LOCATE button sometimes reacts slowly
+
+- Fixed bug #127: EQU-slider in GUI of DVA 3120 does not work
+
+- Fixed bug #136: CheckBox "VBI transparent" in VideoDAC-GUI did
+  not initialize correctly.
+
+- Fixed bug #67: wrong backpanel graphics for DAD 3220
+
+- Fixed bug #49: Certain patterns of communication errors and
+  corrupted messages on the serial line could shutdown the PC-application.
+  This has been fixed by design.
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.4 (28.Aug.2003, build 063)
+
+------------------------------------------------
+New Features in build 63
+
+- Add <Expert> panel to GUI of PVD 3010 Media Processor.
+  It contains a switch to control the exact behaviour of the module
+  in case of TRS errors.
+
+- Added UI support for the Line-Sync feature of the PVD 3010 / PVD 5010 Media Processor.
+
+- Added Graphical User Interface for CDA 3002
+  (Dual Video Digital to Analog Converter)
+
+- Added Graphical User Interface for CDA 3010
+  (10Bit Video Digital to Analog Converter)
+
+------------------------------------------------
+Fixes in build 63
+
+- Fix a bug that would prevent the GUI from automatically detecting
+  a new type of device. The same bug caused a deadlock of the GUI application
+  when pressing the <F5> key while no device was attached.
+
+- Fix updates in GUI for PVD 3010. There were situations
+  where some controls in the GUI of the PVD 3010 MediaProcessor did
+  not show the actual settings due to a PC-software internal bug.
+
+- Fix bug #21: The VideoADC GUI did sent an unnecessary reaquire-signal
+  to the device on startup of the GUI, potentially resulting in visible
+  image distortion.
+
+- Fix bug #7: incrementing/decrementing numerical values in entry fields
+  by use of the keyboard's arrow-keys did not always respect upper/lower bounds
+
+- Fix bug #10: GUI for DVD 5020 sometimes showed green LED with "signal missing"
+
+- fix bug #25: GUI for CDA 3010: The "Pedestal" checkbox was not always enabled
+  when it should be (525 testsignal enabled without input sync)
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.3 (28.July.2003, build 058)
+
+------------
+New Features
+
+- Added Graphical User Interface for PMX 3212/PMX 3214 (Audio Multiplexer)
+
+- All alpha-numerical entry fields appear light-red while the displayed
+  value is not yet applied. It can be applied by pressing ENTER. The
+  change can be reverted with the ESCAPE key.
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.2 (16.July.2003, build 056)
+
+------------
+New Features
+
+- Added Graphical User Interface for PVP 3010 (Framesync)
+
+------------
+Fixes
+
+- Fix rare shutdown of GUI that occured (sometimes) when the module was
+  hot-unplugged directly after making a modification to some variable
+  (and when the module was not explicitly released from the control system)
+
+- GUI for AnalogVideoDAmp (DVA 3120) respects values
+  for Gain Unity and displays correct default slider positions.
+
+- fix irritating behaviour of sliders in GUI of CDA 3220 (AudioDAC)
+
+- Software version label of Controller in logfile was
+  always reported as "0". Fixed so that the correct SW version of the
+  controller (e.g. CRT 3000) is read from the HW and added to the logfile.
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.1 (28.May.2003, build 047)
+
+------------
+New Features
+
+- Added Graphical User Interface for CDA 3000 (VideoDAC).
+- Added Graphical User Interface for CDA 3220 (AudioDAC).
+- Added Graphical User Interface for CAD 3320 (AudioADC).
+
+------------
+Fixes
+
+- Fixed bug that went by un-noticed so far: Under certain
+  circumstances, initializing (building up) the GUI for a particular
+  device would send new values for all slider-controlled parameters
+  to the device. Not sure how the current release 1.0 is affected by this.
+
+- Fix bug that did not let the Desktop Controller Application
+  start up if MS-Windows username contains spaces.
+  (symptom was: application never starts, popup with "ORB initialization failed" message)
+
+- Fix issue that (in MS-Windows version) the logfile would be created
+  with simple 'line-feed' line endings (instead of 'carriage-return' - 'line-feed').
+  This made it hard to read the logfile in the MS-Windows notepad-editor.
+
+================================================================
+LYNX Desktop Controller - RELEASE 1.0 (15.May.2003, build 044)
+
+Initial release, supporting the following MiniModule-devices:
+- DAA 3320 AnalogAudioDAmp
+- CAD 3110 VideoADC
+- DAD 3220 DigitalAudioDAmp
+- DVA 3120 AnaogVideoDAmp
+- DVD 3020 DigitalVideoDAmp
+
+Only the RCT 3000 ServiceAdapter is supported as controller to any of these devices.

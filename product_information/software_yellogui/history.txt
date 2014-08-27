@@ -1,0 +1,18 @@
+======================================================
+LYNX YelloGUI - RELEASE 1.1.0 (build 588, Nov 29 2013)
+------------------------------------------------------
+New features & enhancements in YelloGUI functionality
+- Added support for YelloGUI on Mac OS X
+
+Device specific enhancements
+- Added IT Content Type Parameter to CDH 1813
+- Integration of CDH 1813-1 - 3G/HD/SD SDI to HDMI Converter with HDCP support
+
+======================================================
+LYNX YelloGUI - RELEASE 1.0.0 (build 560, May 17 2013)
+------------------------------------------------------
+Initial release, supporting the following yellobrik devices:
+- CDH 1811 - 3G/HD/SD SDI to HDMI Converter
+- CDH 1813 - 3G/HD/SD SDI to HDMI Converter
+- CHD 1802 - HDMI to SDI Converter
+- CHD 1812 - HDMI to SDI Converter with Ref & Audio

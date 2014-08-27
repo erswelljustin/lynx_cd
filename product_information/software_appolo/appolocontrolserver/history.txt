@@ -1,0 +1,2267 @@
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 7.3.1 (build 611, Mar 11 2014)
+
+COMPATIBLE with LYNX APPolo | Control GUI 7.3.0 and above
+
+------------------------------------------------
+Improvements in Server functionality
+* Revised Remote Interface regarding redundant server status
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 7.3.0 (build 607, Feb 27 2014)
+
+COMPATIBLE with LYNX APPolo | Control GUI 7.3.0 and above
+
+------------------------------------------------
+Enhancements in Server functionality
++ Added new Redundant Servers feature
++ Added Auto Control for Server RCT5031
+
+Improvements in Server functionality
+* Optimized backup job progress information viewed
+* Revised permissions for Read Only parameters in User Access Feature
+
+Device specific features
++ PVD5840: current settings information in User Presets
++ PVD5840: Added current settings information in User Presets
+
+Device specific improvements
+* PVD5840: Revised Scaler Parameter ConvX/AspectInSelect shall read 16:9 in case of HDTV
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 7.2.0 (build 603, Feb  6 2014)
+
+COMPATIBLE with LYNX APPolo | Control GUI 7.2.0 and above
+
+------------------------------------------------
+Optimizations in Server functionality
+* WebIF: User Management restart dialog revised
+* Optimized communication with GUI Connection Manager if IP address is in different IP range
+* other optimizations
+
+Device specific features
++ Added UI support for RFR 5041-1 and RFR 5041-1S
++ PVD 5800/5810/5660: Added indication of last loaded user preset and modification state
++ PDM 5280/5290: Added indication of last loaded user preset and modification state
+* DVD5820-Relay: revised output crossbar control
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 7.1.1 (build 588, Nov 25 2013)
+
+COMPATIBLE with LYNX APPolo | Control GUI 7.0.0 and above
+
+------------------------------------------------
+Fixes in Server functionality
+- Fixed support for optical SFPs
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 7.1.0 (build 584, Oct 25 2013)
+
+COMPATIBLE with LYNX APPolo | Control GUI 7.0.0 and above
+
+------------------------------------------------
+New features & enhancements in Server functionality
+- Added support for optical multi-mode SFPs
+
+Device specific bugs / fixes
+- PDM 5289: Fixed bug in ANC deletion
+- PDM 5289: Added UI parameter OutputLineField2
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 7.0.2 (build 583, Oct  9 2013)
+
+COMPATIBLE with LYNX APPolo | Control GUI 7.0.0 and above
+
+------------------------------------------------
+Fixes in Server functionality
+- #2699: RemoteIF does not send subscriber updates
+
+Fixes in Panel Controller functionality
+- #2697: RCP application of APPolo Server 7.0.0 does not connect to local server
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 7.0.0 (build 579, Sep 25 2013)
+
+COMPATIBLE with LYNX APPolo | Control GUI 7.0.0 and above
+
+------------------------------------------------
+Enhancements in Server functionality
+- Added AutoControl Base
+- Added GPI Trigger Control
+
+Fixes in Server functionality
+- Fixed slow switching of user presets caused by consecutive preset switch command
+  sent to the same device very quickly
+- #2484 - Logfile does not show UTF-8 encoded user name and comment of SmartUpdate jobs correctly
+- #2586 - RemoteIF: Connection reset by the client can crash the APPolo server
+- #2620 - Rescanning devices
+- #2646 - APPolo Server identifies backup jobs as SmartUpdate jobs mistakenly
+
+Device specific bugs / fixes
+- #2643 - DVD5810: Meaningless SourceOut Parameter
+- PVD5822: removed inactive DelayPulseAssign Parameter (Timing Tab)
+- #2465 - RCT5031, SW 377: C2-assisted backup occasionally fails in state WaitingForInitialData
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 6.5.0 (build 573, Aug 12 2013)
+
+COMPATIBLE with LYNX APPolo | Control GUI 6.5.0 and above
+
+------------------------------------------------
+Fixes in Server functionality
+- Changed default behaviour of automatic device rescan to depend on the controller type
+  RCT 5020/5021/5030/5031 and RFR 5003/5004/5041: No automatic rescan
+  RCT 5022/5023: Automatic rescan immediately after detection of data loss
+  Operation can still be customized with config variable DEVICE_AUTO_RESCAN_PERIOD
+
+Device specific features
+- Added UI support for PDM 5290 D/U
+- Added Test Tone support for PVD 5840
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 6.4.0 (build 569, Jul 05 2013)
+
+COMPATIBLE with LYNX APPolo | Control GUI 6.3.0 and above
+
+------------------------------------------------
+Fixes in Server functionality
+- #2650 - APPolo server loses custom device names when restoring backup files
+
+Device specific features
+- Added UI support for PDM 5280 D/U/DO/UO
+- Added UI support for PDM 5240 D/U
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 6.3.3 (build 568, Jul  2 2013)
+
+COMPATIBLE with LYNX APPolo | Control GUI 6.3.0 and above
+
+------------------------------------------------
+Fixes in Server functionality
+- Added config variable DEVICE_AUTO_RESCAN_PERIOD, enabling customization of
+  automatic device rescan
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 6.3.2 (build 566, Jun 26 2013)
+
+COMPATIBLE with LYNX APPolo | Control GUI 6.3.0 and above
+
+------------------------------------------------
+Fixes in Server functionality
+- #2619: RCP5044: Controller sometimes marked as "disconnected by peer"
+- #2631: SNMP Set PVD5840 params out1/assign - out4/assign fails
+- #2646: APPolo Server identifies backup jobs as SmartUpdate jobs mistakenly
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 6.3.0 (build 562, Jun  7 2013)
+
+COMPATIBLE with LYNX APPolo | Control GUI 6.3.0 and above
+
+------------------------------------------------
+Fixes in Server functionality
+- #2465: C2-assisted backup occasionally fails in state WaitingForInitialData
+- #2555: Restore reports success even though it failed
+- #2601: Rescanning PVD5840 during restore - restore incomplete and reported as successful
+- #2615: RCP5044 panel does not evaluate button state conditions during start-up
+- Improved power-up scan of remote rack controllers
+
+Device specific features
+- Added UI support for PDM 5380 O
+- Added UI support for PVD 5810
+- Added UI support for PVD 5800
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 6.2.1 (build 553, Apr 10 2013)
+
+COMPATIBLE with LYNX APPolo | Control GUI 6.2.0 and above
+
+------------------------------------------------
+Fixes in Server functionality
+- #2484: Logfile does not show UTF-8 encoded user name and comment of SmartUpdate jobs correctly
+- #2586: RemoteIF: Connection reset by the client can crash the APPolo server
+
+Device specific features
+- Added UI support for RCT 5023-G
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 6.2.0 (build 547, Feb 21 2013)
+
+COMPATIBLE with LYNX APPolo | Control GUI 6.2.0 and above
+
+------------------------------------------------
+Enhancements in Server functionality
+- Added DHCP switch to server WebIF on Colibri
+
+Fixes in Server functionality
+- #1615: APPolo Server WebIF: There's no possibility for a customer to see the history file
+- #1665: RCT5031 WebIF fails when deleting the active server version
+- #1817: Web IF: Show info "activating... please wait..." after user has confirm SW activation
+- #2180: APPolo Server 5.0.0 and later: WebIF looks ugly in Internet Explorer 6
+- #2194: Embedded-Server WebIF: version downgrade 5.0.2 -> 4.9.0 would not restart server OK
+- #2197: Embedded-Server WebIF: activating version 5.0.2 does not start new look&feel
+- #2361: APPolo GUI 5.1.0: Simulation sends wrong address if there are active network connections
+- #2374: RemoteIF: Warning about rejected client connection not notified to the client
+- #2407: RCT5031 WebIF Log-Analyzer: show serial number, collapse duplicate entries
+- #2454: bluBox shows fan status as missing
+- #2463: server WebIF: Logfile analyzer does not work
+- #2498: APPolo Server: RemoteIF List-Subscription on Slots (per Frame) does not update when last
+  device disappears
+- #2501: Colibri Linux: /etc/resolv.conv disturbs network communication
+- #2510: RCT 5023-S: Controller does not report the correct IP adress of the hosted server
+- #2512: APPolo Server: Colibri does not have a correct IP-Address when running in DHCP-mode
+- #2515: C3-Server RemoteIF: Some parameters not listed in initial ";P;;*;" command
+- Fixed faulty timeout error after SmartUpdate of rack controllers
+
+Device specific features
+- Added UI support for PVD 5840-DOW/UOW
+- Added UI support for PVD 5822-DOW/DOW
+- Added UI support for OTX 5840
+- Added UI support for OTR 5840
+- Added UI support for ORX 5840
+- PVD5660 (SW label 530 and above): Added UI parameter for H-Flip control
+- Added UI support for PDM 5380
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 6.1.2 (build 519, Sep 27 2012)
+
+COMPATIBLE with LYNX APPolo | Control GUI 6.1.0 and above
+
+------------------------------------------------
+Fixes in Server functionality
+- Fixed faulty timeout error after SmartUpdate of rack controllers
+- Event log shows updated devices as "updated" rather than "exchanged" or "removed"
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 6.1.1 (build 516, Sep  7 2012)
+
+COMPATIBLE with LYNX APPolo | Control GUI 6.1.0 and above
+
+------------------------------------------------
+Enhancements in Server functionality
+- Improved memory consumption of device UI parameters,
+  Remote IF allows concurrent access to 20000 device parameters
+
+Fixes in Server functionality
+- Server attempts to reconnect attached rack controllers periodically
+  if they were found offline before
+- SmartUpdate engine resumes data transfer if controller reports missing
+  packets after presumably complete transfer
+- SmartUpdate engine does not change the state of finished items
+  upon errors in other slots anymore
+- Restore of server root items saves the restored configuration variables to file immediately
+- #2462: RCT5030: XBoard server restarts if switching the crossbar within a connected OTX 5844
+
+Device specific fixes & enhancements
+- PDM5289: Added UI support for Time Code Video Burn-In
+- #2385: GUI: highlight modified timing values (FlexCard, PDM52xx)
+- #2387: GUI (all converters): place link to configuration of DVITC reader into contect of converter
+- #2394: GUI (FlexCards): UserPresets managment buttons to be disabled while loading preset by GPI
+- #2456: PVD5840: Auto Aspect Ratio Parameters for Converter 4 controlling Converter 3
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 6.1.0 (build 512, Aug 22 2012)
+
+COMPATIBLE with LYNX APPolo | Control GUI 6.1.0 and above
+
+------------------------------------------------
+Enhancements in Server functionality
+- Embedded Server in RCT5031 and RCT5023-S supports SmartUpdate,
+  i.e. device firmware update over the network
+- Embedded Server accepts up to 256 rack attachments over UDP/IP
+
+Fixes in Server functionality
+- #2368: WebIF: Software "Install" Button to be renamed "Upload"
+- #2273: APPolo Server: New device with active Events does not report Events in logfile
+- #2291: APPolo Server: Security hole: (SNMP) passwords need to be stored in encrypted form
+- #2337: APPolo Server: Rack Fan Status does not report missing fan
+- #2363: RemoteIF: setting parameter to invalid string may shutdown application
+- #2403: WebIF: Restart of LNCP daemon after server activation missing
+
+Fixes in Panel Controller functionality
+- #2278: RCP5044: setting IP address through local UI does not set gateway
+
+Device specific fixes & enhancements
+- Added support for new LYNX product series "bluBox"
+- Added support for RCT5023 and RCT5023-S
+- PVD5840: Added Input to REF Tolerance Parameter
+- PVD and PIE devices: Added psf support and Segmented Frame format detection parameter
+- #2032: PIE delay setting behaves strange near terminal line count
+- #2401: PVD 5840: The SDTV ARC, Noise Reduction & Color Correction functions
+  should always be visible
+- #2420: PDM5289: ATC-LTC deletion does not work in 625
+- #2427: CDA5220: Audio mono gain sliders are swapped
+
+==================================================================
+LYNX APPolo | Control Server - RELEASE 6.0.1 (build 499, May 4 2012)
+
+COMPATIBLE with LYNX APPolo | Control GUI 6.0.1 and above
+
+------------------------------------------------
+Fixes in Server functionality
+- Fixed memory leak in server side processing of device events
+
+Device specific fixes & enhancements
+- #2336: PDM5289: UIParams for old-style crossbar control: update of remoteIF
+- Added mono gain control for CDA5220 (SW label 269 and above)
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 6.0.0 (build 494, Apr 3 2012)
+
+COMPATIBLE with LYNX APPolo | Control GUI 6.0.0 and above
+
+------------------------------------------------
+Fixes in Server functionality
+- #2290: APPolo Server: SNMP community strings cannot be modified
+- #2296: BackupRestore: restoring PVD5806 with RCT5022 fails
+
+Device specific fixes & enhancements
+- Added UI support for PVD5822-DO/-UO/-D/-U
+- Added UI support for PVD5840-D/-U
+- Added UI support for RCT5022
+- Added UI support for RPS5018
+- Added GPI2 Control for PVD5840 (SW label 486 and above)
+- Added Fast Converter Delay Mode for CDX5624 (SW label 488 and above)
+- Added YCrCb Clipping Level control for FlexCard product family (SW label 489 and above)
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 5.1.1 (build 483, Jan 30 2012)
+
+COMPATIBLE with LYNX APPolo | Control GUI 5.1.0 and above
+
+------------------------------------------------
+Fixes in RCP functionality
+- #2102: RCP5000: Local server does not find any devices after operation with RCP5016
+- #2274: RCP5044 / RCT5031: Device type detection is unreliable
+- #2275: RCP5044: The system start-up does not set the correct factory-default IP address
+- #2277: RCP5044: Menu does not allow navigation to connected server
+
+Device specific fixes & enhancements
+- Added UI support for RFR5041
+- Added UI support for PVD5840-DO
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 5.1.0 (build 469, Dec  8 2011)
+
+COMPATIBLE with LYNX APPolo | Control GUI 5.1.0 and above
+
+------------------------------------------------
+Enhancements in Server functionality
+- Integrated SNMP agent supporting get/set access to all device parameters
+  (requires software option OC_RSLRCTI or OC_RSLSNMP in the RCT503x MasterController)
+- Device parameters for user preset control are accessible over the Remote Control interface
+
+Fixes in RCP functionality
+- #2231: RCP displays "Base" when navigating back from offline devices
+
+Device specific fixes & enhancements
+- Added UI support for PVD5840-UO
+- Added UI support for DVA5718L, DVA5724 and DVA5760L
+- Added meta data control for PDM5289-D
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 5.0.3 (build 458, Sep 22 2011)
+
+COMPATIBLE with LYNX APPolo | Control GUI 5.0.0 and above
+
+------------------------------------------------
+Enhancements in Server functionality
+- Remote IF optionally sends notification after complete processing of wildcard parameter
+  commands (enabled by config variable REMOTE_NOTIFY_CHILD_COMPLETION)
+
+Fixes in RCP functionality
+- #2190: RCP5000 with APPolo Server 5.0.2 cannot connect to remote servers
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 5.0.2 (build 451, Aug  3 2011)
+
+COMPATIBLE with LYNX APPolo | Control GUI 5.0.0 and above
+
+------------------------------------------------
+Device specific fixes & enhancements
+- Added UI support for PDM5289-D
+- PVD5660, PIE5610, PVD5806, PIE5810 (SW label 429 and above):
+  Added UI support for embedding teletext into alternating progressive frames
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 5.0.1 (build 442, Jun 21 2011)
+
+COMPATIBLE with LYNX APPolo | Control GUI 5.0.0 and above
+
+------------------------------------------------
+Enhancements in RCP functionality
+- Added support for RCP5044 Remote Control Panel
+- Added start-up detection of RCP5016 connected to RCP5044
+
+Fixes in Server functionality
+- #1347: RemoteIF sends too many replies at once when handling wildcard commands
+- #2103: RCT5021: Fixed occasional loss of attachment to server
+- #2120: Old backup method fails with timeout at devices with multi-page flash
+- #2142: RCT 5021 takes to long to reconnect to Appolo Server using ethernet connection
+
+Device specific fixes & enhancements
+- Added UI support for PVD5630-O
+
+=====================================================================
+LYNX APPolo | Control Server - RELEASE 5.0.0 (build 432, Mar 21 2011)
+
+COMPATIBLE with LYNX APPolo | Control GUI 5.0.0 and above
+
+------------------------------------------------
+Enhancements in RCP functionality
+- Hierarchical navigation through device tree and parameters in standard navigation mode
+
+Enhancements in web interface
+- Face-lifting of the web interface
+- New integrated logfile analyzer
+
+Enhancements in RemoteIF functionality
+- New command key "DN" allows reading the display names of device parameters
+- Updated the RemoteIF protocol specification to version 1.7
+
+Fixes in Server functionality
+- #2113: RCT5031: FTP daemon rejects client connections
+
+Device specific fixes & enhancements
+- Added UI support (RCP / RemoteIF) for PVD5660-O
+- #2053: PVD5630, PVD5612, PVD5812, PVD5806:
+  Corrected the list of selection values in UI parameter AudioDolbyETiming
+- PDX5362: extended range of audio gain
+  (enabled by config switch PDX5362_AUDIO_GAIN_EXTENDED_RANGE)
+- OET1540: Added UI parameter "EthernetDuplexMode"
+- OTX5844, OTR5842, DVO5810, DVO5820: Added UI parameter AutoDisableOpticalOutput
+
+===============================================================
+LYNX Device Controller - RELEASE 4.9.0 (build 425, Feb  2 2011)
+
+COMPATIBLE with client software 4.9.0 and above (c3_local / RCP)
+
+------------------------------------------------
+Enhancements in RCP Panel Controller functionality
+- Added panel lock feature (custom navigation mode)
+- Added button state changes based on RemoteIF parameter subscriptions
+  and device presence monitoring (custom navigation mode)
+- New sub-menu scrolling (custom navigation mode, to be enabled in the panel config files)
+
+Fixes in RCP Panel Controller functionality
+- #1030: RCP configuration is not directly active
+- #1124: Locate function displayed on panel
+- #1859: Cannot delete last server IP adress in WebIF (Panel Connections)
+- #1902: Confirmation Question for parameter in submenu is applied to entering the menu
+- #2005: Panel configuration uploaded in Web IF cannot be downloaded to RCP config editor
+
+Enhancements in Device Controller functionality
+- Added support for configuring network settings and admin/ctrl passwords from the
+  "Network Component Configuration" dialog in the LYNX Desktop Controller
+- Insertion and removal of SFP modules in optical backpanels are stated in the application logfile
+
+Fixes in Device Controller functionality
+- #1976: Admin login to RCT5031 not anymore possible after editing users from the GUI
+- #2052: c3_server on RCT5031 does not show the configured IP gateway in the server logfile
+
+Device specific fixes & enhancements
+- Added UI support (RCP / RemoteIF) for DVD5830
+- Added UI support (RCP / RemoteIF) for OTX5844
+- Added UI support (RCP / RemoteIF) for ORX5804
+- Added UI support (RCP / RemoteIF) for OTR5842
+- #1998 PVD5612, PVD5812: Added UI parameter "SyncMode*"
+- #1999 PVD5612, PVD5812: Removed unsupported UI parameters for Private ARC
+- #2000 PVD5612, PVD5812: Removed unsupported UI parameters for meta-data handling
+- #2028 PTG5610: Loading pattern list in the GUI of the PTG 5610 sometimes fails
+- DVO5810, DVO5820: Added detection of SFP-Modules
+- PIE5610, PIE5810, PVD5660, PVD5806 (SW label 403 and above):
+  Added UI parameter "Conv3/LockImgConvSettings" for prevention of automatic reconfiguration
+  of output format for Scaler-3 (HiQ).
+- PVD5660 (SW label 425 and above): Added support for OP47 field inversion
+- SVD5842: Added UI parameters "FallbackInputX" for fallback functionality
+
+===============================================================
+LYNX Device Controller - RELEASE 4.8.2 (build 405, Nov  4 2010)
+
+COMPATIBLE with client software 4.8.0 and above (c3_local / RCP)
+
+------------------------------------------------
+Fixes in Device Controller functionality
+- #1986: RemoteIF: locking a device does not send out Properties Subscription Update
+
+Device specific fixes & enhancements
+- PVD5612, PVD5630, PVD5660, PVD5812 (SW label 401 and above):
+    - Added UI parameter "ASCAResourceAssign"
+- PDL5600, PIE5610, PIE5810, PVD5612, PVD5630, PVD5660, PVD5806, PVD5812 (SW label 402 and above):
+    - Added controls for ANC line selection
+    - Added selection "Psf to P" to UI parameter "OutX/ModifyPsF"
+
+===============================================================
+LYNX Device Controller - RELEASE 4.8.1 (build 402, Oct 19 2010)
+
+COMPATIBLE with client software 4.8.0 and above (c3_local / RCP)
+
+------------------------------------------------
+Fixes in Device Controller functionality
+- #1930: User can enter any new key and value into server configuration panel
+- #1936: Changed remote protocol version to 1.6
+- #1950: Server does not start after downgrade from 4.8.0 to 4.7.4
+- #1953: RemoteIF: addressing non-existent device falls back to wrong device
+- #1954: Device GUI appears to be detached from HW
+
+Device specific fixes & enhancements
+- #1925: RFR 5004: Event Tab Parameter "one RPS unit missing" marked red
+- #1935: Fixed support of Option "Color-Correction" for PVD5660 (SW label 394 and above)
+- PVD5660: Added UI parameter OutX/ModifyPsF for "P to PsF" conversion at SDI output
+  (SW label 396 and above)
+- Added UI support (RCP / RemoteIF) for SVD5842
+- Added UI support (RCP / RemoteIF) for PVD5806-O
+- Added UI support (RCP / RemoteIF) for PVD5810-O
+- Added UI support (RCP / RemoteIF) for PVD5812-O
+
+===============================================================
+LYNX Device Controller - RELEASE 4.8.0 (build 395, Aug 25 2010)
+
+COMPATIBLE with client software 4.8.0 and above (c3_local / RCP)
+
+------------------------------------------------
+Enhancements in Device Controller functionality
+- Added attach functionality for LYNX network devices
+
+Fixes in Device Controller functionality
+- #1445: RCT5030: join SW-options SNMPTraps and LYNXRemoteControl
+- Remote IF: New parameter type "MultiSelection"
+  (cf. LYNX Remote Protocol Specification v1.6 for details)
+
+Device specific fixes & enhancements
+- Added UI parameters for PVD5812 without 3GBit standards
+- PDM5288: Added UI parameters for audio content detection (SW label 386 and above)
+- PDM5288: Added UI parameters for 3GBit standards (SW label 387 and above)
+- DVO5810 and DVO5820: Added UI parameter SfpModuleType
+- #1901: New block diagram for DVO5810
+
+===============================================================
+LYNX Device Controller - RELEASE 4.7.5 (build 386, Jun 28 2010)
+
+COMPATIBLE with client software 4.7.1 and above (c3_local / RCP)
+
+------------------------------------------------
+Fixes in backup/restore engine
+- #1830: Device display names with special characters cannot be backed up
+- #1873: Importing a Backup Set (with devices) from a RCT5030 into a RCT 5031 does not work
+- #1875: GUI 4.7.3 Backup/Restore Problem with equally named files
+
+Device specific fixes & enhancements
+- PIE5610: Added UI parameters for Color-Correction
+- Added UI parameters for DVO5810 and DVO5820
+- Added UI parameters for DVD5810-R and DVD5820-R
+- DVD5610 and DVD5620: Fixed incorrect SDI format detection on SDI input
+- PVD5660-0: Added UI parameters Conv3/Detail/Level and Conv3/Detail/Threshold
+
+===============================================================
+LYNX Device Controller - RELEASE 4.7.4 (build 384, Jun 15 2010)
+
+COMPATIBLE with client software 4.7.1 and above (c3_local / RCP)
+
+------------------------------------------------
+Enhancements & fixes in Device Controller functionality
+- Fast backup/restore of all devices with a configuration block spanning over multiple flash page
+  (requires SW label 377 or above in rack controller RCT 5020/21/30/31)
+
+Fixes for RCP5000 panel
+- #1888: RCP5000 with server release 4.7.3: Web IF cannot display panel configuration page
+
+Device specific enhancements
+- PVD5660-1 (BS5613-A):
+   - Removed SW option "Down Converter" for devices with SW label 376 and above
+   - Reduced UI parameters for non-existing functions in devices with SW label 376 and above
+     (no Lynx scaler, 1 x Dolby Framesync, 1 x SDI input, 2 x SDI output, only WSS meta data)
+- PVD5660: Added UI parameters OutX/PrivateARC_GPION and OutX/PrivateARC_GPIOFF
+  (only if enabled by config variable SHOW_PRIVATE_ARC_CONTROLS)
+
+===============================================================
+LYNX Device Controller - RELEASE 4.7.3 (build 380, May 27 2010)
+
+COMPATIBLE with client software 4.7.1 and above (c3_local / RCP)
+
+------------------------------------------------
+Enhancements & fixes in Device Controller functionality
+- Improved connection management with BFE-BD51 panel, workaround for "screensaver" problem
+- Fixed #1856: RCT5030: Hyper Terminal does not work
+
+Device specific enhancements
+- Added UI support (RCP / RemoteIF) for PDM5288
+- Added UI support (RCP / RemoteIF) for DVD5810 and DVD5820
+- PIE5610: New UI parameter EnableBits
+- PVD5660: New UI parameters StatusFormatReactOnChange, StatusFormatReactOnLoss,
+  SnapToReferenceFrameLength
+- #1496: PDX 3362: Added missing block diagram
+- #1720: PDX 3362: Added control for "phase aligned demux"
+- #1664: PVD 5612: Removed meaningless mode "Fixed Processing Time"
+
+===============================================================
+LYNX Device Controller - RELEASE 4.7.2 (build 372, Mar 31 2010)
+
+COMPATIBLE with client software 4.7.1 and above (c3_local / RCP)
+
+------------------------------------------------
+Fixes backup/restore
+- Improved data conversion when restoring backups sets from older SW labels into updated
+  PVD56xx/PDL5600/PIE5610
+- Corrected handling of excluded backup job items
+- #1813: Corrected flash data verification in restore of RCT503x
+- #1830: Device display names with special characters cannot be backed up
+
+Fixes remote IF
+- #1818: Added config variable REMOTE_LOG_FILTER: Regular expression
+  filter for suppressing certain remote log messages,
+  default value ";(authentication|appVersionLong|uptime);"
+
+Fixes RCP
+- Network settings (IP address and netmask) can be modified in RCP configuration menu
+- #1821: Update of parameters happens only if parameters are currently in display
+- #1823: Need backward compatibility to older versions of configuration data model
+
+Device specific fixes and enhancements
+- Added UI parameters for DVD5810 and DVD5820
+- PVD5660/PIE5610: Added UI parameters for "Closed Caption" and "Time Code"
+  (SW label 368 and above)
+- PVD56xx/PIE5610: Added selection "Test Pattern" to UI parameters Out(x)/FreezeMode
+- PVD56xx: Fixed UI parameters Conv1/AspectInSelect, Conv2/AspectInSelect
+  (SW label 322 and above)
+- #1661: GUI PIE5610/PVD5660: Hi-Q scaler output format list is not correct for
+  some input standards
+
+===============================================================
+LYNX Device Controller - RELEASE 4.7.1 (build 366, Feb  8 2010)
+
+COMPATIBLE with client software 4.7.1 and above (c3_local / RCP)
+
+------------------------------------------------
+Enhancements RemoteIF
+- A set of new base parameters facilitates remote-controlled backup & restore
+- Read/property requests to uninitialized device parameters are answered
+  after having received the requested data from the device hardware
+
+Fixes B&R engine
+- Fixed device type mismatch in B&R of combo devices
+- Added B&R support for simulated devices with multi-page flash
+- Improved resend mechanism for unreplied write messages to a device
+- Restore of PTGx610 "Testor" is finalized by triggering a device reset
+
+Fixes RCP
+- #776: RCP5000 serial number cannot easily be assigned
+- #1031: RCT 5030/5020 parameters are not reachable by the RCP
+- #1121: Loading time takes too long
+- #1770: RCP5000 terminal mode not available at RS232 port
+- Automatic server login with name and password provided in panel configuration file
+- Default server login as <ctrl> if panel configuration file doesn't contain login data
+- Avoid early instantiation of all device parameters at once when entering a device node
+  in a user-defined panel configuraiton
+
+Fixes RCT5031
+- #1757: RCT5031 does not terminate DHCP client while setting a static IP address
+- Updated support for control of BFE BDxx panel with software version 1.8.6
+- Detection of IRQ storm on UART in Linux kernel and UART re-initialization in server SW
+
+Device specific fixes
+- #1654: PVD56xx: mono control leftovers (red circles) are sometimes still displayed
+  in the audio crossbar by mistake
+- #1722: Mono Crossbar control does not allow the selection of all possible crosspoints
+- #1766: PVD56xx: Update of UI parameter "OutX/DelayMs" calculation does not work
+- CDX3624: New selection value "RGB" for UI parameter "aVid/Out1" (SW label 345 and above)
+- PVD56xx: New UI parameter "OutX/DelayMode"
+- PVD56xx: Removed selections "Freeze Feeld1", "Freeze Feeld2" from UI parameter "OutX/IfNoInput"
+- New UI parameters for stereo XBar control in HD deembedder products
+  (in addition to existing mono XBar control)
+
+Device specific fixes
+- #1654: PVD56xx: mono control leftovers (red circles) are sometimes still displayed
+  in the audio crossbar by mistake
+- #1722: Mono Crossbar control does not allow the selection of all possible crosspoints
+- #1766: PVD56xx: Update of UI parameter "OutX/DelayMs" calculation does not work
+- CDX3624: New selection value "RGB" for UI parameter "aVid/Out1" (SW label 345 and above)
+- PVD56xx: New UI parameter "OutX/DelayMode"
+- PVD56xx: Removed selections "Freeze Feeld1", "Freeze Feeld2" from UI parameter "OutX/IfNoInput"
+
+===============================================================
+LYNX Device Controller - RELEASE 4.6.7 (build 347, Nov 19 2009)
+
+COMPATIBLE with client software 4.6.0 and above (c3_local / RCP)
+
+------------------------------------------------
+New Features
+- PMX5264, PMX5268, PMX3362: Added parameter control for Channel Status Block
+  Transparency in SDTV (release 344 and higher)
+- PMX5364, PMX5264, PMX5268, PMX3362: Added parameter controls for H- and
+  V-Blanking (release 338 and higher)
+- PMX5364, PMX5264, PMX5268, PDX5264, PDX5268, PMX3264, PMX3362, PDX3264, PDX3362:
+  Added parameter control for "Fast Genlock" (release 338 and higher)
+- Added GUI for CDX5025
+
+------------------------------------------------
+Fixes
+- #1692: Combo-Devices do not update UI parameters on spontaneous change in device
+- #1758: DVA5710/20: The maximum value of UI parameters Equ will change spontaneously
+- #1763: Backup fails after cancelled restore
+- #1764: Rack controller does not re-activate hotsync after cancelled restore operation
+
+===============================================================
+LYNX Device Controller - RELEASE 4.6.6 (build 341, Oct  5 2009)
+
+COMPATIBLE with client software 4.6.0 and above (c3_local / RCP)
+
+------------------------------------------------
+Fixes in B&R engine
+- Added correction of server names in backup jobs (handle potential changes of
+  the server IP address)
+- Changed default value of BACKUP_MAX_ITEMS_PER_STACK to 1
+- COLLECT_MAINTENANCE_INFORMATION enables verbose backup logging
+- Disable stack hotsync during B&R regardless of the setting read from the controller
+- Open write requests are discarded before starting backup (enabling start of
+  backup after previous failure)
+- Improved retransmission of write messages on rackbus (fixing former timeout
+  failures during restore)
+
+Fixes in user preset handling
+- All device registers & parameter values cached in the server are invalidated
+  when loading/activating a user preset
+- Parameter changes (e.g. from remote IF) are deferred until the invalidated data
+  receives a server update
+- Changed UI parameter "Presets_active" to read-only
+
+Fixes in web IF
+- #549:  RCT5031 Web IF: Changing SW appears possible when logged in as <ctrl>
+- #1699: RCT5031 Web IF: Making IP settings on does not work
+- #1729: RCT5031 Web IF: Server SW cannot be updated on COLIBRI_332
+
+Device specific fixes
+- #1658: Pairing of two PAD5212 within a Stack did not work
+- DVD560x: Added support for new video standards (device SW label 331 and above)
+- PVD56xx etc: Corrected register/selection mapping of UI parameter Out*/CSCMode
+
+===============================================================
+LYNX Device Controller - RELEASE 4.6.5 (build 332, Aug 4 2009)
+
+COMPATIBLE with client software 4.6.0 and above (c3_local / RCP)
+
+------------------------------------------------
+Fixes B&R
+- #1685: B&R: Restore times out on DVA5710 and other devices rebooting very fast
+- Hotsync of RCT5020/21/30/31 is temporarily disabled during B&R operation
+- Backup of root device (server IP address in device tree) contains all
+  confiuration variables having non-default values
+- Force read-back & verification of restored flash if the device does not
+  confirm the write message
+- Added COM port adjustment in display name restoration between RCT5030 and RCT5031
+
+Fixes in UI Layer & RemoteIF
+- #1669: GUI 4.6.0: Writing FactoryReset on RemoteIF can invalidate device type
+- Removed assignment of working register 0x00 from UI parameters using special
+  methods for reading and writing
+
+Device Specific Fixes
+- RCT5010 supports B&R
+
+===============================================================
+LYNX Device Controller - RELEASE 4.6.4 (build 331, Jul 24 2009)
+
+COMPATIBLE with client software 4.6.0 and above (c3_local / RCP)
+
+------------------------------------------------
+Fixes B&R
+- Further improved stability
+
+Device Specific Fixes
+- PVD5630: Corrected register mapping of parameter Conv(x)/AspectInSelect
+
+===============================================================
+LYNX Device Controller - RELEASE 4.6.3 (build 330, Jul 16 2009)
+
+COMPATIBLE with client software 4.6.0 and above (c3_local / RCP)
+
+------------------------------------------------
+Fixes B&R
+- #1518: Backup can lead to server shutdown
+- #1635: Backup fails with error "no data"
+- Generally improved stability
+- Improved behaviour when GUI to server connection is lost during backup/restore
+- Problem of not selectable backup jobs is solved
+
+Fixes Remote IF
+- Remote IF is opened after completion of start-up auto-initialization
+- #1456: writing to some read-only parameters isn't blocked
+- #1655: c3_server 4.6.2 and older: Unsubscribe commands are not executed
+- Improved stability with high traffic on RIF
+
+Fixes Front Connector Terminal
+- #1616: RCT5031: serial terminal (front-connector) with ECHO on
+
+Device Specific Fixes
+- #1650: PVD5660 Testpattern "follow last input" doesn't work
+- PVD5660/PVD5630-1/PVD5612 release 313: New UI parameter DelayPulseAssign
+- PVD5660/PVD5630-1/PVD5612 release 326: New UI parameters Out(x)/ClipHeadroom, Out(x)/FixedProcTime
+- PIE5612/PDL5600 release 326: New UI parameter Out(x)/ClipHeadroom
+
+===============================================================
+LYNX Device Controller - RELEASE 4.6.2 (build 327, Jun 25 2009)
+
+COMPATIBLE with client software 4.6.0 and above (c3_local / RCP)
+
+------------------------------------------------
+Fixes
+
+- general stability improvements
+  recommended version to improve stability with network connectivity
+
+===============================================================
+LYNX Device Controller - RELEASE 4.6.1 (build 326, Jun 23 2009)
+
+COMPATIBLE with client software 4.6.0 and above (c3_local / RCP)
+
+------------------------------------------------
+New Features
+
+- added support for next generation CDX5624 with 4 AES outputs and RGB
+
+------------------------------------------------
+Fixes
+
+- bug #1638: improved watchdog to recover from stalled server
+
+==============================================================
+LYNX Device Controller - RELEASE 4.6.0 (build 324, Jun 8 2009)
+
+COMPATIBLE with client software 4.6.0 and above (c3_local / RCP)
+
+------------------------------------------------
+New Features
+
+- PVD5660: added controls for AFD, WSS and VI (release 322 and higher)
+- PVD5660: supports "Dolby E" detection (release 322 and higher)
+- PVD5660: added "DolbyE" frame sync paths (release 322 and higher)
+
+===============================================================
+LYNX Device Controller - RELEASE 4.5.4 (build 322, May 22 2009)
+
+COMPATIBLE with client software 4.5.0 and above (c3_local / RCP)
+
+------------------------------------------------
+New Features
+
+- PDX3362, PDX526x: New UI parameter "FastGenlock" enables faster SDI and
+  audio outputs after a disturbance / reconnection of the SDI input
+
+------------------------------------------------
+Fixes
+
+- bug #1619: Fixed asynchronous client-server communication to ensure that
+  parameter changes are sent to the devcie registers in the correct order
+
+===============================================================
+LYNX Device Controller - RELEASE 4.5.3 (build 318, Apr 28 2009)
+
+COMPATIBLE with client software 4.5.0 and above (c3_local / RCP)
+
+------------------------------------------------
+New Features
+
+- RCT5031: New rack controller (successor of RCT5030)
+
+------------------------------------------------
+Fixes
+
+- Remote IF:
+  Added periodic retries for channel initialization in case of initialization failure
+  Fixed memory leak in device UI cache, causing slow-down of remote control after several hours
+- bug #837: Rounding correction of float-type UI parameters (further enhancement)
+
+===============================================================
+LYNX Device Controller - RELEASE 4.5.2 (build 315, Apr  8 2009)
+
+COMPATIBLE with client software 4.5.0 and above (c3_local / RCP)
+
+------------------------------------------------
+New Features
+
+- UI parameter 'Freeze Mode' offers option 'Force Freeze' if new config switch
+  PVD56xx_FORCE_FREEZE is TRUE
+- Config switch DEBUG_CREATE_PVD_SCALER_PARAMS leads to generation of UI parameters for
+  direct control of parameters for LYNX scaler (and implicitly to generation of
+  separate page in GUI with appropriate sliders)
+- Changed remote protocol to include step width in the properties of float parameters
+
+------------------------------------------------
+Fixes
+
+- PMX5364: Fixed UI parameter error that 24 bit embedding could not be selected
+  for some HD standards
+- bug #1600 + #1601: Web IF and RCP can talk to local c3_server again
+- bug #837: Corrected rounding error between user values and register
+  values of float parameters
+- Modified remoteIFTCP to prevent deadlock while handling partial remote
+  commands in the input buffer
+- bug #1604: PC module on RCT503x reboots after watchdog update to get
+  the system into a clean state
+- Changed CORBA initialization to use one single TCP connection
+- Some minor improvements in backup/restore engine
+
+===============================================================
+LYNX Device Controller - RELEASE 4.5.1 (build 310, Mar  2 2009)
+
+COMPATIBLE with client software 4.5.0 and above (c3_local / RCP)
+
+------------------------------------------------
+New Features
+
+- Backup & restore:
+    - Added support for CAD5320, CAD5321, CDX5024 and DVD5002
+    - Backup jobs accept extended character set incl. German umlaut etc.
+
+===============================================================
+LYNX Device Controller - RELEASE 4.5.0 (build 305, Jan 28 2009)
+
+COMPATIBLE with client software 4.5.0 and above (c3_local / RCP)
+
+------------------------------------------------
+New Features
+
+- Reworked backup & restore functionality including support for PVD5660
+
+- LYNX Device Watchdog:
+  Activate updated watchdog without rebooting the entire controller
+
+===============================================================
+LYNX Device Controller - RELEASE 4.4.0 (build 229, Dec 01 2008)
+
+COMPATIBLE with client software 4.4.0 and above (c3_local / RCP)
+
+------------------------------------------------
+RCT5030 FEATURES
+RCP5000 FEATURES
+
+- Added User Interface for PMX5362 and PMX5364
+  SD/HD Analog audio Multiplexer
+
+------------------------------------------------
+Fixes
+
+- Remote IF:
+  Fixed bugs in the replies to remote commands 'L' and 'P' that
+  have beed introduced in BETA 4.4.0
+
+- Rackbus message dispatcher:
+  Fixed problem of occasional c3_server hangup due to interlocking
+  of 2 threads waiting for each other
+
+===============================================================
+LYNX Device Controller - BETA 4.4.0 (build 228, Oct 31 2008)
+
+COMPATIBLE with client software 4.4.0 and above (c3_local / RCP)
+
+------------------------------------------------
+RCT5030 FEATURES
+RCP5000 FEATURES
+
+- Added User Interface for PDL5600
+  Dual SD/HD Programmable Video Delay Line
+
+- Added User Interface for PAR5610
+  Aspect Ratio Converter with Optional UP/DOWN/CROSS conversion
+
+- PDX3264:
+  added control for "Phase Aligned Deembedding" (release 274 and up)
+
+- PVD5660:
+  audio group status detection (release 275 and up)
+
+- Automatic initialisation of device UI cache facititating
+  faster access to the device parameters via remote IF
+
+===============================================================
+LYNX Device Controller - RELEASE 4.3.1 (build 226, Oct 07 2008)
+
+COMPATIBLE with client software 4.3.1 and above (c3_local / RCP)
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- general performance improvements of remote-control interface
+
+------------------------------------------------
+RCP5000 Fixes
+
+- fixed bug #1348
+  In release 4.3.0 the panel navigation did not return from
+  the device parameter level to the main navigation level.
+
+===============================================================
+LYNX Device Controller - RELEASE 4.3.0 (build 223, Sep 08 2008)
+
+COMPATIBLE with client software 4.3.0 and above (c3_local / RCP)
+
+------------------------------------------------
+RCT5030 FEATURES
+
+- Added TCP/IP based remote-control interface
+
+- PVD5630 UI:
+  added controls for "Group-Deletion" functionality (release 257)
+
+- PVD5630 UI:
+  added controls for "Phase aligned deembedding" functionality (release 257)
+
+- PVD5660 UI:
+  added controls for "Group-Deletion" functionality
+
+- added support for next-generation CDA5011 User Interface (board type BS5010_05)
+
+===============================================================
+LYNX Device Controller - BETA 4.3.0 (build 222, Aug 05 2008)
+
+COMPATIBLE with client software 4.3.0 and above (c3_local / RCP)
+
+------------------------------------------------
+RCT5030 FEATURES
+RCP5000 FEATURES
+
+- Added User Interface for PVD5660
+  (HD/SD Framesynchronizer with Aspect Ration Converter, Optional Up/Down Converter)
+
+- Added User Interface for DVD5426
+  (HD/SD SDI/ASI distribution amplifier with reclocking / inversion)
+
+===============================================================
+LYNX Device Controller - RELEASE 4.2.0 (build 218, Mai 26 2008)
+
+COMPATIBLE with client software 4.1.5 and above (c3_local / RCP).
+
+------------------------------------------------
+RCP5000 Fixes
+
+- fixed bug #815
+  Under certain conditions, and after a very long time (~2 weeks)
+  with no human interaction whatsoever, rotating a rotation knob would
+  not yield any reaction before the same knob has been pressed once.
+
+===============================================================
+LYNX Device Controller - RELEASE 4.1.3 (build 215, Feb 26 2008)
+
+COMPATIBLE with client software 4.1.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCT5030 FEATURES
+
+- added configuration variable OPERATE_LOCAL_UI_AS_USER
+  If modified from the (empty) default, all local UIs (user interfaces -
+  such as SNMP, RemoteIF, BD51-Panel, ...) operate as the specified
+  user (from RCT5030's user database). This is relevant if you
+  intend to apply user-access-control to such a local user interface.
+
+- Added User Interface for PTG5610:
+  (HD/SD Digital Audio&Video Testsignal Generator)
+
+- Added User Interface for DVD3601:
+  (HD/SD Downconverter)
+
+------------------------------------------------
+RCP5000 Fixes
+
+- fixed bug #1130
+  Under certain conditions, adding a LYNX server through the RCP5000
+  Web-Interface would not become effective.
+
+- fixed bug #1135:
+  UI of CAD5112: Testpattern-controls did not work for devices with subversion > 0x30
+
+===============================================================
+LYNX Device Controller - RELEASE 4.1.2 (build 214, Jan 31 2008)
+
+COMPATIBLE with client software 4.0.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- Added support for custom panel configurations (per XML-file)
+
+- Improved re-connection behaviour to optional RCP5016 extension panel.
+
+------------------------------------------------
+RCT5030 FEATURES
+
+- PTG3610:
+  adapted for support of latest Testor Version 234
+
+- BD51 Panel Server
+  Added functionality to act as panel server for BFE BD51 network panel.
+  The BD51 can be configured to control a signal crossbar from one of the connected
+  LYNX Devices. This functionality needs to be configured using these config-variables:
+    PANEL_BDXX_CONNECT             - IP-address of BFE-BD51 panel to be controlled by this server.
+    PANEL_BDXX_TO_CONTROL_DEVICE   - Complete LYNX Address of controlled device
+    PANEL_BDXX_TO_CONTROL_UIPARAMS - RegExp matching the collection of controlled UIParams
+  Optional additional controls to further adjust behaviour of panel server
+    PANEL_BDXX_TO_REPLACE_STRINGS  - possible user labels for individual buttons
+    PANEL_BDXX_COLORS              - possible user colors for individual button states
+  For detailed information on and modification of these parameters: see Web-Interface of RCT5030.
+
+===============================================================
+LYNX Device Controller - RELEASE 4.1.0 (build 212, Now 16 2007)
+
+COMPATIBLE with client software 4.0.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- Added User Interface for SVD5612
+  (HD Change Over Switch)
+
+- Added User Interface for PDX3264
+  (HD/SD Audio Deembedder)
+
+- Added User Interface for PMX3264
+  (HD/SD Audio Embedder)
+
+- Added User Interface for PMX3362
+  (HD/SD Analog Audio Embedder)
+
+- PVD5630 UI:
+  add controls to couple SDI-Out2/3 to SDI-Out1 (sync all settings)
+
+- PDX3010 UI:
+  add controls to set PAL M/N video output format
+
+- PMX5262/PMX5264/PMX3262/PMX3264 UI
+  add control for optional "Auto-Black" (generate black output if no input signal)
+
+------------------------------------------------
+RCP5000 Fixes
+
+- fix bug #1013:
+  removed void controls "Swap left/right" from CDX3624 UI
+
+- fix bug #1045:
+  UI of RCT5030: UIParameter "Alarm1/2" corrected settings "Minor" and "Major"
+
+
+- RCT5030 UI:
+  Parameter "Alarm1/2" corrected settings "Minor" and "Major"
+
+- Backup/Restore:
+  Fix instability issues with restore in larger systems.
+
+===============================================================
+LYNX Device Controller - RELEASE 4.0.0 (build 210, Oct 24 2007)
+
+COMPATIBLE with client software 4.0.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- Support new User-Access Functionality:
+  With this version, the RCP5000 will respect user-access restrictions
+  that have been specified in the RCT5030. The restrictions are
+  specified using the LYNX-GUI and stored in the RCT5030 server
+  (RELEASE 3.12.1 or higher). The RCP5000 will respect those
+  restrictions, i.e. it will present a parameter as read-only if so
+  specified for the current user
+
+- UI of SVD5012:
+  add support for enhanced GPI latch mode settings (as of device version 208)
+
+- UI of PVD5610/PVD5630:
+  added support for Audio-Delay settings
+
+- Adapted User Interface for PTG3610
+  Testor (new firmware 205 and above)
+
+- Added server support (list of test-patterns) for the new PTG3610
+  Testor (new firmware 205 and above)
+
+===============================================================
+LYNX Device Controller - RELEASE 3.12.2 (build 206, Aug 10 2007)
+LYNX Device Controller - RELEASE 3.12.1 (build 205, Aug 07 2007)
+
+COMPATIBLE with client software 3.12.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- UI PVD56xx
+  added support for H-/V- Transparency settings
+
+------------------------------------------------
+RCT5030 FEATURES
+
+- support the UserAccess Control functionality
+  Access to this feature is possible only with appropriate software
+  license and LYNX-GUI application 4.0.0 or higher.
+
+------------------------------------------------
+RCT5030 Fixes
+
+- fixed bug #953
+  PDX3212: GUI status GREEN while module status RED
+
+- UI of CAD51xx:
+  corrected signal presence status display
+
+===============================================================
+LYNX Device Controller - RELEASE 3.11.6 (build 203, Jul 13 2007)
+
+COMPATIBLE with client software 3.11.0 and above (c3_local / RCP).
+
+New Watchdog 3.0.3 with configurable parameters.
+See documentation of parameters WATCHDOG_TIMEOUT and WATCHDOG_GRACE
+
+===============================================================
+LYNX Device Controller - RELEASE 3.11.5 (build 202, Jun 25 2007)
+LYNX Device Controller - RELEASE 3.11.4 (build 201, Jun 19 2007)
+
+COMPATIBLE with client software 3.11.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCT5030 Fixes
+
+- fixed bug: devices were detected as "lost" too quickly in the
+  presence of usual commuication disturbances.
+
+- significant speed-up when accessing a device from any UI
+  (RemoteIF / RCP5000)
+
+===============================================================
+LYNX Device Controller - RELEASE 3.11.3 (build 200, Jun 18 2007)
+
+COMPATIBLE with client software 3.11.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- UI support for new generation of CDA3220
+
+- PVD5005/PVD5010/CMX5112 UI:
+  added control for audiodelay functionality
+  added controls for "Sample Rate Conversion"
+
+- Added control for "group deletion" functionality" to UI of PVD5010
+
+- PVD5630 UI:
+  added (checkbox) controls for 20/24 Bit Audio conversion
+
+- PVD56xx UI:
+  add scaler control for ARC functionality (requires P_VD_CONV option in PVD56xx)
+
+- Added User Interface for PVD5600
+  (Single-Input HDTV Framesync with optional image converter)
+
+- Added User Interface for PVD5610
+  (Single-Input HDTV Framesync with optional image converter and audio processing)
+
+- Added User Interface for PVD5620
+  (Dual-Input HDTV Framesync with optional image converters)
+
+- Added User Interface for PMX5262
+  (Dual AES HDTV Embedder)
+
+- Added User Interface for PMX5264
+  (Quad AES HDTV Embedder)
+
+- Added User Interface for PDX5362
+  (HD/SD Analog Audio Deembedder)
+
+- Added User Interface for DVA5720
+  (Dual Analog Video Distribution Amplifier, HDTV capable)
+
+- Added User Interface for DVA5710
+  (Single Analog Video Distribution Amplifier, HDTV capable)
+
+- Added User Interface for DVA3720
+  (Dual Analog Video Distribution Amplifier, HDTV capable)
+
+- Added User Interface for DVD5610
+  (Single HD-SDI Distribution Amplifier with optional reclocking)
+
+- Added User Interface for CDX5024C
+  (Analog Audio Demultiplexer w/ Component Video Output)
+
+- Added supervision functionality for RFR5010 internal fans
+
+------------------------------------------------
+RCP5000 Fixes
+
+- fixed bug #912:
+  UI of PVD5000/5005/5010: Saturation and Hue parameters would not
+  influence the Cr component correctly.
+
+- fixed bug #909:
+  UI of CAD5111 would set GainCr to MAX when moving the SAT (Saturation) control
+
+- reverted display of total delay for PVD Framesyncs to MilliSeconds
+
+------------------------------------------------
+RCT5030 Fixes
+
+- fixed bug: Netmask could not be set in the Web-Interface
+
+===============================================================
+LYNX Device Controller - RELEASE 3.9.1 (build 194, May 23 2007)
+LYNX Device Controller - RELEASE 3.9.0 (build 193, Mar 02 2007)
+
+COMPATIBLE with client software 3.9.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- PVD5005/PVD5010 UI:
+  added (boolean) controls for individual group deletion
+
+------------------------------------------------
+RCP5000 Fixes
+
+- fixed big #877
+  Removed "auto" from selection of possible Sample Rate Conversion modes.
+  (not supported by device)
+
+- fixed bug #885:
+  PDX3214 UI: could not control second deembedder group
+
+- fixed bug #886:
+  CDX5624 UI: some parameters of the Video-DA-Conversion
+  could not be controlled correctly.
+
+- fixed bug #897:
+  DVD3620/DVD5620 UI: After a reset to factory defaults (in the
+  device), it was possible that the UI did not display the correct
+  cross-bar configuration.
+
+- fixed bug:
+  PVD5000/PVD5005 UI: (variants without GPI) would display the
+  current input as "SDI1" even if currently operating at "SDI2"
+
+------------------------------------------------
+RCT5030 Fixes
+
+- fixed bug #905:
+  Server startup problem on mal-formatted Backup file. As a
+  result the RCT5030 controller can appear to be completely locked
+  (application not running).
+
+
+===============================================================
+LYNX Device Controller - RELEASE 3.9.1 (build 194, May 23 2007)
+LYNX Device Controller - RELEASE 3.9.0 (build 193, Mar 02 2007)
+
+COMPATIBLE with client software 3.9.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- PVD5005/PVD5010 UI:
+  added (boolean) controls for individual group deletion
+
+------------------------------------------------
+RCP5000 Fixes
+
+- fixed big #877
+  Removed "auto" from selection of possible Sample Rate Conversion modes.
+  (not supported by device)
+
+- fixed bug #885:
+  PDX3214 UI: could not control second deembedder group
+
+- fixed bug #886:
+  CDX5624 UI: some parameters of the Video-DA-Conversion
+  could not be controlled correctly.
+
+- fixed bug #897:
+  DVD3620/DVD5620 UI: After a reset to factory defaults (in the
+  device), it was possible that the UI did not display the correct
+  cross-bar configuration.
+
+- fixed bug:
+  PVD5000/PVD5005 UI: (variants without GPI) would display the
+  current input as "SDI1" even if currently operating at "SDI2"
+
+------------------------------------------------
+RCT5030 Fixes
+
+- fixed bug #905:
+  Server startup problem on mal-formatted Backup file. As a
+  result the RCT5030 controller can appear to be completely locked
+  (application not running).
+
+===============================================================
+LYNX Device Controller - RELEASE 3.8.2 (build 192, Jan 15 2007)
+
+COMPATIBLE with client software 3.8.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCT5030 FEATURES
+
+- support for new generation of PMX3312 (type 06.09)
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- UI support for new generation of PMX3312 (type 06.09)
+
+- UI support for CMX5112 (type 07.90 / 11.82)
+  (SDI Framesync/Embedder with analog audio/video inputs)
+
+- UI support for CDX3610 (type 02.4e)
+  (Multi-Format DownConverter with Analog Video output)
+
+- support Aperture correction controls in UI of DVD5602/DVD5604
+
+------------------------------------------------
+RCP5000 Fixes
+
+- fix a bug that has been introduced in 3.7.5: under certain
+  conditions, the standard navigation mode (if not modified
+  from default behaviour) would not work reliably
+  (rotating the navigation knob would not let you navigate as usual)
+
+- fixed bug #858
+  In the UI of PVD3010, PVD5000, PVD5005, PVD5010 the total delay
+  (DelayUS) is changed from microsec to nanosec.
+
+===============================================================
+LYNX Device Controller - RELEASE 3.7.5 (build 189, Dec 06 2006)
+
+COMPATIBLE with client software 3.7.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- Support for advanced configuration options in XML interface.
+
+===============================================================
+LYNX Device Controller - RELEASE 3.7.4 (build 188, Nov 27 2006)
+
+COMPATIBLE with client software 3.7.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCT5030 IMPROVEMENTS
+
+- modified tty line discipline in Linux kernel to stabilize
+  communication bandwidth. This helps avoiding unnecessarily long
+  roundtrip-times for messages in large systems.
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- UI support for new generation of PMX3212 (type 06.07)
+
+------------------------------------------------
+RCP5000 Fixes
+
+- fixed bug #827
+  The new UI of the CAD5121 and CAD5122 did not correctly implement
+  dependency between "Contrast" and "Gain" for Channel 1. As an effect,
+  the "Contrast" control would not be enabled in the UI as expected.
+
+- fixed bug #832
+  In the UI of PVD3010, the external AES connections would be shown as
+  "enabled" if only option P_VD_MXDX was active. In fact, the external
+  AES connections are active only on option P_VD_AP. The display in the
+  UI has now been adapted accordingly.
+
+===============================================================
+LYNX Device Controller - RELEASE 3.7.2 (build 186, 10.Oct.2006)
+
+COMPATIBLE with client software 3.7.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCT5030 FEATURES
+
+- Fixed weakness that could lead to slow communication in large
+  installations (more than 5 RCT5020 controllers attached to RCT5030).
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- Added User Interface for CAD5132 (type 03.8c)
+  (Analog Video to SDI Converter w/ Frame Sync)
+
+- Added User Interface for DAA5321
+  (Dual-Channel Analog Audio DAmp with audio transformers)
+
+------------------------------------------------
+RCP5000 Fixes
+
+- fixed bug #802
+  UI of Video-DA-Converters (CDAxxxx) indicates a "missing reference"
+  even for type variants that do not have a reference input.
+
+===============================================================
+LYNX Device Controller - RELEASE 3.7.0 (build 184, 20.Sep.2006)
+
+COMPATIBLE with client software 3.7.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCT5030 FEATURES
+
+- Added support for several new GUI features, as released in
+  PC-GUI RELEASE 3.7.0 (c3_local)
+
+===============================================================
+LYNX Device Controller - RELEASE 3.6.8 (build 182, 17.Aug.2006)
+
+COMPATIBLE with client software 3.6.0 and above (c3_local / RCP).
+recommended client software: 3.6.8 or above.
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- Added User Interface for PDX5212 (type 10)
+  (Single channel SDI Distribution Amplifier)
+
+- Added Support for RCP5016
+  16-button Panel-Expansion, to be connected to RCP5000's
+  rear SubD9 male connector.
+
+------------------------------------------------
+RCP5000 Fixes
+
+- fixed bug in UI of CDX5624:
+  input signal standard 525 (SDTV) would not be displayed correctly.
+  (device operation not limited, just display in UI was incorrect)
+
+===============================================================
+LYNX Device Controller - RELEASE 3.6.1 (build 175, 13.Jul.2006)
+
+COMPATIBLE with client software 3.6.0 and above (c3_local / RCP).
+recommended client software: 3.6.1 or above.
+
+------------------------------------------------
+New Features
+
+- re-formatted the Logfile-entries about device-specific events to
+  describe the reporting device (name and position) as human readable
+  text.
+
+------------------------------------------------
+RCT5030 Fixes
+
+- fixed bug #760: Restore of multiple MiniModules fails with timeout.
+  When restoring a backup set spawning multiple MiniModules
+  (in a RTR3010, requires SW-license RSL_BR20 or RSL_BR30), then
+  a certain percentage of items would always end up in a
+  "restore failed on timeout" state.
+
+===============================================================
+LYNX Device Controller - RELEASE 3.4.3 (build 172, 07.Jun.2006)
+
+COMPATIBLE with client software 3.4.0 and above (c3_local / RCP).
+recommended client software: 3.4.3 or above.
+
+------------------------------------------------
+RCP5000 Fixes
+
+- fixed bug: Under very rare circumstances it could happen, that a
+  device is not shown in the RCP's list of devices although it has
+  correctly been detected (as can be seen in the logfiles). This was a
+  bug in the presentation logic. Fixed now.
+
+------------------------------------------------
+RCT5030 Fixes
+
+- removing a Device immediatley after it had just been detected
+  by the system could lead to a situation where the device was never
+  removed from the system. This has been fixed now.
+
+===============================================================
+LYNX Device Controller - RELEASE 3.4.1 (build 170, 29.May.2006)
+
+COMPATIBLE with client software 3.4.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCT5030 FEATURES
+
+- Improved server side support for PTG3610
+  The client version (RCP5000/PC-GUI) 3.4.1 makes use of these improvements
+  which results in a much more reliable remote control of the
+  PTG3610 (Testor)
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- Improvements to the Web-Interface:
+  - changes to several parameters of the network configuration (page
+    "System Settings") can be applied at once
+  - server(s) can be explicitly restarted (page "System Settings")
+
+- Improved feedback in local RCP display if connection to a configured
+  server could not be established.
+
+- Significantly reduce network traffic and server CPU load when
+  logging into a remote server (RCT5030). This improvement is only
+  available when client and server are both using version 3.4.1 (or
+  above).
+
+------------------------------------------------
+RCP5000 Fixes
+
+- fixed bug #691: applying a change to the Panel Connections on the
+  Web-Interface required the repeated specification of the server
+  password. Changed to require the password only once.
+
+- fixed bug #734: modifying the Panel Connections from the Web-Interface
+  required a restart of panel server to become effective.
+
+- fixed bug #744: Display of GAIN values off by 0.5 dB for devices
+  DAA3320/DAA5320.
+
+- fixed bug: remove bogus entry "local COM ports" from list of
+  available server connections in RCP frontpanel menu.
+
+- fixed bug #754: DVD5420: Master LED in GUI sometimes not correct.
+  The Master LED color of a DVD5420 in the GUI/RCP5000 is sometimes
+  not correct (according to master LED on the module)
+
+- fixed connection bug: when a server was restarted (e.g. because it
+  was being re-configured) while a client was just logging in, the
+  client (here: RCP5000) would appear to be locked for a long time
+  (depending on number of devices at that server), before resuming
+  normal operation. Now the client returns to the "disconnected" state
+  within very short time, as expected.
+
+===============================================================
+LYNX Device Controller - RELEASE 3.4.0 (build 167, 20.Apr.2006)
+
+COMPATIBLE with client software 3.4.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCT5030 FEATURES
+
+- Added server side support for CDX5624
+  (Multiformat down converter with analog Audio/Video outputs)
+
+===============================================================
+LYNX Device Controller - RELEASE 3.3.5 (build 166, 12.Apr.2006)
+
+COMPATIBLE with client software 3.3.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCT5030 Fixes
+
+- fixed a few problems in the interpretation of remoteIF-commands
+  that could lead to unresponded messages.
+
+===============================================================
+LYNX Device Controller - RELEASE 3.3.4 (build 165, 05.Apr.2006)
+
+COMPATIBLE with client software 3.3.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCT5030 Fixes
+
+- fixed bug: in very large systems (many controllers and devices),
+  accessing a large number of parameters (in different devices) at the
+  same time can set the server into a high-traffic mode, not
+  responding to any outside message anymore. This could lead the
+  watchdog into restarting the server.
+
+===============================================================
+LYNX Device Controller - RELEASE 3.3.3 (build 164, 03.Apr.2006)
+
+COMPATIBLE with client software 3.3.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCT5030 Fixes
+
+- fixed bug: Remote commands not recognized.
+  depending on the formatting of the contained ASCII command string,
+  certain remote-commands would not be recognized.
+
+===============================================================
+LYNX Device Controller - RELEASE 3.3.2 (build 163, 31.Mar.2006)
+
+COMPATIBLE with client software 3.3.0 and above (c3_local / RCP).
+
+------------------------------------------------
+GENERAL
+
+general stability improvements, resulting in reduced number of
+automatic server clean-up/restart cycles.
+  - reduced general CPU load
+  - block remote access during startup phase
+  - reduced total resource consumption or CORBA-ORB
+  - watchdog is more tolerant in high-load situations
+  - limit total size of logfiles (new config-variable LOGFILE_MAX_SIZE)
+
+------------------------------------------------
+RCT5030 FEATURES
+
+- The Backup of a Remote-Connection's top-level node also contains
+  the user defined device-names of all hosted devices.
+
+------------------------------------------------
+RCT5030 Fixes
+
+- fixed bug #712: Backup sometimes not complete
+  A Backup of one of the following device types would sometimes
+  not be complete: CAD5121, CAD5122, PVD5010, CAD5135, CMX5110.
+
+===============================================================
+LYNX Device Controller - RELEASE 3.3.0 (build 161, 03.Mar.2006)
+
+COMPATIBLE with client software 3.3.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- Added User Interface for DVD5000
+  (Single channel SDI Distribution Amplifier)
+
+- Added User Interface for DVD5010
+  (Single channel SDI Distribution Amplifier w/ reclocking)
+
+------------------------------------------------
+RCT5030 Fixes
+
+- fixed bug #708: Removing the RFR5011 from the system will not
+  remove textual info from the GUI.
+
+- fixed bug #709: Starting Server on CDA5010 will influence Auto-Testsignal
+  Starting the GUI on a system with CDA5010 boards will reset the
+  Auto-Testsignal setting to factory default.
+
+- general server startup speed improvement
+
+===============================================================
+LYNX Device Controller - RELEASE 3.1.2 (build 159, 22.Feb.2006)
+
+COMPATIBLE with client software 3.1.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCT5030 stability improvement
+
+- made sure that the RCT5030 watchdog process cannot be blocked
+  by a device-server application with higher priority. This prevents
+  from potential dead-locks of the complete system by such situations.
+
+------------------------------------------------
+RCP5000 Fixes
+
+- fixed bug #703: RCP5000 to PTG5010: cannot activate Sequence Patterns
+  It is not possible to activate a Sequence Pattern in the PTG5010
+  using the RCP5000. All static patterns are selectable OK.
+
+===============================================================
+LYNX Device Controller - RELEASE 3.1.1 (build 158, 14.Feb.2006)
+
+COMPATIBLE with client software 3.1.0 and above (c3_local / RCP).
+
+------------------------------------------------
+Fixes
+
+- fixed bug #701: Serial number of RCT3000 could not be read in GUI
+  The GUI did not display the correct serial number for the RCT3000
+
+- fixed bug #702: A problem introduced in release 3.1.0 could block
+  all communication to MiniModule behind Service Adapter as well as i
+  to RackExpansions.
+
+
+===============================================================
+LYNX Device Controller - RELEASE 3.1.0 (build 157, 13.Feb.2006)
+
+COMPATIBLE with client software 3.1.0 and above (c3_local / RCP).
+
+------------------------------------------------
+Fixes
+
+- fixed bug that could lead to a situation in which the server application
+  would not react to remote-IF commands anymore. This would also imply
+  a general performance impact on the server application (very slow response
+  to any event, network command etc.)
+
+===============================================================
+LYNX Device Controller - RELEASE 3.0.1 (build 156, 24.Jan.2006)
+
+COMPATIBLE with client software 3.0.0 and above (c3_local / RCP).
+
+------------------------------------------------
+Fixes
+
+- fixed bug #688: DVA5110: status LED color in UI sometimes not correct
+  In the UI (GUI/RCP5000/...) the color of the status LED of theDVA5110
+  was sometimes not correct (i.e. not same color as LED on the board itself)
+
+- fixed bug #696: Sending repeated Read-Subscribe ('RS') commands over the
+  LYNX Remote Interface would ultimatively lead to RCT5030 system instability
+  (after ~1 million such commands)
+
+===============================================================
+LYNX Device Controller - RELEASE 3.0.0 (build 155, 23.Dec.2005)
+
+COMPATIBLE with client software 3.0.0 and above (c3_local / RCP).
+
+NOTE: this version is the required minimum for using the
+      Backup/Restore functionality in the PC-GUI (c3_local) application.
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- Added User Interface for DVD5420
+  (SDI / ASI distribution amplifier with reclocking / inversion)
+
+- Added User Interface for SVD5082
+  (SDI Input Switch 2*8 -> 2)
+
+------------------------------------------------
+Fixes
+
+- Added general stability by fixing several minor weaknesses in the
+  internal processing.
+
+- fixed bug #649: "strange UI status text if SVD5012 in bypass"
+  The status text in the user interface (GUI / RCP5000) was confusing
+  when the unit was running in "bypass mode".
+
+- fixed bug #658: "SDI input missing" event available for just one channel
+  The Events-Tab in the GUI of the CAD3002 showed only events for one
+  of the two channels.
+
+- fixed bug #662: "PMX3312/3313 does not show events of AudioADC"
+  Input-lost Events from Audio-ADC combo are not shown in GUI of
+  PMX3312 / PMX3313
+
+- fixed bug #665: "RCP5000: low performance with several modules"
+  Several modules (mainly CADxxxx) take a long time to appear in
+  the RCP5000 local display. Optimized some UI-algorithms to fix this.
+
+===============================================================
+LYNX Device Controller - RELEASE 2.8.4 (build 154, 02.Dec.2005)
+
+COMPATIBLE with client software 2.8.0 and above (c3_local / RCP).
+
+------------------------------------------------
+Fixes
+
+- fixed bug #672: Device server: intermittent restarts on PAD5212.
+  Eliminated an incompatibility between the PAD5212 (Audio Delay Line)
+  and the Device server (RCT5030 / RCP5000) that would lead to an
+  intermittend restart of the server process. This did lead to a
+  cyclic re-login of connected clients.
+
+- fixed bug #673: fixed problem in RCP5000 XML-configuration framework
+  that would lead to restarts of the RCP5000 panel server on certain
+  constructs.
+
+===============================================================
+LYNX Device Controller - RELEASE 2.8.3 (build 153, 29.Nov.2005)
+
+COMPATIBLE with client software 2.8.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- added control of Audio Routing parameters for PVD5005 / PVD5010.  To
+  simplify the configuration of the complex crossbars through the RCP
+  user interface, these controls let the user connect input and output
+  points of the internal crossbar as single operations. (I.e. the actual
+  crossbar connection points are not directly accessible from the RCP)
+
+- added boolean configuration parameter RCP_NAVIGATION_STAY_IN_DEVICE
+  (default value: FALSE). It can be modified through the RCP5000's
+  Web-Interface.
+  By setting it to TRUE, the RCP pushbuttons can be used to navigate
+  within multiple devices of the same type rather than between
+  devices. E.g., in a system with several PVD5010, different parameter
+  groups can be assigned to different buttons (by manually navigating
+  to the parameters and then assigning the buttons). When later
+  navigating to a different device of the same type, pushing a button
+  doesn't navigate back to the device the button has been assigned to,
+  but just jumps to the assigned parameter within the current device.
+
+------------------------------------------------
+RCT5030 FEATURES
+
+- added boolean configuration parameter SNMP_TRAP_FORCE_LEVEL_CLEARED
+  (default: TRUE). It can be modified through the RCT5030's
+  Web-Interface.
+  Setting this value to TRUE (the default) will force the 'eventLevel'
+  (OID 14755.4.3.2) to value '6' ('cleared') if the event is cleared,
+  i.e. if 'eventOn' (OID 14755.4.3.4) is '0'.  Otherwise (FALSE), the
+  'eventLevel' will reflect the level of the original event
+  (e.g. 'error'), even if the trap is announcing the event as cleared
+  (not active anymore).",
+
+------------------------------------------------
+Fixes
+
+- fixed bug #600: Modifying the IP settings of the RCT5030/RCP5000 requires
+  a restart of the embedded software applications, so that the CORBA-ORB
+  can adapt to the new network parameters. This is done automatically now.
+
+- fixed bug #566: Setting string-type variables to empty string "" on
+  the WEB-Interface (page "Server Configuration") did not work
+  correctly.
+
+- fixed bug #567: Setting configuration variable
+  RCP_DISPLAY_SEPARATOR_CHAR to the empty string "" would display
+  strange (undefined) characters in the separation column in the RCP
+  display.
+
+===============================================================
+LYNX Device Controller - RELEASE 2.8.2 (build 152, 07.Nov.2005)
+
+COMPATIBLE with client software 2.8.0 and above (c3_local / RCP).
+
+------------------------------------------------
+Fixes
+
+- fixed bug #645 (RCT5030): SNMPTraps sent under wrong OID
+  The SNMP-MIB (LYNX-TRAPS-MIB.txt) declares the OID for Device-Traps
+  as 1.3.6.1.4.1.14755.3.1. However, traps were sent with the
+  OID 1.3.6.1.4.14755.3.2.0. This inconsitency has been fixed.
+  (The MIB remains unchanged, the Traps are now sent correctly)
+
+===============================================================
+LYNX Device Controller - RELEASE 2.8.1 (build 151, 25.Oct.2005)
+
+COMPATIBLE with client software 2.8.0 and above (c3_local / RCP).
+
+------------------------------------------------
+Fixes
+
+- fixed bug #651: Single parameter in UI not updated.
+  In few UIs (depending on board type) one single parameter might
+  not be updated correctly.
+
+===============================================================
+LYNX Device Controller - RELEASE 2.8.0 (build 150, 24.Oct.2005)
+
+COMPATIBLE with client software 2.8.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- Added User Interface for PTG5010
+  (SDI Test Signal Generator)
+
+- Added User Interface for PVD5000
+  (same as PVD5000G FRamesynchronnizer, without GPI input)
+
+- Added User Interface for CMX5110
+  (Deembedder with Analog Video and Analog Audio Output)
+
+- Added User Interface for PMX5212/PMX5214 (BS509500)
+  (new AES Embedders, based on PCB BS509500)
+
+- Added User Interface for DVD5620
+  (Multi-Format HD/SD SDI Distribution Amplifier)
+
+- Added User Interface for SVD5012
+  (SDI Change-Over Switch)
+
+------------------------------------------------
+Fixes
+
+- increased server stability by major software framework improvements.
+
+===============================================================
+LYNX Device Controller - RELEASE 2.7.1 (build 149, 16.Sept.2005)
+
+COMPATIBLE with client software 2.7.0 and above (c3_local / RCP).
+
+------------------------------------------------
+Fixes
+
+- fixed bug #602: sync source of CAD5121/CAD5122 is identical for both
+  channels. The sync source of CAD5121/CAD5122 (intern/extern/off) is
+  always identical for channels 1 and 2. The client display (PC-GUI /
+  RCP5000) was not guaranteed to be updated accordingly.
+
+- fixed bug #638: Presence of SW-Licenses not recognized correctly
+  The presence of a software license was not always correctly recognized
+  in the RCT5030. This affected the SNMPTraps and LYNXRemoteControl
+  options.
+
+===============================================================
+LYNX Device Controller - RELEASE 2.6.8 (build 146, 02.Aug.2005)
+
+COMPATIBLE with client software 2.6.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCP5000 Fixes
+
+- A device that had never been locked before could be displayed
+  as "locked", while the lock was in fact not active. Workaround
+  was to lock/unlock the device once.
+
+- fix a couple of display issues with user-defined panel-configurations
+
+===============================================================
+LYNX Device Controller - RELEASE 2.6.7 (build 145, 01.Aug.2005)
+
+COMPATIBLE with client software 2.6.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCP5000 FEATURES
+
+- The current host's IP address is shown in the HOME-display
+  (top right corner)
+
+- Current Server Connection is saved persistently. At application
+  startup, the last current server connection is selected again.
+
+------------------------------------------------
+RCP5000 Fixes
+
+- fixed bug #613: navigating a large (flat) list of devices could show
+  incorrect total number of devices. Navigation of such a list could
+  break in th middle (jump back to head).
+
+- fixed bug #618: Switching the LOCATE function of a device on/off
+  very quickly (by turning the associated digi-pot very quickly),
+  could leave the panel non-responsive for a while.
+
+- fixed bug #619: locking a device in one RCP5000 (device-parameter
+  LOCK) was not properly propagated into other (passive) RCP5000s that
+  are connected to the same device.
+
+- fixed bug: executing commands from XML user-configuration did not
+  work correctly under certain conditions.
+
+===============================================================
+LYNX Device Controller - RELEASE 2.6.6 (build 144, 21.July.2005)
+
+COMPATIBLE with client software 2.6.0 and above (c3_local / RCP).
+
+------------------------------------------------
+RCP5000 Fixes
+
+- allow to control multiple devices from one RCP5000 menu page.
+
+- make sure the RCP5000 connects to a rack without complaining
+  about "no option RCP"
+
+------------------------------------------------
+NOTE: On RCT5030 platforms with build label XBOARD_130 or older, this
+      package can only be installed over RELEASE 2.6.4.
+   -> If you are using a platform build XBOARD_130 or older, you
+      will have to install RELEASE 2.6.4 before installing this package.
+   -> You can find the platform build label on the "System settings"
+      page on the Web-Interface of your RCT5030.
+      (see RCT5030 manual, section "Controller Configuration")
+
+===============================================================
+LYNX Device Controller - RELEASE 2.6.4 (build 142, 14.July.2005)
+
+COMPATIBLE with client software 2.6.0 and above (c3_local / RCP).
+
+------------------------------------------------
+Fixes
+
+- removed unnecessary restart of device server after a current client
+  is not reachable anymore. The appropriate auto-cleanup (which had
+  been introduced in RELEASE 2.6.2, see below) was deciding on a very
+  fundamental cleanup strategy in certain situations that turned out
+  not to be necessary.
+
+------------------------------------------------
+NOTE: Installing this package on a RCT5030 platform with build
+      label XBOARD_130 or older will ugrade the platform with
+      extension #1. This is a required extension for all future
+      software packages for such older platforms.
+   -> If you are using a platform build XBOARD_130 or older, you
+      will have to install this package before installing any newer
+      package.
+   -> You can find the platform build label on the "System settings"
+      page on the Web-Interface of your RCT5030.
+      (see RCT5030 manual, section "Controller Configuration")
+
+===============================================================
+LYNX Device Controller - RELEASE 2.6.3 (build 140, 24.June.2005)
+
+COMPATIBLE with client software 2.6.0 and above (c3_local / RCP).
+
+------------------------------------------------
+Fixes
+
+- fixed bug #604: incorrect read of data from the PAD5212 could lead
+  to wrong display values on the client (c3_local / rcp).
+
+===============================================================
+LYNX Device Controller - RELEASE 2.6.2 (build 138, 21.June.2005)
+
+COMPATIBLE with client software 2.6.0 and above (c3_local / RCP).
+
+------------------------------------------------
+Fixes
+
+- Fixed general connection issue: after a client had disconnected,
+  some references to that client would still be held in parts of the
+  running server. Next time when certain values (that these clients
+  had been interested in) are changed, these references had to be
+  removed before the new info could be propagated to the current
+  clients. This did result in noticable delays in certain situations
+  (such as initial login of a client, speed of update in case of
+  multiple clients).
+
+===============================================================
+LYNX Device Controller - RELEASE 2.6.1 (build 137, 09.June.2005)
+
+COMPATIBLE with client software 2.6.0 and above (c3_local / RCP).
+
+- Supply some additional (optional) status information to the various
+  SW-clients of the 2.6.0 release (RCP5000, RCPSimulation and c3_local).
+
+- Enabling a SoftwareOption in the RCT5030 from a client
+  (e.g. c3_local) will automatically be propagated to other
+  clients. In previous versions of the RCT5030 software, such other
+  clients had to disconnect/reconnect in order to become aware of the
+  mofified status of the SoftwareOption.
+
+- General rework of major parts of the software architecture,
+  resulting in a significant increase in overall stability and
+  performance.
+
+------------------------------------------------
+Fixes
+
+- fix bug #590: "GUI CAD5320: left/right indication crossed"
+  The indication of input channel status was crossed between left and
+  right channel on the GUI of the CAD5320. This server version is
+  required for the Event- and general Status information to appear
+  correct in the client UI.
+
+===============================================================
+LYNX Device Controller - RELEASE 2.5.3 (build 132, 17.May.2005)
+
+COMPATIBLE with c3_local 2.5.0 and above.
+
+------------------------------------------------
+Fixes
+
+- fix bug: Prevent from intermittend situations where (after a logout)
+  the re-login into the server from same client was refused.
+
+===============================================================
+LYNX Device Controller - RELEASE 2.5.2 (build 131, 25.Apr.2005)
+
+COMPATIBLE with c3_local 2.5.0 and above.
+
+------------------------------------------------
+Fixes
+
+- fix bug #577: "update to GUI not always complete"
+  A changed register value in a device (by local adjustment on board
+  or by GUI/RCP5000) was sometimes not propagated to all connected
+  clients (RCP5000, other GUIs). This problem is not existent in
+  releases prior to 2.5.1
+
+===============================================================
+LYNX Device Controller - RELEASE 2.5.1 (build 130, 14.Apr.2005)
+
+COMPATIBLE with c3_local 2.5.0 and above.
+
+------------------------------------------------
+Fixes
+
+- fix bug: the status text of the CDX5024 was sometimes not
+  100% accurate in the GUI. This status text is generated in
+  the server, hence this fix.
+
+===============================================================
+LYNX Device Controller - RELEASE 2.2.9 (build 127, 21.Mar.2005)
+
+COMPATIBLE with c3_local 2.2.3 and above.
+
+------------------------------------------------
+Fixes
+
+- fix bug #555: "c3-framework shutdown on CAD3110"
+  Some versions of the CAD3110 shutdown the RCT5030. Fixed by
+  eliminating a long-hidden bug in the framework.
+  (NOTE: this bug affects an RCT5030, when connected to a
+  CAD3110 with version < 124 in a Series3000 Rack)
+
+===============================================================
+LYNX Device Controller - RELEASE 2.2.8 (build 124, 02.Mar.2005)
+
+COMPATIBLE with c3_local 2.2.3 and above.
+
+------------------------------------------------
+Fixes
+
+- fix bug #551: "RCT5030 takes a long time to login if a previous client died"
+  When a client (c3_local) logs into the RCT5030 and then does not properly
+  logout, the next attempt to login to the RCT5030 will take a long time (~ 30 sec.)
+
+- fix bug #552: "RCT5030 WebIF: large logfile.txt leads to timeout on logfile page"
+  If one of the logfiles is very large (this has been observed with a
+  ~8 MB file), then the complete Logfile-page is not given out by the
+  Webserver anymore. Instead, this message sent to the HTTP-client:
+     Fatal error: Maximum execution time of 30 seconds exceeded in
+     /usr/local/lynx/c3_server/2.2.6/web/code/ClassC3Logfiles.php on line 28
+
+- fix bug #554: "RCT5030 instable under heavy load."
+  under very heavy load, the RCT5030 seems to restart itself from time
+  to time. A c3_local GUI is logged out spontaneously, and a re-login
+  takes long time to complete.
+
+===============================================================
+LYNX Device Controller - RELEASE 2.2.7 (build 122, 24.Feb.2005)
+
+COMPATIBLE with c3_local 2.2.3 and above.
+
+------------------------------------------------
+Fixes
+
+- fix bug #541: "initial (color/text) status of some devices wrong"
+  The initial status of about 1% of devices in the GUI is not correct (text/color
+  is OK/green instead of the appropriate value). Pressing F5 in the devices GUI
+  brings the status up to correct content. This is a statistical error, not
+  100% reproducible per device.
+
+- fix bug #545: "c3_server does not allow to login anymore"
+  The c3_server application (inside RCT5030) can get into a state where no more
+  logins from a client (c3_local) are possible. The only way out of this situation
+  is to restart the c3_server, either by power-cycling the RCT5030 or by
+  restarting the app through the web-interface.
+
+===============================================================
+LYNX Device Controller - RELEASE 2.2.6 (build 121, 14.Feb.2005)
+
+COMPATIBLE with c3_local 2.2.3 and above.
+
+------------------------------------------------
+Fixes
+
+- fix bug #541: " initial (color/text) status of some devices wrong"
+  The initial status of about 1% of devices in the GUI is not correct (text/color
+  is OK/green instead of the appropriate value). Pressing F5 in the devices GUI
+  brings the status up to correct content. This is a statistical error, not
+  100% reproducible per device.
+
+===============================================================
+LYNX Device Controller - RELEASE 2.2.5 (build 120, 10.Feb.2005)
+
+COMPATIBLE with c3_local 2.2.3 and above.
+
+------------------------------------------------
+New Features
+
+This is a feature release, adding support for the generic
+status reporting model. This will make it possible, that
+for future releases of individual device types, the c3_server
+does not necessarily have to be updated anymore.
+
+It is declared as bugfix-release 2.2.5 anyways (should have been 2.3.0),
+so that the same c3_local GUI version can be connected as before.
+(no need to upgrade c3_local for this release)
+
+A new Web-Interface allows for configuration of all relevant parameters
+of the network-interface (gateway, netmask, broadcast addr.)
+
+===============================================================
+LYNX Device Controller - RELEASE 2.2.4 (build 119, 10.Feb.2005)
+
+COMPATIBLE with c3_local 2.2.3 and above.
+
+------------------------------------------------
+Fixes
+
+- fix bug #538: "RCT5030 version 2.2.3 does not run with RCT5010"
+  c3_server version 2.2.3 cannot be used with RCT5010.
+
+
+===============================================================
+- end of file

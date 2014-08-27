@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2006 U (http://www.altova.com) by Dennis Hartmann (Lynx) -->
+<xs:schema xmlns="http://www.lynx-technik.com/AutoCtrlSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.lynx-technik.com/AutoCtrlSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+    <xs:annotation>
+        <xs:documentation>Note: Any future extensions must be added at the end of sequences in complex types or as attributes of existing types/elements</xs:documentation>
+    </xs:annotation>
+    <!--References to LYNX Servers-->
+    <xs:complexType name="ServersType">
+        <xs:annotation>
+            <xs:documentation>List of controlled LYNX servers</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="Server" type="ServerType" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation>A LYNX server is identified by its IP address and needs a username and password for login (unless it is the local server)</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="ServerType">
+        <xs:sequence>
+            <xs:element name="IPAddress" type="xs:token"/>
+            <xs:element name="Username" type="xs:token" minOccurs="0"/>
+            <xs:element name="Password" type="xs:token" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+    </xs:complexType>
+    <!--References to LYNX devices-->
+    <xs:complexType name="DevicesType">
+        <xs:annotation>
+            <xs:documentation>List of controlled LYNX devices, accessible through the related LYNX servers</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="Device" type="DeviceType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="DeviceType">
+        <xs:annotation>
+            <xs:documentation>A LYNX device references a LYNX server and is identified by the rack position within that server</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="Server" type="xs:IDREF"/>
+            <xs:element name="RackPos" type="RackPosType"/>
+            <xs:element name="TypeCode" type="xs:unsignedShort" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Type and subtype of the expected device as an unsigned 16-bit value (decimal)</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+    </xs:complexType>
+    <xs:simpleType name="RackPosType">
+        <xs:restriction base="xs:token">
+            <xs:pattern value="\d+\.\d+\.\d+\.\d+"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!--References to BFE panels-->
+    <xs:complexType name="BDxxPanelsType">
+        <xs:annotation>
+            <xs:documentation>List of controlled BFE panels, e.g. BD17, BD32 or BD51</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="Panel" type="BDxxPanelType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="BDxxPanelType">
+        <xs:sequence>
+            <xs:element name="IPAddress" type="xs:token"/>
+            <xs:element name="Port" type="xs:unsignedInt"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+    </xs:complexType>
+    <!--Conditions triggering any actions-->
+    <xs:complexType name="ConditionsType">
+        <xs:annotation>
+            <xs:documentation>List of conditions which shall evaluate to true to trigger any actions on the controlled devices</xs:documentation>
+        </xs:annotation>
+        <xs:choice maxOccurs="unbounded">
+            <xs:element ref="BaseCondition"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:complexType name="BaseConditionType" abstract="true">
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+        <xs:attribute name="not" type="xs:boolean" use="optional" default="false"/>
+        <xs:attribute name="active" type="xs:boolean" use="optional" default="true"/>
+        <xs:attribute name="order" type="xs:unsignedInt" use="optional" default="0"/>
+    </xs:complexType>
+    <xs:complexType name="AndOrConditionType">
+        <xs:complexContent>
+            <xs:extension base="BaseConditionType">
+                <xs:sequence>
+                    <xs:element name="Input">
+                        <xs:annotation>
+                            <xs:documentation>IDs of the conditions evaluated in and/or context</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:IDREFS">
+                                <xs:minLength value="2"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                </xs:sequence>
+                <xs:attribute name="and" type="xs:boolean" use="required"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="DelayConditionType">
+        <xs:complexContent>
+            <xs:extension base="BaseConditionType">
+                <xs:sequence>
+                    <xs:element name="Input" type="xs:IDREF">
+                        <xs:annotation>
+                            <xs:documentation>ID of the condition triggering the delay evaluation</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="Delay" type="xs:unsignedLong">
+                        <xs:annotation>
+                            <xs:documentation>Delay in seconds from the condition becoming true until the truth state is propagated to a parent condition or an associated action</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="ParamValueConditionType">
+        <xs:complexContent>
+            <xs:extension base="BaseConditionType">
+                <xs:sequence>
+                    <xs:element name="Device" type="xs:IDREF">
+                        <xs:annotation>
+                            <xs:documentation>ID of the associated LYNX device within this XML schema</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="Param" type="xs:token">
+                        <xs:annotation>
+                            <xs:documentation>Name of the monitored UI parameter</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="Value" type="xs:string">
+                        <xs:annotation>
+                            <xs:documentation>Expected value or string pattern for the condition to become true</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="Match" type="MatchType"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:simpleType name="MatchType">
+        <xs:restriction base="xs:token">
+            <xs:enumeration value="Equal"/>
+            <xs:enumeration value="Below"/>
+            <xs:enumeration value="Above"/>
+            <xs:enumeration value="StringMatch"/>
+            <xs:enumeration value="RegExpMatch"/>
+            <xs:enumeration value="WildcardMatch"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="BDxxConditionType">
+        <xs:complexContent>
+            <xs:extension base="BaseConditionType">
+                <xs:sequence>
+                    <xs:element name="Panel" type="xs:IDREF"/>
+                    <xs:element name="Button" type="xs:unsignedInt"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="DateTimeConditionType">
+        <xs:complexContent>
+            <xs:extension base="BaseConditionType">
+                <xs:sequence>
+                    <xs:element name="DateTime" type="xs:dateTime">
+                        <xs:annotation>
+                            <xs:documentation>Timestamp for triggering this condition (first trigger if Period is non-zero)</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="Period" type="xs:unsignedLong" default="0" minOccurs="0">
+                        <xs:annotation>
+                            <xs:documentation>If non-zero, the condition is triggerred periodically after the number of seconds given here, e.g. 3600 means once per hour, 86400 means once per day at the given time</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="BaseCondition" type="BaseConditionType" abstract="true"/>
+    <xs:element name="AndOrCondition" type="AndOrConditionType" substitutionGroup="BaseCondition"/>
+    <xs:element name="DelayCondition" type="DelayConditionType" substitutionGroup="BaseCondition"/>
+    <xs:element name="ParamValueCondition" type="ParamValueConditionType" substitutionGroup="BaseCondition"/>
+    <xs:element name="BDxxCondition" substitutionGroup="BaseCondition">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="BDxxConditionType"/>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DateTimeCondition" type="DateTimeConditionType" substitutionGroup="BaseCondition"/>
+    <!--Actions triggered by the AutoControl engine-->
+    <xs:complexType name="ActionsType">
+        <xs:annotation>
+            <xs:documentation>List of actions triggered by the associated conditions</xs:documentation>
+        </xs:annotation>
+        <xs:choice maxOccurs="unbounded">
+            <xs:element ref="BaseAction"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:complexType name="BaseActionType" abstract="true">
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string" minOccurs="0"/>
+            <xs:element name="Condition" type="xs:IDREF"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+        <xs:attribute name="active" type="xs:boolean" use="optional" default="true"/>
+        <xs:attribute name="level" type="xs:unsignedInt" use="optional" default="0"/>
+        <xs:attribute name="order" type="xs:unsignedInt" use="optional" default="0"/>
+    </xs:complexType>
+    <xs:complexType name="ParamValueActionType">
+        <xs:complexContent>
+            <xs:extension base="BaseActionType">
+                <xs:sequence>
+                    <xs:element name="Device" type="xs:IDREF"/>
+                    <xs:element name="Param" type="xs:token"/>
+                    <xs:element name="Value" type="xs:string"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="BDxxActionType">
+        <xs:complexContent>
+            <xs:extension base="BaseActionType">
+                <xs:sequence>
+                    <xs:element name="Panel" type="xs:IDREF"/>
+                    <xs:element name="Button" type="xs:unsignedInt"/>
+                    <xs:element name="Text" type="xs:string"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="BaseAction" type="BaseActionType" abstract="true"/>
+    <xs:element name="ParamValueAction" type="ParamValueActionType" substitutionGroup="BaseAction"/>
+    <xs:element name="BDxxAction" type="BDxxActionType" substitutionGroup="BaseAction"/>
+    <!--AutoControl configuration-->
+    <xs:complexType name="AutoCtrlType">
+        <xs:annotation>
+            <xs:documentation>Main node of AutoControl configurations</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="Servers" type="ServersType" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>List of controlled LYNX servers</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="Devices" type="DevicesType" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>List of controlled LYNX devices, accessible through the related LYNX servers</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="BDxx" type="BDxxPanelsType" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>List of controlled BFE panels, e.g. BD17, BD32 or BD51</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="Conditions" type="ConditionsType" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>List of conditions which shall evaluate to true to trigger any actions on the controlled devices</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="Actions" type="ActionsType" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>List of actions triggered by the associated conditions</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="version" type="xs:string" fixed="1.0"/>
+    </xs:complexType>
+    <!--Root node-->
+    <xs:complexType name="LynxType">
+        <xs:annotation>
+            <xs:documentation>Root of LYNX XML descriptions</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="AutoCtrl" type="AutoCtrlType">
+                <xs:annotation>
+                    <xs:documentation>Main node of AutoControl configurations</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="Lynx" type="LynxType">
+        <xs:annotation>
+            <xs:documentation>Root of LYNX XML descriptions</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+</xs:schema>

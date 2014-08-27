@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2006 U (http://www.altova.com) by Dennis Hartmann (Lynx) -->
+<xs:schema xmlns="http://www.lynx-technik.com/LynxSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.lynx-technik.com/LynxSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+    <xs:element name="Lynx" type="NodeLynx">
+        <xs:annotation>
+            <xs:documentation>Root node of LYNX XML descriptions</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="NodeLynx">
+        <xs:annotation>
+            <xs:documentation>Root node of LYNX XML descriptions</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="SmartUpdate" type="NodeSmartUpdate">
+                <xs:annotation>
+                    <xs:documentation>Main node of SmartUpdate descriptions</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="NodeSmartUpdate">
+        <xs:annotation>
+            <xs:documentation>Main node of SmartUpdate descriptions</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="JobInfo" type="NodeJobInfo">
+                <xs:annotation>
+                    <xs:documentation>Overall information of a SmartUpdate job</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="JobItem" type="NodeJobItem" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation>Description of an individual item processed by SmartUpdate</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="NodeJobInfo">
+        <xs:annotation>
+            <xs:documentation>Overall information of a SmartUpdate job</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="JobName" type="xs:token" minOccurs="0"/>
+            <xs:element name="Description" type="xs:string" minOccurs="0"/>
+            <xs:element name="ServerAddress" type="xs:token" minOccurs="0"/>
+            <xs:element name="ClientAddress" type="xs:token" minOccurs="0"/>
+            <xs:element name="ClientUser" type="xs:token" minOccurs="0"/>
+            <xs:element name="Mode" type="xs:int" default="0" minOccurs="0"/>
+            <xs:element name="State" type="xs:int" default="0" minOccurs="0"/>
+            <xs:element name="StartTime" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="EndTime" type="xs:dateTime" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="NodeJobItem">
+        <xs:annotation>
+            <xs:documentation>Description of an individual item processed by SmartUpdate</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="RackPos" type="NodeRackPos"/>
+            <xs:element name="BoardID" type="xs:unsignedInt" minOccurs="0"/>
+            <xs:element name="SerialNumber" type="xs:unsignedInt" minOccurs="0"/>
+            <xs:element name="OldSWLabel" type="xs:unsignedInt" minOccurs="0"/>
+            <xs:element name="NewSWLabel" type="xs:unsignedInt" minOccurs="0"/>
+            <xs:element name="LXZFile" type="xs:anyURI" minOccurs="0"/>
+            <xs:element name="LXZPresent" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="State" type="xs:int" minOccurs="0"/>
+            <xs:element name="Progress" type="xs:int" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="NodeRackPos">
+        <xs:annotation>
+            <xs:documentation>Rack position of a SmartUpdate item, aka. LYNX device</xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="port" type="xs:int" use="required"/>
+        <xs:attribute name="stack" type="xs:int" use="required"/>
+        <xs:attribute name="frame" type="xs:int" use="required"/>
+        <xs:attribute name="slot" type="xs:int" use="required"/>
+    </xs:complexType>
+</xs:schema>
