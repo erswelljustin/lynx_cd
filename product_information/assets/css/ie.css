@@ -1,0 +1,16 @@
+.body {
+	background-color: #454545 !important;
+}
+
+.side-bar-bg {
+	width: 19% !important;
+}
+
+.navbar-inner {
+  background-color: rgb(35, 35, 35) !important;
+  /* remove the gradient */
+  background-image: none !important;
+  filter: none !important;
+  /* set font color to white */
+  color: white !important;
+}  
