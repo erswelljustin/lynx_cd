@@ -1,5 +1,5 @@
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Arial,"Liberation Sans",FreeSans,sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	color: #454545;
@@ -75,7 +75,7 @@ a:focus {
 }
 h1 {
 	font-weight:normal;
-	font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+	font-family: Arial,"Liberation Sans",FreeSans,sans-serif;
 }
 
 ul.main-menu { padding:0; background:#404040; color: #fff; height: 100% !important;}
