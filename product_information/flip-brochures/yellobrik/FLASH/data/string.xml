@@ -1,0 +1,2869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stringlist>
+<slide>
+finally, bricks done right..
+
+LYNXTechnik AG
+
+®
+
+Broadcast Television Equipment
+
+</slide>
+<slide>
+INDEX INDEX INDEX INDEX
+
+HDMI Conversion
+CDH 1813 CHD 1812 CHD 1802 PDM 1284 B/D PDM 1383 3Gbit SDI to HDMI Converter with 3D Support 3Gbit HDMI to SDI Converter with Integrated Frame Synchronizer 3Gbit HDMI to SDI Converter 3Gbit AES Audio Embedder / De-embedder (4 x AES) 3Gbit Analog Audio Embedder / De-embedder (4 x analog audio) Wide Band Analog Video / Sync Distribution Amplifier 3Gbit 1&gt;7 SDI/ASI Distribution Amplifier Dual 1&gt;3 3Gbit SDI/ASI Distribution Amplifier HD/SD Analog Sync Pulse Generator with Genlock 3Gbit SDI to Fiber Optic Transmitter with Loop Input - 1310nm 10km Dual Channel 3Gbit SDI to Fiber Optic Transmitter - 1310nm (x2) 10km 3Gbit Fiber Optic to SDI Receiver with Dual SDI Outputs (CWDM compatible) Dual Channel 3Gbit Fiber Optic to SDI Receiver (CWDM compatible) 3Gbit SDI / Fiber Optic Transceiver - 1310nm 10km SMF, 300m MMF 3Gbit SDI / Fiber Optic Bi-directional Transceiver Set (pair) 10km 4K Fiber Transmission System (20km) Serial RS232/422/485 and GPI Fiber Optic Transceiver - 1310nm 10km SMF, 550m MMF Serial RS232/422/485 and GPI Bi-directional Fiber Optic Transceiver Set (pair) 10km Ethernet to Fiber Optic Transceiver - 1310nm 10km, 550m MMF Ethernet to Fiber Optic Bi-directional Transceiver Set (pair) 10km Analog Sync / Composite Video Fiber Optic Transmitter - 1310nm 10km Fiber Optic Analog Sync / Composite Video Receiver L-Band to Fiber Optic Transmitter - 1310nm 10km Fiber Optic to L-Band Receiver 3Gbit SDI to Fiber Optic Transmitter with Loop Input - CWDM Dual Channel 3Gbit SDI to Fiber Optic Transmitter - CWDM 3Gbit SDI / Fiber Optic Transceiver - CWDM Serial RS232/422/485 and GPI Fiber Optic Transceiver - CWDM Ethernet to Fiber Optic Transceiver - CWDM Analog Sync / Composite Video Fiber Optic Transmitter - CWDM 9 Channel CWDM Optical Multiplexer / Demultiplexer (2 versions) 4 Channel CWDM Optical Multiplexer / Demultiplexer (4 versions) Fiber Optic Passive Splitters (3 versions) 19” 1RU Rack Frame For 14 yellobrik Modules Mounting Bracket for Individual yellobrik Modules 19” Mounting Frame for OCM Optical Multiplexers / Splitters Introduction to yelloGUI Software for PC Setting and Control
+
+Page 4-7 8-9 10 - 11 Page 12 - 15 16 - 17 Page 18 19 20 Page 21 Page 22 23 Page 24 25 Page 26 27 28 - 29 Page 30 - 31 32 - 33 34 35 Page 36 37 Page 38 39 Page 40 41 42 44 - 45 43 46 Page 48 - 49 47 50 Page 52 51 53 54 - 57
+
+SDI Audio Embedders / De-embedders
+
+Video Distribution
+DVA 1714 DVD 1817 DVD 1823
+
+Sync Pulse Generator
+SPG 1707 OTX 1812 OTT 1812
+
+SDI Fiber Optic Transmitters
+
+SDI Fiber Optic Receivers
+ORX 1802 ORR 1802 OTR 1810 (MM) OBD 1810 OTR 1441 ODT 1510 (MM) OBD 1510 D OET 1510 (MM) OBD 1510 E OTX 1712 ORX 1702 OTX 1910 ORX 1900 OTX 1842 OTT 1842 OTR 1840 ODT 1540 OET 1540 OTX 1742 OCM 1891/92 OCM 1841/42/43/44 OSP 1812/12M/14 RFR 1000 RFR 1001 RFR 1018 yelloGUI
+
+SDI Fiber Optic Transceivers
+
+Data Fiber Optic Transceivers
+
+Analog Sync / Video Fiber Optic Converters
+
+RF Fiber Optic Converters
+
+CWDM Compatible Fiber Transmitters
+
+CWDM Optical Multiplexers / Splitters
+
+Rack Frames and Mounting Solutions
+
+2
+
+</slide>
+<slide>
+yellobrik | finally, bricks done right...
+®
+
+There are lots of small interface “brick” style products available, and we looked at them all. After carefully studying the pro’s and con’s, we started the development of a complete new family of bricks, different and more feature rich than the rest - yellobrik’s. We all know how annoying and frustrating it can be when changing a connection or setting when the product manual isn’t readily available. We have adopted a new basic mantra for the development of each new yellobrik device... “No manual needed” We clearly identify all connections and signal flow, and everything you need to know is printed right on the module. All controls are easily accessible and clearly labeled, with no need to remove covers, move links or figure out complex dip switch settings. Even though yellobrik’s are low cost utility products, reliability and technical performance are key to their functionality. Yellobrik’s are the most stable and technically proficient bricks available and are backed by excellent after sales service and support. We include all the accessories needed: The module, power supply, AC plug adapters plus a USB cable, audio adapters and HDMI cables if required. All of this is supplied in a small plastic transport case - all included in the price. Some yellobrik’s are field upgradeable. When we release new firmware, updates are always free to download and install. Simply download the update from our website, plug in a USB cable and click.. Nothing could be easier. We offer a complimentary PC or MAC desktop application - yelloGUI, which can be used to access extended feature sets and settings within select yellobrik’s. With yelloGUI, you will also receive push notifications of new firmware releases and with a simple click the module can be updated. Our innovative 1RU rack mounting chassis lets you move from simple “throw down” solutions to a tidy & organized system installed in a 19” rack frame with central and redundant power protection.
+
+connections clearly identified
+
+easy access controls, clearly labelled
+
+everything written on the module USB for updates and yelloGUI PC control*
+*on select modules
+
+All yellobrik’s are supplied in a custom plastic transport case with power supply and other accessories
+
+3
+
+</slide>
+<slide>
+yellobrik
+®
+
+CDH 1813
+yelloGUI compatible
+
+SDI to
+
+Converter
+
+• Support for SDI video inputs up to 3Gbit/s (1080P) • Support for single link 3D formats • Automatic input standard and format detection • Fiber input and output options • HDMI video output with embedded audio • Analog and AES audio outputs • Selectable burn in windows • 16 channel on screen audio meters • H/V delay and safe area markers • yelloGUI compatible: Gain access to additional features
+
+Shown with Fiber SFP Option Installed
+
+The CDH 1813 is a versatile, compact SDI to HDMI converter designed to combat a host of monitoring and display applications in broadcast, post production and pro A/V markets. Convert any SDI video signal, including 3D formats into an HDMI signal for monitoring and display. Fiber connectivity options add SDI fiber transmission and/or SDI fiber reception using the integrated fiber SFP socket. Two channels of audio can be de-embedded providing digital AES and analog audio outputs. Analog audio outputs have selectable full scale range presets. The two selected audio channels can also be embedded into the HDMI output. In addition 8 channels selected from the input signal (channels 1-8 or 9-16) can be embedded into the HDMI output. Various burn in features make the CDH 1813 a true monitoring tool. Timecode burn in, 16 channel audio metering, safe area markers and Metadata display are just a few of the on-screen monitoring features. The yelloGUI software provides support for a host of additional settings and features which are accessed using a PC and the USB port on the module. SDI Fiber Transmitter Options
+Model
+OH-TX-1-LC / ST / SC OH-TX-0-850-MM
+
+Technical Specifications
+SDI Input
+1 x SDI video on 75 Ohm BNC connector SMPTE ST 259M (SDTV) SMPTE ST 292-1 (HDTV 1,5 Gb/s) SMPTE 424 M (3Gb/s) supporting ST 425-1 Level A and ST 425-2
+For a detailed list of supported formats please refer to the article in our knowledge base ( www.lynx-technik.com &gt; support &gt; tech.support )
+
+Support for ‘single link’ 3D modes: “side by side” , “top-bottom” and “dual stream (SMPTE ST-423-2)” Return Loss: &gt; 15dB to 1.5GHz and &gt; 10dB up to 3GHz Automatic cable EQ (Belden 1694A cable) 340m @ 270Mbit/s, 150m @ 1.5Gbit/s, 120m @ 3Gbit/s
+
+Fiber Input SDI Output
+
+1 x fiber optic SDI input. SMPTE 297M - 2006 (Optional- see fiber options table) 1 x reclocked SDI video output on 75 Ohm BNC connector 1 x reclocked fiber optic SDI output. SMPTE 297M - 2006 (Optional- see fiber options table) 10 bit HDMI 1.4a support including 3D, deep color and embedded audio Type A connector. 3D modes supported: “side by side” + “top and bottom” + “frame packing” 24 bit (3 X 8bit) and 30bit (3 x 10bit) deep color (R,G,B / Y,Cr,Cb / X,Y,Z) 2 or 8 channel audio embedding (selectable)
+
+Description
+SFP Fiber TX - Singlemode - LC, ST or SC conn. - 10km SFP Fiber TX- Multimode - LC conn. - 300m
+
+Power
+-5dBm (1310nm) -5dBm (850nm)
+
+Fiber Output HDMI Output
+
+SDI Fiber Receiver Options
+Model
+OH-RX-1-LC / ST / SC OH-RX-0-MM
+
+Description
+SFP Fiber RX - Singlemode - LC, ST or SC connector SFP Fiber RX- Multimode - LC connector
+
+Sensitivity
+-16dBm -15dBm
+
+AES Output Audio Output
+
+AES3id on 75 Ohm BNC, 2 channels (selectable) Left and right analog audio using 1/4 inch jack sockets (phono sockets) Balanced mode with 24,22,20,18,15,12 dBu full scale (selectable) Unbalanced mode with (line level) at -10 dBv 1/4 inch Jack plug (phono) to RCA connection adapters supplied
+
+SDI Fiber Transceiver Options
+Model
+OH-TR-1 OH-TR-0-850
+
+Description
+SFP Fiber RX/TX - Singlemode, LC Connector - 10km SFP Fiber RX/TX - Multimode, LC Connector - 300m
+
+Power
+-5dBm -5dBm
+
+Sense
+-18dBm -15dBm
+
+SDI CWDM Fiber Transmitter Options
+Model
+OH-TX-4-XXXX
+
+USB Power
+-1dBm
+
+Standard USB port for yelloGUI interface and firmware updates (Mini Type “B” plug) +12VDC @ 3.7W nominal - ( supports 10 - 14VDC input range ) Size: 138mm x 90mm x 22mm (5.13” x 3.54” x 0.86”) including connectors Weight: 230g (8.11oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) CDH 1813 - ( EAN# 4250479359833 ) Module, AC power supply, RCA adapters, HDMI + USB cable, transport case
+
+Description
+CWDM SFP Fiber TX - Singlemode LC Conn. - 40km XXXX=Wavelength. 18 according to ITU T G692.2 1270nm through 1610nm
+
+Power Physical Ambient
+
+SDI CWDM Fiber Transceiver Options
+Model
+OH-TR-4-XXXX
+
+Description
+CWDM SFP Fiber RX/TX - Singlemode LC Conn. - 40km XXXX=Wavelength. 18 according to ITU T G692.2 1270nm through 1610nm
+
+Power
+-1dBm
+
+Sense
+-20dBm
+
+Model # Includes
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+4
+
+</slide>
+<slide>
+yellobrik
+®
+
+CDH 1813
+yelloGUI compatible
+
+Monitoring Features
+
+The CHD 1813 is ideal for regular transparent image monitoring, providing a clean 1:1 HDMI conversion of the SDI input signal. There are also a number of other HDMI monitoring options available. These monitoring modes are activated using the module dip switch and can be used individually or as combined monitoring modes.
+
+Clean Feed
+
+• Direct conversion of input SDI Stream • The CHD 1813 does not scale the image, therefore the HDMI output format is the same as the native SDI input resolution and frame rate.
+
+Burn in Windows
+
+• Display up to three timecode values (if present) ( VITC , LTC, DVITC ) • SDI input format, bit depth and color scheme • AFD present and format code • 16 audio level meters • Closed Caption, WSS and VI metadata presence
+
+Safe Area Markers
+
+• SMPTE Safe Action (default) (default can be changed using yelloGUI) • Center cross marker • Fully programmable with yelloGUI
+
+H / V Delay
+
+• View horizontal and vertical blanking
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 5
+
+</slide>
+<slide>
+yellobrik
+®
+
+CDH 1813
+yelloGUI compatible
+
+yelloGUI
+Parameter Settings
+Safe Area Markers OFF
+
+™
+
+The CHD 1813 features full yelloGUI support that provides access to additional features and settings not possible from the module’s local controls. Additional features are accessed using our free yelloGUI application. Additional settings include:
+
+= Default Settings
+
+SMPTE Safe Action (90/90) SMPTE Safe Title (80/80) EBU Action (3.5/3.5) EBU Graphics (5/10) Aspect Ratio Markers OFF 4:3 16:9 Curtain Transparency 100% Adjustable 30%-90% Center Cross ON OFF Marker Color White Red, Green, Blue, Yellow, Cyan, Magenta, Black Safe Area from Aspect ON OFF
+
+The on screen markers can be custom configured to suit any application. This includes various “standard” safe area markers, aspect ratio markers with adjustable curtain transparency. The color of the markers may also be changed. Parameter Settings
+HDMI Color Range SMPTE Limited Full Range HDMI Color Space AUTO RGB Y,Cr,Cb 4:2:2 Y,Cr,Cb 4:4:4
+
+Parameter Settings
+SDI input RGB Range SMPTE Limited Full Range HDMI Input Bit Depth AUTO 8 bit 10 bit 12 bit
+
+Parameter Settings
+Audio Channels 1:1 Convert* *DEFAULT: Audio channels 1 through 8 are mapped 1:1 from SDI to HDMI. When set to “Convert” channels 3 and 4 are swapped resulting in channel allocations per SMPTE 320M (3=center /4=LFE) and CEA-861 (3=LFE / 4=FrontCenter)
+
+Parameter Settings
+3D HDMI Output Format AUTO Frame Packing (FP) Side by Side (SS) Top and Bottom (TB)
+
+Parameter Settings
+3D SDI Input Format AUTO Side by Side (SS) Top and Bottom (TB) Dual Stream (3G/LevelB) 2D (no 3D)
+
+Parameter Settings
+Swap SDI Streams Regular Inverted When a 3G LevelB input signal is processed as 3D content then the default setting is: Left Eye from Stream A, and Right Eye from Stream B. This can be inverted with this switch. For 2D content, default is stream A, and stream B is selected with this switch. Horizontal Flip NO FLIP FLIP This mode flips the input siganal horizontally to show a mirror image on the HDMI output. Useful for Virtual Set (Green Screen) on set monitoring.
+
+3D Flip Left Eye
+
+NO FLIP Horizontal Vertical Both
+
+3D Flip Right Eye
+
+NO FLIP Horizontal Vertical Both
+
+HDMI configuration settings are set automatically by the internal EDID communication between the two connected devices. These settings can be changed manually for specific applications.
+
+LYNXTechnik AG |
+6
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+CDH 1813
+yelloGUI compatible
+
+Fiber Application Using CDH 1813 SDI to HDMI Converter
+Sample application using two CDH 1813 modules for SDI fiber optic transmission up to 10km (6.2 miles) @3Gbit/s with integrated HDMI signal confidence monitoring at each end.
+
+(with up to 16 channels of audio)
+
+Source SDI Signal
+
+This application demonstrates how the CDH 1813 with the fiber option can be used to provide a system solution for robust fiber transmission with integrated HDMI confidence monitoring at each end. (Using prosumer or consumer display equipment)
+
+CDH 1813
+SDI in Re-clocked Loop Output SDI out Fiber out
+
+and OH-TX-1 Transmitter SFP
+HDMI
+
+Fiber connection up to 10km (6.2 miles) @ 3Gbit/s
+
+Audio
+
+Received SDI Signal
+(with up to 16 channels of audio)
+
+• HDMI Display of video signal • Burn in timecode • Overlay of key metadata parameters The diagram shows external analog audio monitoring. The two channels being monitored can be user selected from the 16 input channels. Alternatively, if the HDMI display has audio capability then the internal speakers can be used with the embedded HDMI audio.
+
+CDH 1813
+
+and OH-RX-1 Receiver SFP
+HDMI SDI out Fiber in
+
+Audio
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 7
+
+</slide>
+<slide>
+yellobrik
+®
+
+CHD 1812
+yelloGUI compatible
+
+3Gbit
+
+to SDI Converter + Frame Synchronizer
+
+• Supports SD/HD/3G -SDI formats • 3D support • Integrated Frame Synchronizer • Multi-format sync reference input - cross lock compatible • 2 x SDI outputs with optional SDI fiber output • HDMI embedded audio passed transparently • 2 x external analog audio inputs • Professional balanced analog audio inputs or unbalanced line level audio inputs • Selectable AES channel for embedding external audio • HDMI, reference and audio present LED indication • yelloGUI compatible to access additional internal settings
+
+Shown with Fiber SFP Option Installed
+
+The CHD 1812 is a versatile and compact HDMI to SDI converter with integrated frame synchronizer. It is an ideal solution for any application which requires a fully synchronized SDI input from an external asynchronous HDMI source. The flexible reference sync input will accept any analog video sync format including SD bi-level sync, black burst, colorbars and tri-level HD sync. The sync input is auto detecting and fully cross lock compatible. For example: An SDTV reference can be used to frequency lock an HD HDMI input. If no reference is present, the converter performs a standard asynchronous HDMI to SDI conversion. A pair of stereo analog inputs can be embedded into any AES channel. Audio inputs can be either professional balanced audio with selectable full scale level, or unbalanced consumer line level audio. By default any audio present in the HDMI stream will be embedded into the SDI output or it can be replaced with the external audio signals. The module is also compatible with the yelloGUI software package, which provides access to a host of additional internal settings including adjustable video delay for timing purposes. An SDI fiber output is also provided with a variety of plug in SFP options available.
+
+Technical Specifications
+HDMI Input
+3D compatible input using type A connector Up to 8 channels embedded audio in HDMI is passed transparently or replaced with external analog audio input
+
+Reference Input
+
+SDTV: Analog 525 or 625 bi-level sync, black burst or colorbars HDTV: All tri-level sync standards (exceptions 1080p 50/59.94/60Hz) Cross lock compatible SMPTE 274M, SMPTE 296M - 75 Ohm BNC connector
+
+Frame Synchronizer
+
+Functional if valid reference is detected, otherwise operates in free run (asynchronous) mode. External audio and HDMI input are frequency locked to external reference, fully cross lock compatible across standards. One frame adjustable delay (in line and pixel increments) using yelloGUI 2 x SDI video, 75 Ohm BNC. (both have the same signal - NOT dual link) SMPTE ST 259M (SDTV), SMPTE ST 292-1 (HDTV 1.5Gb/s) SMPTE ST 424M (3Gb/S) supporting ST 425-1 Level A and ST 425-2 (3D) Multi-standard output. SDTV (525/625) 720p and 1080p (23.98/24/25/29.97/30/50/59.94/60 Hz) 1080i (50/59.94/60 Hz)
+
+SDI Outputs
+
+Fiber Output Audio Inputs
+
+Optional plug in SFP for optical SDI output (see fiber options table) Left and right analog audio using 1/4 inch jack plugs 10k Ohm differential balanced input mode with 24,22,20,18,15,12 dBu full scale (selectable)
+
+SDI Fiber Transmitter Options
+Model
+OH-TX-1-LC / ST / SC OH-TX-0-850-MM
+
+Description
+SFP Fiber TX - Singlemode - LC, ST or SC conn. - 10km SFP Fiber TX- Multimode - LC conn. - 300m
+
+Power
+-5dBm (1310nm) -5dBm (850nm)
+
+Unbalanced mode with (line level) at -10 dBV (1/4 inch Jack Plug to RCA connection adapters supplied) Selectable AES channel for audio embedding (1 through 8) (Overwrites any HDMI embedded audio present in selected channel) Frequency response: &lt;+/- 0.2dB 20Hz to 20KHz 48kHz A/D sample rate (free run or frequency locked to reference input)
+
+SDI CWDM Fiber Transmitter Options
+Model
+OH-TX-4-XXXX
+
+Description
+CWDM SFP Fiber TX - Singlemode LC Conn. - 40km XXXX=Wavelength. 18 according to ITU T G692.2 1270nm through 1610nm
+
+Power
+-1dBm
+
+Power Physical Ambient
+
++12VDC @ 4.7W nominal - ( supports 10 - 14VDC input range ) Size: 138mm x 90mm x 22mm (5.43” x 3.54” x 0.86”) including connectors Weight: 230g (8.11oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) CHD 1812 - ( EAN# 4250479318335 ) Module, AC power supply, RCA adapters, HDMI + USB cable, transport case
+
+Note: For legal reasons, HDMI capture devices from LYNX Technik AG are designed not to capture, convert or transmit video or audio from HDCP copy-protected sources (e.g. Satellite receivers, Cable receivers, BD players etc.)
+
+Model # Includes
+
+Specifications subject to change
+
+LYNXTechnik AG |
+8
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+Video Output Resolution
+HDMI Input Resolution SDI Output &lt;auto&gt; SDTV 720p 1080i 1080p SDTV 720x [56]25 SDTV n.a. n.a. B n.a. 720p 1280x720 720p C n.a. B B 1080i 1920x1080 1080i C n.a. n.a. n.a. 1080p 1920x1080 1080p C C n.a. n.a. VGA 640x480 720p V=C / H=B B B B SVGA 800x600 720p V=C / H=B V=C / H=B B B
+
+CHD 1812
+yelloGUI compatible
+
+The SDI output format is automatically selected based on the detected HDMI input resolution. The module does not have an internal scaler, so if the input resolution does not match any of the supported SDI formats then the module will automatically select an appropriate SDI standard with a similar number of lines and pixels and map the signal into the SDI output, which may result in some image cropping (cut) or boxing (blanking)
+The table below shows the input to output resolution settings that are applied is AUTOMATIC mode. The yelloGUI interface provides the ability to manually set the output resolution interdependently of the input resolution. For these cases the table below also lists the conversion mode applied to optimally fit the manually selected SDI output format by either cropping or boxing the image ( C=Cut and H=Box / V=Vertical and H=Horizontal )
+
+XGA 1024x768 1080p C V=C / H=B B B
+
+WXGA 1280x768 1080p C V=C B B
+
+WUXGA 1920X1200 1080p C C V=C V=C
+
+Cross Lock and Frame Rate Conversion
+The frame synchronizer is fully cross lock compatible, meaning it can cross lock between different standards. With a given reference signal connected the synchronizer will drop or add frames to achieve a correctly synchronized ( frame rate converted ) SDI output.
+Note. This conversion drops and adds frames to achieve the desired output frame rate and will not provide the performance typical of a sophisticated standards converter. Please refer to the tables below for the conversion possibilities. Red = Drop Frame, Yellow = Adding Frames HDMI inputs with @ 23.98/29.97/59.94Hz Frame Rates HDMI inputs with @ 24/30/60Hz Frame Rates HDMI inputs with @ 24/25/50Hz Frame Rates 24Hz 30Hz 60Hz 25Hz 50Hz
+
+Reference Signal
+HDMI Input
+525 / 59.94Hz 720p / 59.94Hz 720P / 29.97Hz 720p / 23.98Hz 1080i / 59.94Hz 1080p / 59.94Hz 1080p / 29.97Hz 1080p / 23.98Hz
+
+23.98Hz 29.97Hz 59.94Hz 30Hz 60Hz
+
+24Hz 25Hz 50Hz
+
+Reference Signal
+HDMI Input
+525 / 60Hz 720p / 60Hz 720P / 30Hz 720p / 24Hz 1080i / 60Hz 1080p / 60Hz 1080p / 30Hz 1080p / 30Hz
+
+23.98Hz 29.97Hz 59.94Hz
+
+Reference Signal
+HDMI Input
+625 / 50Hz 720p / 50Hz 720P / 25Hz 720p / 24Hz 1080i / 50Hz 1080p / 50Hz 1080p / 25Hz 1080p / 24Hz
+
+23.98Hz 29.97Hz 59.94Hz 30Hz 60Hz
+
+24Hz 25Hz 50Hz
+
+SDI Output Formats
+525 / 59.94Hz 720p / 59.94Hz 720p / 29.97Hz 720p / 23.98Hz 1080i / 59.94Hz 1080p / 59.94Hz 1080p / 29.97Hz 1080p / 23.98Hz 525 / 60Hz 720p / 60Hz 720p / 30Hz 720p / 30Hz 1080i / 60Hz 1080p / 60Hz 1080p / 30Hz 1080p / 30Hz 625 / 50Hz 720p / 50Hz 720p / 25Hz 720p / 24Hz 1080i / 50Hz 1080p / 50Hz 1080p / 25Hz 1080p / 24Hz
+
+SDI Output Formats
+525 / 59.94Hz 720p / 59.94Hz 720p / 29.97Hz 720p / 23.98Hz 1080i / 59.94Hz 1080p / 59.94Hz 1080p / 29.97Hz 1080p / 23.98Hz 525 / 60Hz 720p / 60Hz 720p / 30Hz 720p / 30Hz 1080i / 60Hz 1080p / 60Hz 1080p / 30Hz 1080p / 30Hz 625 / 50Hz 720p / 50Hz 720p / 25Hz 720p / 24Hz 1080i / 50Hz 1080p / 50Hz 1080p / 25Hz 1080p / 24Hz
+
+SDI Output Formats
+525 / 59.94Hz 720p / 59.94Hz 720p / 29.97Hz 720p / 23.98Hz 1080i / 59.94Hz 1080p / 59.94Hz 1080p / 29.97Hz 1080p / 23.98Hz 525 / 60Hz 720p / 60Hz 720p / 30Hz 720p / 30Hz 1080i / 60Hz 1080p / 60Hz 1080p / 30Hz 1080p / 30Hz 625 / 50Hz 720p / 50Hz 720p / 25Hz 720p / 24Hz 1080i / 50Hz 1080p / 50Hz 1080p / 25Hz 1080p / 24Hz
+
+CHD 1812 Frame Rate Conversion Applications
+In North American (or legacy NTSC) markets the HDMI signals from most devices tends to be at the consumer 60Hz frame rate and not 59.94Hz which is the required frame rate for broadcast and production. The CHD 1812 can be used to solve this problem and convert a 60Hz HDMI signal to a 59.94Hz SDI signal. This is accomplished using the integrated frame synchronizer (which will drop frames to achieve the correct frame rate) If fact, the module can also convert between 50Hz and 60Hz standards using the frame synchronizer, which is useful for monitoring applications. Its also possible to precisely adjust the timing of the SDI output up to one full frame relative to the reference sync in pixel and line increments which is useful for timing and synchronizing SDI sources into production switchers or routers etc.
+
+60Hz to 59.94Hz Conversion
+
+SDI Broadcast Output
+
+HDSDI @ 59.94Hz
+
+HDMI @ 60Hz HDSDI @ 59.94Hz Fiber Out
+
+Studio Ref 59.94Hz
+
+PC with 60Hz HDMI Output
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 9
+
+</slide>
+<slide>
+yellobrik
+®
+
+CHD 1802
+yelloGUI compatible
+
+3Gbit
+
+to SDI Converter
+
+• Supports SD/HD/3G -SDI formats • 3D support • 2 x SDI outputs • Optional SDI fiber output • HDMI embedded audio passed transparently • HDMI present LED indication • yelloGUI compatible to access additional internal settings
+The CHD 1802 is a compact HDMI to SDI converter It is an ideal solution for any application which requires a broadcast quality SDI signal derived from an external HDMI source. Any audio present in the HDMI stream will be embedded into the corresponding channels on the SDI output. The module is also compatible with the yelloGUI software package, which provides access to a host of additional internal settings An SDI fiber output is also provided with a variety of plug in SFP options available.
+Shown with Fiber SFP Option Installed
+
+Technical Specifications
+HDMI Input
+3D compatible input using type A connector Up to 8 channels embedded audio in HDMI is passed transparently
+
+SDI Fiber Transmitter Options
+Model
+OH-TX-1-LC / ST / SC OH-TX-0-850-MM
+
+SDI Outputs Power
+-5dBm (1310nm) -5dBm (850nm)
+
+2 x SDI video, 75 Ohm BNC. (both have the same signal - NOT dual link) SMPTE ST 259M (SDTV), SMPTE ST 292-1 (HDTV 1.5Gb/s) SMPTE ST 424M (3Gb/S) supporting ST 425-1 Level A and ST 425-2 (3D) Multi-standard output. SDTV (525/625) 720p and 1080p (23.98/24/25/29.97/30/50/59.94/60 Hz) 1080i (50/59.94/60 Hz)
+
+Description
+SFP Fiber TX - Singlemode - LC, ST or SC conn. - 10km SFP Fiber TX- Multimode - LC conn. - 300m
+
+SDI CWDM Fiber Transmitter Options
+Model
+OH-TX-4-XXXX
+
+Fiber Output Power
+-1dBm
+
+Optional plug in SFP for optical SDI output (see fiber options table) +12VDC @ 4W nominal - ( supports 10 - 14VDC input range ) Size: 123mm x 90mm x 22mm (4.84” x 3.54” x 0.86”) - including connectors Weight: 175g (6.17oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) CHD 1802 - ( EAN# 4250479318328 ) Module, AC power supply, HDMI + USB cable, transport case
+
+Description
+CWDM SFP Fiber TX - Singlemode LC Conn. - 40km XXXX=Wavelength. 18 according to ITU T G692.2 1270nm through 1610nm
+
+Power Physical Ambient Model # Includes
+
+Note: For legal reasons, HDMI capture devices from LYNX Technik AG are designed not to capture, convert or transmit video or audio from HDCP copy-protected sources (e.g. Satellite receivers, Cable receivers, etc.)
+
+Video Output Resolution
+The SDI output format is automatically selected based on the detected HDMI input resolution. The module does not have an internal scaler, so if the input resolution does not match any of the supported SDI formats then the module will automatically select an appropriate SDI standard with a similar number of lines and pixels and map the signal into the SDI output, which may result in some image cropping (cut) or boxing (blanking)
+The table below shows the input to output resolution settings that are applied is AUTOMATIC mode. The yelloGUI interface provides the ability to manually set the output resolution interdependently of the input resolution. For these cases the table below also lists the conversion mode applied to optimally fit the manually selected SDI output format by either cropping or boxing the image ( C=Cut and H=Box / V=Vertical and H=Horizontal )
+HDMI Input Resolution SDI Output &lt;auto&gt; SDTV 720p 1080i 1080p SDTV 720x [56]25 SDTV n.a. n.a. B n.a. 720p 1280x720 720p C n.a. B B 1080i 1920x1080 1080i C n.a. n.a. n.a. 1080p 1920x1080 1080p C C n.a. n.a. VGA 640x480 720p V=C / H=B B B B SVGA 800x600 720p V=C / H=B V=C / H=B B B XGA 1024x768 1080p C V=C / H=B B B WXGA 1280x768 1080p C V=C B B WUXGA 1920X1200 1080p C C V=C V=C
+Specifications subject to change
+
+LYNXTechnik AG |
+10
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+CHD 1802
+yelloGUI compatible
+
+CHD 1802 Application
+(with embedded audio)
+
+SDI OUT
+
+An example application is shown below, using the CHD 1802 to convert the HDMI output from a video camera into SDI, and transmit the SDI over fiber to a remote location. A CDH 1813 SDI to HDMI converter is used to provide the SDI output and an HDMI monitoring output in the remote location with audio, metadata and timecode overlay.
+
+Consumer / Prosumer HDMI Camera
+
+HDMI to SDI Converter
+
+CHD 1802
+
+(with embedded audio)
+
+HDMI
+
+SDI OUT
+Note. The CHD 1802 will not convert HDMI content protected with HDCP
+
+Fiber Connection up to 10km (6.2 miles) @ 3Gbit/s
+
+This application shows how a inexpensive camera with HDMI capability can be used in a high quality digital environment using no image compression. Fiber capability allows the signal to be transmitted (uncompressed) up to 10km
+
+(with embedded audio)
+
+SDI OUT
+
+HDMI Monitor
+With Audio / Metadata / Timecode overlay
+
+SDI to HDMI Converter (with embedded audio
+
+CDH 1813
+
+HDMI
+
+Analog Audio
+
+Note. CDH 1813 overlay mode can be switched on or off. Overlay is monitoring only, the module does not generate timecode or metadata.
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 11
+
+</slide>
+<slide>
+yellobrik
+®
+
+PDM 1284 B
+yelloGUI compatible
+
+AES Audio Embedder / De-embedder (unbalanced AES)
+• Multifunction - use as an embedder or de-embedder • 3G SDI Level A and Level B support • SDI video formats up to 3Gbit (1080p60) • 4 x AES inputs or outputs with selectable audio groups • Optional Fiber I/O • Integrated 1 kHz test tone generator • Automatic PCM / encoded audio detection • Auto black if no video present • Selectable SDTV 24 bit mode • Video and Audio present LED indicators • yelloGUI compatible to access additional internal settings
+The PDM 1284 B is a versatile AES audio embedder and de-embedder designed for a wide range of SDI video formats up to 3Gbit. It supports unbalanced AES3id audio I/O using 75 Ohm BNC connections. Audio groups are selected using the rotary switches, and its possible to embed and de-embed additional audio groups by cascading modules together. Simultaneous embedding and de-embedding means the module will de-embed and output the audio from the selected audio group before overwriting with new audio (if required). The module automatically detects audio formats and will deactivate the sample rate converters to preserve encoded bit streams such as DolbyE. The “auto black” mode uses a black video frame if no SDI input is present. This allows the module to embed audio even when no video source is available. This mode is useful if the module is being used in an “audio only” application. A 1 kHz test tone generator is included for audio testing purposes. SDI Fiber Transmitter Options
+Model
+OH-TX-1-LC / ST / SC OH-TX-0-850-MM
+
+The module is also compatible with the yelloGUI software package, which provides access to a host of additional internal settings which includes manual insertion of metadata (AFD,WSS,VI) An SDI fiber input and output is also provided with a variety of plug in SFP options available.
+
+Technical Specifications
+SDI Input
+1 x SDI video on 75 Ohm BNC connector SMPTE 424M, SMPTE 292M, SMPTE 259M 3G Level A & B-DL & B-DS according to SMPTE ST 425-1 with image formats1280 x 720 and 1920 x 1080 Multi-standard operation from 270Mbit/s to 3Gbit/s SDTV (525/625) 720p and 1080p (23.98/24/25/29.97/30/50/59.94/60 Hz) 1080psf (23.98/24/25/29.97/30 Hz) 1080i (50/59.94/60 Hz) Return Loss: &gt; 15dB to 1.5Gbit/s and &gt; 10dB up to 3Gbit/s Automatic cable EQ (Belden 1694A cable) 250m @ 270Mbit/s, 140m @ 1.5Gbit/s, 80m @ 3Gbit/s
+
+Description
+SFP Fiber TX - Singlemode - LC, ST or SC conn. - 10km SFP Fiber TX- Multimode - LC conn. - 300m
+
+Power
+-5dBm (1310nm) -5dBm (850nm)
+
+SDI Fiber Receiver Options
+Model
+OH-RX-1-LC / ST / SC OH-RX-0-MM
+
+Description
+SFP Fiber RX - Singlemode - LC, ST or SC connector SFP Fiber RX- Multimode - LC connector
+
+Sensitivity
+-16dBm -15dBm
+
+Fiber I/O
+
+(optional) 1 x fiber optic input and output (see table) SMPTE 297M - 2006
+
+SDI Fiber Transceiver Options
+Model
+OH-TR-1 OH-TR-0-850
+
+SDI Output Power
+-5dBm -5dBm
+
+1 x SDI video on 75 Ohm BNC connector SMPTE 424M, SMPTE 292M, SMPTE 259M 3G Level A & B-DL & B-DS according to SMPTE ST 425-1 with image formats1280 x 720 and 1920 x 1080
+
+Description
+SFP Fiber RX/TX - Singlemode, LC Connector - 10km SFP Fiber RX/TX - Multimode, LC Connector - 300m
+
+Sense
+-18dBm -15dBm
+
+SDI CWDM Fiber Transmitter Options
+Model
+OH-TX-4-XXXX
+
+AES I/O (switchable) Power Physical Ambient Model #
+
+4 x AES3id unbalanced inputs or outputs on 75 Ohm BNC connectors AES group selection provided via rotary switch +12VDC @ 4.2W nominal - ( supports 8 - 14VDC input range ) Size: 140mm x 90mm x 22mm (5.51” x 3.54” x 0.86”) including connectors Weight: 200g (7.05oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) PDM 1284 B - ( EAN# 4250479312845 ) Module, AC power supply, transport case
+
+Description
+CWDM SFP Fiber TX - Singlemode LC Conn. - 40km XXXX=Wavelength. 18 according to ITU T G692.2 1270nm through 1610nm
+
+Power
+-1dBm
+
+SDI CWDM Fiber Transceiver Options
+Model
+OH-TR-4-XXXX
+
+Description
+CWDM SFP Fiber RX/TX - Singlemode LC Conn. - 40km XXXX=Wavelength. 18 according to ITU T G692.2 1270nm through 1610nm
+
+Power
+-1dBm
+
+Sense
+-20dBm
+
+Includes
+
+Specifications subject to change
+
+LYNXTechnik AG |
+12
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+PDM 1284 B
+yelloGUI compatible
+
+PDM 1284 B Application
+The basic SDI embedding and de-embedding applications for the PDM 1284 B are somewhat obvious, but with the “auto-black” mode the modules can be used to transport audio signals only. This provides a very cost effective way to transport multichannel audio over fiber without the need for external optical multiplexing, The example below shows how two modules in each location can be used to transport 16 x digital audio signals between two locations over fiber.
+
+PDM 1284 B
+
+Unbalanced AES3id Audio
+
+AES 1 AES 2 AES 3 AES 4
+Unbalanced AES3id Audio
+
+AES 5 AES 6 AES 7 AES 8
+PDM 1284 B modules can be cascaded in this way to add more audio channels. 2 x PDM 1284 B modules can be cascaded to transport 16 audio channels over a single fiber link. Each module would have different AES groups selected (GRP 1,2,3,4). In this example “auto-black” mode is selected, so no SDI video input is required.
+
+Fiber Connection up to 10km (6.2 miles) @ 3Gbit/s
+
+PDM 1284 B
+
+Unbalanced AES3id Audio
+
+AES 1 AES 2 AES 3 AES 4
+Unbalanced AES3id Audio
+
+AES 5 AES 6 AES 7 AES 8
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 13
+
+</slide>
+<slide>
+yellobrik
+®
+
+PDM 1284 D
+yelloGUI compatible
+
+AES Audio Embedder / De-embedder (balanced AES)
+• Simultaneous embedding and de-embedding • 3G SDI Level A and Level B support • SDI video formats up to 3Gbit (1080p60) • 4 x AES inputs / outputs with selectable audio groups • Optional Fiber I/O • Integrated 1 kHz test tone generator • Automatic PCM / encoded audio detection • Auto black if no video present • Selectable SDTV 24 bit mode • Video and Audio present LED indicators • yelloGUI compatible to access additional internal settings
+The PDM 1284 D is a versatile AES audio embedder and de-embedder designed for a wide range of SDI video formats up to 3Gbit. It supports balanced AES3 audio I/O using a 25 pin SubD connector. Audio groups are selected using the rotary switches, and its possible to embed and de-embed additional audio groups by cascading modules together. Simultaneous embedding and de-embedding means the module will de-embed and output the audio from the selected audio group before overwriting with new audio (if required). The module automatically detects audio formats and will deactivate the sample rate converters to preserve encoded bit streams such as DolbyE. The “auto black” mode uses a black video frame if no SDI input is present. This allows the module to embed audio even when no video source is available. This mode is useful if the module is being used in an “audio only” application. A 1 kHz test tone generator is included for audio testing purposes. SDI Fiber Transmitter Options
+Model
+OH-TX-1-LC / ST / SC OH-TX-0-850-MM
+
+Shown with Fiber SFP Option Installed
+
+The module is also compatible with the yelloGUI software package, which provides access to a host of additional internal settings which includes manual insertion of metadata (AFD,WSS,VI) An SDI fiber input and output is also provided with a variety of plug in SFP options available.
+
+Technical Specifications
+SDI Input
+1 x SDI video on 75 Ohm BNC connector SMPTE 424M, SMPTE 292M, SMPTE 259M 3G Level A & B-DL & B-DS according to SMPTE ST 425-1 with image formats1280 x 720 and 1920 x 1080 Multi-standard operation from 270Mbit/s to 3Gbit/s SDTV (525/625) 720p and 1080p (23.98/24/25/29.97/30/50/59.94/60 Hz) 1080psf (23.98/24/25/29.97/30 Hz) 1080i (50/59.94/60 Hz) Return Loss: &gt; 15dB to 1.5Gbit/s and &gt; 10dB up to 3Gbit/s Automatic cable EQ (Belden 1694A cable) 250m @ 270Mbit/s, 140m @ 1.5Gbit/s, 80m @ 3Gbit/s
+
+Description
+SFP Fiber TX - Singlemode - LC, ST or SC conn. - 10km SFP Fiber TX- Multimode - LC conn. - 300m
+
+Power
+-5dBm (1310nm) -5dBm (850nm)
+
+SDI Fiber Receiver Options
+Model
+OH-RX-1-LC / ST / SC OH-RX-0-MM
+
+Description
+SFP Fiber RX - Singlemode - LC, ST or SC connector SFP Fiber RX- Multimode - LC connector
+
+Sensitivity
+-16dBm -15dBm
+
+Fiber I/O
+
+(optional) 1 x fiber optic input and output (see table) SMPTE 297M - 2006
+
+SDI Output
+
+1 x SDI video on 75 Ohm BNC connector SMPTE 424M, SMPTE 292M, SMPTE 259M 3G Level A & B-DL & B-DS according to SMPTE ST 425-1 with image formats1280 x 720 and 1920 x 1080
+
+SDI Fiber Transceiver Options
+Model
+OH-TR-1 OH-TR-0-850
+
+Description
+SFP Fiber RX/TX - Singlemode, LC Connector - 10km SFP Fiber RX/TX - Multimode, LC Connector - 300m
+
+Power
+-5dBm -5dBm
+
+Sense
+-18dBm -15dBm
+
+AES Inputs
+
+4 x AES3 balanced inputs on 25 pin SubD Connector (110 Ohm) AES group selection provided via rotary switch
+
+SDI CWDM Fiber Transmitter Options
+Model
+OH-TX-4-XXXX
+
+AES Outputs
+
+4 x AES3 balanced outputs on 25 pin SubD Connector (110 Ohm) AES group selection provided via rotary switch
+
+Description
+CWDM SFP Fiber TX - Singlemode LC Conn. - 40km XXXX=Wavelength. 18 according to ITU T G692.2 1270nm through 1610nm
+
+Power
+-1dBm
+
+Power Physical Ambient
+
++12VDC @ 4.2W nominal - ( supports 8 - 14VDC input range ) Size: 128mm x 90mm x 22mm (5.04” x 3.54” x 0.86”) including connectors Weight: 200g (7.05oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) PDM 1284 D - ( EAN# 4250479312852 ) Module, AC power supply, SubD adapter PCB, transport case
+
+SDI CWDM Fiber Transceiver Options
+Model
+OH-TR-4-XXXX
+
+Description
+CWDM SFP Fiber RX/TX - Singlemode LC Conn. - 40km XXXX=Wavelength. 18 according to ITU T G692.2 1270nm through 1610nm
+
+Power
+-1dBm
+
+Sense
+-20dBm
+
+Model # Includes
+
+Specifications subject to change
+
+LYNXTechnik AG |
+14
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+PDM 1284 D
+yelloGUI compatible
+
+PDM 1284 D Application
+The basic SDI embedding and de-embedding applications for the PDM 1284 D are somewhat obvious, but with the “autoblack” mode the modules can be used to transport audio signals only. This provides a very cost effective way to transport multichannel audio over fiber without the need for external optical multiplexing. The example below shows how two modules in each location can be used to transport 16 x digital audio signals between two locations over fiber.
+
+PDM 1284 D
+
+Balanced AES Audio
+
+AES Channels 1,2,3,4
+
+Balanced AES Audio
+
+AES Channels 5,6,7,8
+PDM 1284 D modules can be cascaded in this way to add more audio channels. 2 x PDM 1284 D modules can be cascaded to transport 16 audio channels over a single fiber link. Each module would have different AES groups selected (GRP 1,2,3,4). In this example “auto-black” mode is selected, so no SDI video input is required.
+
+Fiber Connection up to 10km (6.2 miles) @ 3Gbit/s
+
+PDM 1284 D
+Balanced AES Audio
+
+AES Channels 1,2,3,4
+
+Balanced AES Audio
+
+AES Channels 5,6,7,8
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 15
+
+</slide>
+<slide>
+yellobrik
+®
+
+PDM 1383
+yelloGUI compatible
+
+Analog Audio Embedder / De-embedder
+• Simultaneous embedding and de-embedding • 3G SDI Level A and Level B support • SDI video formats up to 3Gbit (1080p60) • 4 x Analog audio inputs / outputs with selectable audio groups • Optional Fiber I/O • Integrated 1 kHz test tone generator • Bidirectional audio transport mode possible • Auto black if no video present • Selectable SDTV 24 bit mode • Video and Audio present LED indicators • yelloGUI compatible to access additional internal settings
+
+Shown with Fiber SFP Option Installed
+
+The PDM 1383 is a versatile analog audio embedder and de-embedder designed for a wide range of SDI video formats up to 3Gbit. Analog audio I/O is connected using a 25 pin SubD connector. (screw terminal adapter provided) Audio groups are selected using the rotary switches, and its possible to embed and de-embed additional audio groups by cascading modules together. Simultaneous embedding and de-embedding means the module will de-embed and output the audio from the selected audio group before overwriting with new audio (if required). The “auto black” mode uses a black video frame if no SDI input is present. This allows the module to embed audio even when no video source is available. This mode is useful if the module is being used in an “audio only” application. A 1 kHz test tone generator is included for audio testing purposes. SDI Fiber Transmitter Options
+Model
+OH-TX-1-LC / ST / SC OH-TX-0-850-MM
+
+The module is also compatible with the yelloGUI software package, which provides access to a host of additional internal settings which includes manual insertion of metadata (AFD,WSS,VI) An SDI fiber input and output is also provided with a variety of plug in SFP options available.
+
+Technical Specifications
+SDI Input
+1 x SDI video on 75 Ohm BNC connector SMPTE 424M, SMPTE 292M, SMPTE 259M 3G Level A & B-DL & B-DS according to SMPTE ST 425-1 with image formats1280 x 720 and 1920 x 1080 Multi-standard operation from 270Mbit/s to 3Gbit/s SDTV (525/625) 720p and 1080p (23.98/24/25/29.97/30/50/59.94/60 Hz) 1080psf (23.98/24/25/29.97/30 Hz) 1080i (50/59.94/60 Hz) Return Loss: &gt; 15dB to 1.5Gbit/s and &gt; 10dB up to 3Gbit/s Automatic cable EQ (Belden 1694A cable) 250m @ 270Mbit/s, 140m @ 1.5Gbit/s, 80m @ 3Gbit/s
+
+Description
+SFP Fiber TX - Singlemode - LC, ST or SC conn. - 10km SFP Fiber TX- Multimode - LC conn. - 300m
+
+Power
+-5dBm (1310nm) -5dBm (850nm)
+
+SDI Fiber Receiver Options
+Model
+OH-RX-1-LC / ST / SC OH-RX-0-MM
+
+Description
+SFP Fiber RX - Singlemode - LC, ST or SC connector SFP Fiber RX- Multimode - LC connector
+
+Sensitivity
+-16dBm -15dBm
+
+Fiber I/O
+
+(optional) 1 x fiber optic input and output (see table) SMPTE 297M - 2006
+
+SDI Fiber Transceiver Options
+Model
+OH-TR-1 OH-TR-0-850
+
+SDI Output Power
+-5dBm -5dBm
+
+1 x SDI video on 75 Ohm BNC connector SMPTE 424M, SMPTE 292M, SMPTE 259M 3G Level A & B-DL & B-DS according to SMPTE ST 425-1 with image formats1280 x 720 and 1920 x 1080
+
+Description
+SFP Fiber RX/TX - Singlemode, LC Connector - 10km SFP Fiber RX/TX - Multimode, LC Connector - 300m
+
+Sense
+-18dBm -15dBm
+
+Audio Inputs
+
+4 x analog audio inputs on 25 pin SubD Connector (10K Ohm) AES group selection provided via rotary switch
+
+SDI CWDM Fiber Transmitter Options
+Model
+OH-TX-4-XXXX
+
+Description
+CWDM SFP Fiber TX - Singlemode LC Conn. - 40km XXXX=Wavelength. 18 according to ITU T G692.2 1270nm through 1610nm
+
+Power
+-1dBm
+
+Audio Outputs
+
+4 x analog audio outputs on 25 pin SubD Connector (150 Ohm) AES group selection provided via rotary switch
+
+Power Physical Power
+-1dBm
+
++12VDC @ 4.8W nominal - ( supports 8 - 15VDC input range ) Size: 128mm x 90mm x 22mm (5.04” x 3.54” x 0.86”) including connectors Weight: 200g (7.05oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) PDM 1383 - ( EAN# 4250479359826 ) Module, AC power supply, SubD adapter PCB, transport case
+Specifications subject to change
+
+SDI CWDM Fiber Transceiver Options
+Model
+OH-TR-4-XXXX
+
+Description
+CWDM SFP Fiber RX/TX - Singlemode LC Conn. - 40km XXXX=Wavelength. 18 according to ITU T G692.2 1270nm through 1610nm
+
+Sense
+-20dBm
+
+Ambient Model # Includes
+
+LYNXTechnik AG |
+16
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+PDM 1383
+yelloGUI compatible
+
+PDM 1383 Applications
+The basic SDI embedding and de-embedding applications for the PDM 1383 are somewhat obvious, but with the “auto-black” mode the modules can be used to transport audio signals only. This provides a very cost effective way to transport multi-channel audio over fiber (or coax) without the need for dedicated audio A/D converters and external optical multiplexing. This when combined with the new “Bidirectional Master” functionality really expands the flexibility of the modules into dedicated audio applications. Below are two examples of how the modules can be untilised for “audio only” transport over fiber.
+
+SDI IN*
+4 x Audio Channels
+
+A
+
+Set to Group 1
+
+Multi-channel Analog Audio Transport
+
+Set to Group 2
+
+4 x Audio Channels
+
+B
+
+PDM 1383 modules can be cascaded as shown to add more audio channels. Four PDM 1383 modules can be cascaded for up to 16 analog audio channels over a single fiber (or coaxial) link. Each module has a different AES group selected (AES 1,2,3,4). In this example “auto-black” mode is selected, so no SDI video input is required, *External SDI video can be connected to the first module in the if video transport with embedded audio is required.
+
+Fiber
+
+4 x Audio Channels Set to Group 1
+
+A
+
+SDI OUT*
+
+4 x Audio Channels Set to Group 2
+
+B
+
+4 x Audio Channels 4 x Audio Channels
+
+A
+
+Set to “Bidirectinal Master”
+
+Fiber
+
+No Video Connection
+
+4 x Audio Channels 4 x Audio Channels
+
+A
+
+B
+
+No Video Connection
+
+B
+
+Bidirectional Analog Audio Transport
+Two PDM 1383 modules can be configured for bidirectional audio transport. One module is switched to be a “Bidirectional Master” This works for audio signals only, (no external SDI video) and “auto-black” mode is used. (Note: Cascading modules is not possible in bidirectional mode)
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 17
+
+</slide>
+<slide>
+yellobrik
+®
+
+DVA 1714
+
+Wide Band 1 &gt; 4 Analog Video / Sync Distribution Amplifier
+• 1 input and 4 outputs • Wide band - 30MHz • Adjustable gain and EQ • Input Clamp • Input present LED indication • Suitable for analog SDTV/HDTV video or Sync signals
+The DVA 1714 is a compact general purpose wide band analog distribution amplifier suitable for analog SDTV and HDTV video signals. The module can also be used for analog SDTV Bi-level sync pulses, black reference and analog HDTV Tri-level sync pulses. Features include an Input clamp with user adjustable gain and cable equalization. LED indications are provided for signal presence and power.
+
+Technical Specifications
+Input
+1 x 75 Ohm BNC connector Compatible Input Sources SDTV Composite video (NTSC/PAL) SDTV Component Analog Video HDTV Component Analog Video SDTV Bi-level sync (or black burst) HDTV Tri-Level Sync Return loss &gt; 31dB to 30MHz Input Gain adjustment range +/- 2.5dB Input Cable Equalization Adjustment 0 - 8dB Input clamp Input presence detection (LED)
+
+Outputs
+
+4 x Analog Video / Sync Outputs 75 Ohm BNC connectors Return loss &gt;22dB to 30MHz
+
+Performance
+
+Frequency Response: -3dB @ 30MHz (EQ min) -3dB @ 37MHz (EQ max) +/- 0.1dB to 10MHz Signal to noise &gt;60dB (RMS)
+
+Power Physical Ambient Model#
+
++12VDC @ 1.3W nominal - ( supports 8 - 24VDC input range ) Size: 138mm x 90mm x 22mm (5.43” x 3.54” x 0.86”) - including connectors Weight: 220g (7.8oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) DVA 1714 - ( GTN 4250479321182 ) Module, AC Power supply, transport case
+
+Power Adapter Options
+The kit INCLUDES AC power supplies. The power adapters below are optional.
+
+Includes
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Specifications subject to change
+
+LYNXTechnik AG |
+18
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+DVD 1817
+
+3Gbit 1 &gt; 7 SDI Reclocking Distribution Amplifier
+• 1 input and 7 outputs • Suitable for SDI video up to 3Gbit/s (1080p60) • Level A and Level B support (all formats) and DVB-ASI • Reclocking • Auto-detect input format • Input present LED indication
+The DVD 1817 is a compact general purpose reclocking SDI distribution amplifier suitable for any level A or Level B SDI video signal up to 3Gbit (1080p60) including DVB-ASI signals. SMPTE 424M (3Gbit/s), SMPTE 292M (1.5Gbit/s) and SMPTE 259M (270Mbit/s) standards are supported.
+
+Technical Specifications
+Input
+1 x SDI 75 Ohm BNC connector SMPTE 424M, SMPTE 292M, SMPTE 259M, DVB-ASI Multi-standard operation from 270Mbit/s to 2.97Gbit/s Multi-rate reclocking Input present LED indication Return Loss: &gt; 15dB to 1.5Gbit/s and &gt; 10dB up to 3Gbit/s Automatic cable EQ (Belden 1694A cable) 320m @ 270Mbit/s, 160m @ 1.5Gbit/s, 120m @ 3Gbit/s
+
+Outputs
+
+7 x multi-rate reclocked SDI outputs SMPTE 424M, SMPTE 292M, SMPTE 259M, DVB-ASI 75 Ohm BNC connectors Return Loss: &gt; 15dB to 1.5GHz &gt; 10dB to 3GHz Alignment Jitter &lt; 0.2 UI @ 270Mbit/s, &lt; 0.2 UI @ 1.5Gbit/s, &lt; 0.3 UI @ 2.97Gbit/s Timing Jitter &lt; 0.2 UI @ 270Mbit/s, &lt; 1.0 UI @ 1.5Gbit/s, &lt; 2.0 UI @ 2.97Gbit/s
+
+Power Physical Ambient Model # Includes
+
++12VDC @ 1.3W nominal - ( supports 7 - 16VDC input range ) Size: 138mm x 90mm x 22mm (5.43” x 3.54” x 0.86”) including connectors Weight: 240g (8.46oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) DVD 1817 - ( EAN# 4250479359628 ) Module, AC power supply, transport case
+
+Power Adapter Options
+The kit INCLUDES AC power supplies. The power adapters below are optional.
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Specifications subject to change
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 19
+
+</slide>
+<slide>
+yellobrik
+®
+
+DVD 1823
+
+Dual 3Gbit 1 &gt; 3 SDI Reclocking Distribution Amplifier
+• Dual channel • 1 input and 3 outputs per channel • Suitable for SDI video up to 3Gbit/s (1080p60) • Level A and Level B support (all formats) and DVB-ASI • Reclocking • Auto-detect input format • Input present LED indication for each channel
+The DVD 1823 is a compact general purpose, dual channel reclocking SDI distribution amplifier suitable for any level A or Level B SDI video signal up to 3Gbit (1080p60) including DVB-ASI signals. SMPTE 424M (3Gbit/s), SMPTE 292M (1.5Gbit/s) and SMPTE 259M (270Mbit/s) standards are supported.
+
+Technical Specifications
+Inputs
+2 x SDI - 75 Ohm BNC connector SMPTE 424M, SMPTE 292M, SMPTE 259M, DVB-ASI Multi-standard operation from 270Mbit/s to 2.97Gbit/s Multi-rate reclocking Input present LED indication for each channel Return Loss: &gt; 15dB to 1.5Gbit/s and &gt; 10dB up to 3Gbit/s Automatic cable EQ (Belden 1694A cable) 320m @ 270Mbit/s, 160m @ 1.5Gbit/s, 120m @ 3Gbit/s
+
+Outputs
+
+3 x multi-rate reclocked SDI outputs per channel SMPTE 424M, SMPTE 292M, SMPTE 259M, DVB-ASI 75 Ohm BNC connectors Return Loss: &gt; 15dB to 1.5GHz &gt; 10dB to 3GHz Alignment Jitter &lt; 0.2 UI @ 270Mbit/s, &lt; 0.2 UI @ 1.5Gbit/s, &lt; 0.3 UI @ 2.97Gbit/s Timing Jitter &lt; 0.2 UI @ 270Mbit/s, &lt; 1.0 UI @ 1.5Gbit/s, &lt; 2.0 UI @ 2.97Gbit/s
+
+Power Physical Ambient Model # Includes
+
++12VDC @ 2.1W nominal - (supports 7-16V input range) Size: 138mm x 90mm x 22mm (5.43” x 3.54” x 0.86”) including connectors Weight: 240g (8.46oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) DVD 1823 - ( EAN 4250479359635 ) Module, AC power supply, transport case
+
+Power Adapter Options
+The kit INCLUDES AC power supplies. The power adapters below are optional.
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Specifications subject to change
+
+LYNXTechnik AG |
+20
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+SPG 1707
+
+HD / SD Sync Pulse Generator with Genlock
+• Wide variety of HDTV Sync standards • Simultaneous HD and SD analog sync outputs • 3 x HD sync outputs and 3 x SD sync outputs • Genlock with cross lock to any sync standard • Sync only, Color bars or Black Burst for SD sync • NTSC, PAL or PAL M/N sync outputs • Burst phase adjustment for NTSC and PAL sync • 48KHz Word Clock or DARS audio reference output • Simple to use, all controls easily accessible
+The SPG 1707 is a compact, versatile analog sync pulse generator with genlock providing HD / SD video sync and audio reference signals. The module provides three SD sync outputs and three HD sync outputs and a separate audio sync output that can be switched between 48 KHz World Clock or Digital Audio Reference (DARS). Flexible genlock capability allows the module to genlock to any SD or HD reference input, with full cross lock capability, even across unmatched standards. The HD tri-level sync outputs can be set to any of the available HD standards, and the bi-level SD outputs set for NTSC, PAL or PAL M/N. The SD and HD sync outputs and audio sync signals are all frequency locked to the reference regardless of the selected sync standard for the outputs. The SD sync outputs can be Color bars, Black Burst or Sync only with selectable 7.5 IRE pedestal for NTSC standards with adjustable burst phase in 8 increments. The sync generator is robust and temperature stabilized, suitable as a reference source with 2ppm accuracy. All user controls are located on the top of the module clearly labelled and easily accessible. This facilitates simple changes to module function and configuration without referring to a manual. The compact portable design makes it suitable for a wide range of applications in broadcast and mobile production environments. Note: 1080p 50Hz / 60Hz and 59.94Hz sync standards not supported
+Audio Ref. SDTV Sync
+
+Technical Specifications
+HDTV Sync
+3 x Tri-level HD Analog Sync outputs Standards: 1080i /50Hz / 59.94Hz / 60Hz. 1080p / 23.98Hz / 24Hz / 25Hz / 29.97Hz / 30Hz. 720p / 23.98Hz / 24Hz / 25Hz / 29.97Hz / 50Hz / 59.94Hz. 1080psf / 23.98Hz/24Hz
+
+Note: 1080p 50Hz/60Hz is not supported and 720p 30Hz/60Hz is not supported, but the .001 derivatives are supported
+
+SMPTE 274M, SMPTE 296M Selectable via integrated 16 position rotary switch Return Loss &gt; 40dB up to 5MHz. SNR &gt; 75dB 3 x Bi-level SD sync outputs Standards: NTSC, PAL, PAL M/N SMPTE 170M, ITU-R BT 470.6 Selectable: 75% color bars / black burst / sync only NTSC 7.5 IRE pedestal ON/OFF Adjustable burst phase in 8 increments Return Loss &gt; 40dB up to 5MHz. SNR &gt; 75dB
+
+Ref Sync Input
+
+Bi-level or tri-level analog sync Cross lock compatible to 525 and 625 SD sync and all HD sync standards (excluding 1080p 50/60/59.94Hz) SMPTE 274M, SMPTE 296M Selectable 48KHz Word Clock or DARS DARS: SMPTE 276M unbalanced AES (24-bits) - Grade 2 48KHz Word Clock: 0 - 5.0V
+
+Accuracy Power
+
+2 ppm +12VDC @ 2.3W nominal - ( supports 8 - 17VDC input range ) USB port for firmware upgrades Size: 140mm x 90mm x 22mm (5.51” x 3.34” x 0.86”) including connectors Weight: 300g (10.6oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) SPG 1707 - - ( EAN# 4250479317079 ) Module, AC power supply, transport case
+
+Power Adapter Options
+The kit INCLUDES AC power supplies. The power adapters below are optional.
+
+USB Physical Ambient Model # Includes
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Specifications subject to change
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 21
+
+</slide>
+<slide>
+yellobrik
+®
+
+OTX 1812
+
+3Gbit SDI to Fiber Optic Transmitter
+• Supports SDI video inputs up to 3Gbit/s (1080p60) • 3Gbit Level A and Level B support (all formats) • Auto reclocking 270Mbit / 1.5Gbit / 2.97Gbit • Error free optical transmission • Reclocked SDI loop out connection • Versions for LC, ST or SC fiber connections • Multimode version available • Up to 10km (6.2 miles) @ 3Gbit/s (singlemode) • Up to 300m (984 feet) @ 3Gbit/s (multimode) • Supports hot swapping and hot plugging
+
+OTX 1812 LC Version Shown
+
+Technical Specifications
+SDI Input
+1 x SDI video input and 1 x SDI reclocked loop output 75 Ohm BNC connectors SMPTE 424M, SMPTE 292M, SMPTE 259M, DVB-ASI Multi-standard operation from 270Mbit/s to 3Gbit/s Multirate reclocking : 270Mbit/s - 1.48Gbit/s - 2.97Gbit/s
+
+singlemode
+
+LC
+
+singlemode
+
+ST
+
+singlemode
+
+SC
+
+multimode
+
+LC
+
+Return Loss: &gt; 15dB to 1.5Gbit and &gt; 10dB up to 3Gbit Automatic cable EQ (Belden 1694A cable) 250m @ 270Mbit/s, 140m @ 1.5Gbit/s, 80m @ 3Gbit/s
+
+Using the same basic module we provide four versions suitable for LC, ST or SC singlemode fiber connections, as well as a version for multimode fiber. Each version has a different SFP installed.
+
+Fiber out Singlemode
+
+1 x fiber optic singlemode output LC, ST or SC connection SMPTE 297M - 2006 Wavelength 1310nm, Optical power -5dBm TX active LED on side of module Max. distance approx. 10km (6.2 miles) @ 3Gbit/s (Singlemode)
+
+The OTX 1812 is a compact SDI to fiber optic transmitter designed to combat the restrictions involved with the distribution of uncompressed broadcast quality video signals over long distances. When paired with the fiber optic to SDI receiver (e.g. yellobrik ORX 1802) you have a very cost effective optical transmission / receiver system for signals up to 1080p60 (3Gbit/s), while preserving full uncompressed quality. The OTX 1812 provides a looping SDI input and support for LC, ST or SC singlemode fiber connections as well as anLC version suitable for multimode fiber. The OTX 1812 will auto-detect and re-clock any 270Mbit / 1.5Gbit and 3Gbit SDI source prior to optical transmission. The module is fully compatible with 3Gbit Level A and Level B formats.
+Power Physical Ambient Model # Fiber out Multimode
+
+1 x fiber optic multimode output. LC connection SMPTE 297M - 2006 Wavelength 850nm, Optical power -5dBm TX active LED on side of module Max. distance approx. 300m (984feet) @ 3Gbit/s (Multimode) +12VDC @ 1.7W nominal - ( supports 7 - 17VDC input range ) Size: 140mm x 42mm x 22mm (5.51” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) OTX 1812 LC - ( EAN# 4250479359642 ) OTX 1812 ST - ( EAN# 4250479359666 ) OTX 1812 SC - ( EAN# 4250479359659 ) OTX 1812 MM (Multimode) - ( EAN# 4250479359673 ) Module, AC power supply, transport case
+
+Includes
+
+Power Adapter Options
+The kit INCLUDES AC power supply. The power adapters below are optional.
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Specifications subject to change
+
+LYNXTechnik AG |
+22
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+OTT 1812
+
+Dual Channel 3Gbit SDI to Fiber Transmitter
+• Dual channel • Supports SDI video inputs up to 3Gbit/s (1080p60) • 3Gbit Level A and Level B support (all formats) • Auto reclocking 270Mbit / 1.48Gbit / 2.97Gbit • Error free optical transmission • Up to 10km (6.2 miles) @ 3Gbit/s • Duplex LC/PC singlemode optical connection • Supports hot swapping and hot plugging
+The OTT 1812 is a compact dual channel SDI to fiber optic transmitter designed to combat the restrictions involved with the distribution of uncompressed broadcast quality video signals over long distances. When paired with the dual channel fiber optic to SDI receiver (e.g. yellobrik ORR 1802) you have a very cost effective dual channel optical transmission / receiver system for signals up to 1080p60 (3Gbit/s), while preserving full uncompressed quality. The OTT 1812 has two completely independent channels and each will auto-detect and re-clock any 270Mbit / 1.48Gbit and 2.97Gbit SDI source prior to optical transmission. The module is fully compatible with 3Gbit Level A and Level B formats.
+
+Technical Specifications
+Input
+2 x SDI video on 75 Ohm BNC connector (two independent channels) SMPTE 424M, SMPTE 292M, SMPTE 259M, DVB-ASI Multi-standard operation from 270Mbit/s to 3Gbit/s Multi-rate reclocking 270Mbit/s - 1.48Gbit/s - 2.97Gbit/s Return Loss: &gt; 15dB to 1.5GHz and &gt; 10dB up to 3GHz Automatic cable EQ (Belden 1694A cable) 250m @ 270Mbit/s, 140m @ 1.5Gbit/s, 80m @ 3Gbit/s
+
+Optical Outputs
+
+2 x fiber optic outputs (one for each channel) Duplex (single mode) using LC/PC Connections SMPTE 297M - 2006 Wavelength 1310nm (each channel) Optical power -5dBm (each channel) TX active LEDs on side of module Max. distance approx. 10km (6.2 miles) @ 3Gbit/s (Singlemode)
+
+Power Physical
+
++12VDC @ 2.5W nominal - ( supports 7 - 16VDC input range ) Size: 140mm x 42mm x 22mm (5.51” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) OTT 1812 - ( EAN# 4250479318229 ) Module, AC power supply, transport case
+
+Fiber Adapter Options
+These adapter kits allow the use of ST or SC fiber connections on the module. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation.
+
+Ambient Model # Includes
+
+Model# LC/SC DUP LC/PC to SC/PC Adapter
+
+Model# LC/ST DUP LC/PC to ST/SC Adapter
+
+Power Adapter Options
+
+The kit INCLUDES AC power supply. The power adapters below are optional.
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Specifications subject to change
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 23
+
+</slide>
+<slide>
+yellobrik
+®
+
+ORX 1802
+
+3Gbit SDI to Fiber Optic Transmitter
+• Supports SDI video inputs up to 3Gbit/s (1080p60) • 3Gbit Level A and Level B support (all formats) • Auto reclocking 270Mbit / 1.5Gbit / 2.97Gbit • 2 x SDI outputs • Versions for LC, ST or SC fiber connections • Multimode version available • Input range 1260nm to 1620nm (singlemode) • Input range 780nm to 880nm (multimode) • Supports hot swapping and hot plugging
+Fiber Input singlemode
+
+ORX 1802 LC Version Shown
+
+Technical Specifications
+1 x fiber optic Input LC, ST or SC connection SMPTE 297M - 2006 Input range (wavelength) 1260nm to 1620nm RX sensitivity -3dBm to -19dBm singlemode
+
+LC
+
+singlemode
+
+ST
+
+singlemode
+
+SC
+
+multimode
+
+LC
+
+RX active LED on side of module
+
+Fiber Input multimode
+
+1 x Fiber Optic Input LC Connection SMPTE 297M - 2006 Input range (wavelength) 780nm to 880nm RX sensitivity 0dBm to -15dBm
+
+Using the same basic module we provide four versions suitable for LC, ST or SC singlemode fiber connections, as well as a version for multimode fiber. Each version has a different SFP installed.
+
+The ORX 1802 is a compact fiber to SDI receiver designed to combat the restrictions involved with the distribution of uncompressed broadcast quality video signals over long distances. When paired with the fiber optic to SDI transmitters (e.g. yellobrik OTX 1812 or OTX 1842) you have a very cost effective optical transmission / receiver system for signals up to 1080p60 (3Gbit/s), while preserving full uncompressed quality. The OTX 1812 provides 2 SDI outputs and support for LC, ST or SC singlemode fiber connections as well as an LC version suitable for multimode fiber. The ORX 1802 will auto-detect and re-clock any 270Mbit / 1.5Gbit and 3Gbit SDI fiber source and convert to an electrical signal. The module is fully compatible with 3Gbit Level A and Level B formats.
+
+RX active LED on side of module
+
+SDI Output
+
+2 x SDI video on 75 Ohm BNC connectors SMPTE 424M, SMPTE 292M, SMPTE 259M, DVB-ASI Multi-standard operation from 270Mbit/s to 3Gbit/s Return Loss: &gt; 15dB to 1.5GHz and &gt; 10dB up to 3GHz
+
+Power Physical Ambient Model #
+
++12VDC @ 1.3W nominal - ( supports 7 - 16VDC input range ) Size: 140mm x 42mm x 22mm (5.51” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) ORX 1802 LC - ( EAN# 4250479359697 ) ORX 1802 ST - ( EAN# 4250479359710 ) ORX 1802 SC - ( EAN# 4250479359703 ) ORX 1802 MM (Multimode) - ( EAN# 4250479359727 ) Module, AC power supply, transport case
+
+Includes
+
+Power Adapter Options
+The kit INCLUDES AC power supply. The power adapters below are optional.
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Specifications subject to change
+
+LYNXTechnik AG |
+24
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+ORR 1802
+
+Dual Channel 3Gbit Fiber to SDI Receiver
+• Dual channel • Supports SDI video inputs up to 3Gbit/s (1080p60) • 3Gbit Level A and Level B support (all formats) • Auto reclocking 270Mbit / 1.48Gbit / 2.97Gbit • Error free optical reception • 1260nm to 1620nm wavelength input range • Duplex LC/PC singlemode optical connection • Supports hot swapping and hot plugging
+The ORR 1802 is a compact dual channel fiber optical to SDI receiver designed to combat the restrictions involved with the distribution of uncompressed broadcast quality video signals over long distances. When paired with a SDI optical transmitter (e.g. yellobrik OTT 1812, OTX 1812, OTX 1842 etc) you have a very cost effective optical transmission / receiver system for signals up to 1080p60 (3Gbit/s), while preserving full uncompressed quality. The ORR1802 has two completely independent channels and each will auto-detect and re-clock any 270Mbit / 1.48Gbit and 2.97Gbit SDI fiber source prior to electrical conversion. The module is fully compatible with 3Gbit Level A and Level B formats.
+
+Technical Specifications
+Fiber Inputs
+2 x fiber optic Inputs (one for each channel) Duplex (single mode) using LC/PC Connections SMPTE 297M - 2006 Hot pluggable Input range (wavelength) 1260nm to 1620nm RX sensitivity -3dBm to -16dBm RX active LED on side of module (SMF) Singlemode fiber
+
+SDI Outputs
+
+2 x SDI video on 75 Ohm BNC connector (two independent channels) SMPTE 424M, SMPTE 292M, SMPTE 259M, DVB-ASI Multi-standard operation from 270Mbit/s to 3Gbit/s Return Loss: &gt; 15dB to 1.5GHz and &gt; 10dB up to 3GHz
+
+Power Physical Ambient
+
++12VDC @ 2.2W nominal - ( supports 7 - 16VDC input range ) Size: 140mm x 42mm x 22mm (5.51” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) ORR 1802 - ( EAN# 4250479318021 ) Module, AC power supply, transport case
+
+Fiber Adapter Options
+These adapter kits allow the use of ST or SC fiber connections on the module. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation.
+
+Model # Includes
+
+Model# LC/SC DUP LC/PC to SC/PC Adapter
+
+Model# LC/ST DUP LC/PC to ST/SC Adapter
+
+Power Adapter Options
+
+The kit INCLUDES AC power supply. The power adapters below are optional.
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Specifications subject to change
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 25
+
+</slide>
+<slide>
+yellobrik
+®
+
+OTR 1810 OTR 1810 MM
+
+3Gbit Fiber Optic / SDI Transceiver
+• SDI Fiber receiver and transmitter in single package • Supports SDI video up to 3Gbit/s (1080p60) • 3Gbit Level A and Level B support (all formats) • Auto reclocking 270Mbit / 1.5Gbit / 2.97Gbit • Error free optical connections • Singlemode and Multimode versions • Up to 10km (6.2 miles) @ 3Gbit/s (singlemode) • Up to 300m (984 feet) @ 3Gbit/s (multimode) • Duplex LC optical connection • Supports hot swapping and hot plugging
+
+Technical Specifications
+SDI Video
+1 x SDI video input 1 x SDI Video output 75 Ohm BNC connectors SMPTE 424M, SMPTE 292M, SMPTE 259M, DVB-ASI Multi-standard operation from 270Mbit/s to 3Gbit/s Multi-rate reclocking 270Mbit/s - 1.48Gbit/s - 3Gbit/s Return Loss: &gt; 15dB to 1.5GHz and &gt; 10dB up to 3GHz
+
+Singlemode SFP
+
+Multimode SFP Fiber Optic
+
+Automatic cable EQ (Belden 1694A cable) 250m @ 270Mbit/s, 140m @ 1.5Gbit/s, 80m @ 3Gbit/s 1 x fiber optic input 1 x fiber optic output Duplex using LC Connections SMPTE 297M - 2006 Singlemode Version: OTR 1810 Transmitter: 1310nm (-5dBm) Receiver: 1260nm to 1620nm (-3dBm to -19dBm) Max. distance 10km (6.2 miles) @ 3Gbit/s Multimode Version: OTR 1810 MM Transmitter: 850nm (-5dBm) Receiver: 750nm to 880nm (0dBm to -15dBm) Max. distance 300m (984 feet) @ 3Gbit/s TX active LED, and RX active on side of module
+
+Using the same basic module we provide two versions suitable for singlemode or multimode fiber. Each version has a different SFP installed.
+
+The OTR 1810 is a Fiber / SDI transmitter and receiver combined in a single self contained package. It is a convenient and cost effective solution to combat the restrictions involved with the distribution of uncompressed broadcast quality video signals over long distances. Each OTR 1810 transceiver has an independent transmitter and receiver channel, which provides an effective solution for any SDI signal up to 1080p60 (3Gbit/s) while preserving full uncompressed quality. The OTR 1810 will auto-detect and re-clock any 270Mbit / 1.5Gbit and 3Gbit SDI source prior to conversion. The module is fully compatible with 3Gbit Level A and Level B formats.
+Power Physical Ambient Model # Includes
+
++12VDC @ 2.6W nominal - ( supports 7 - 16VDC input range ) Size: 140mm x 42mm x 22mm (5.51” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) OTR 1810 (Singlemode) - ( EAN# 4250479318144 ) OTR 1810 MM (Multimode) - ( EAN# 4250479359840 ) Module, AC power supply, transport case
+
+Fiber Adapter Options
+These adapter kits allow the use of ST or SC fiber connections on the module. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation.
+
+Power Adapter Options
+
+The kit INCLUDES AC power supply. The power adapters below are optional.
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Model# LC/SC DUP LC/PC to SC/PC Adapter
+
+Model# LC/ST DUP LC/PC to ST/SC Adapter
+
+Specifications subject to change
+
+LYNXTechnik AG |
+26
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+OBD 1810
+
+3Gbit Bidirectional SDI/Fiber Transceiver
+• Supports SDI video up to 3Gbit/s (1080p60) • 3Gbit Level A and Level B support (all formats) • Auto reclocking 270Mbit / 1.48Gbit / 2.97Gbit • Bidirectional - send and receive on single fiber • Error free optical connections • Up to 10km (6.2 miles) @ 3Gbit/s • Simplex LC/PC singlemode fiber connection • Supports hot swapping and hot plugging
+The OBD 1810 is a bidirectional Fiber Optic to SDI transmitter and receiver which uses a single fiber link supplied in a compact self contained package. It is a convenient and cost effective solution to combat the restrictions involved with the distribution of uncompressed broadcast quality video signals over long distances. The OBD 1810 modules are supplied in pairs, one Type A and one Type B which work together in a WDM closed loop application. Each module has an electrical SDI in and SDI out connection and uses a single fiber link between the two. Each channel is fully independent and can have different standards and formats of SDI video. The modules auto-detect and re-clock any 270Mbit, 1.5Gbit and 3Gbit SDI source prior to conversion. The modules are fully compatible with 3Gbit Level A and Level B formats.
+Note. This system used WDM optical multiplexing and should only be used in point to point applications. This solution cannot be integrated into a CWDM multiplexed system.
+
+Technical Specifications
+SDI Video
+1 x SDI video input 1 x SDI Video output 75 Ohm BNC connectors SMPTE 424M, SMPTE 292M, SMPTE 259M, DVB-ASI Multi-standard operation from 270Mbit/s to 3Gbit/s Multi-rate reclocking 270Mbit/s - 1.48Gbit/s - 3Gbit/s Return Loss: &gt; 15dB to 1.5GHz and &gt; 10dB up to 3GHz Automatic cable EQ (Belden 1694A cable) 250m @ 270Mbit/s, 140m @ 1.5Gbit/s, 80m @ 3Gbit/s
+
+Fiber Optic
+
+1 x Bidirectional fiber connection (LC/PC Connection) SMPTE 297M - 2006 1310nm and 1550nm (WDM) 14dB Optical Budget TX and RX active LEDs on side of module Max. distance 10km (6.2 miles) @ 3Gbit/s (single mode)
+
+Fiber Adapter Options
+These adapter kits allow the use of ST or SC fiber connections on the modules. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation.
+Power Physical
+Ambient (each module)
+
++12VDC @ 2.7W nominal for each module - ( supports 7 - 16VDC input range ) Size: 140mm x 42mm x 22mm (5.51” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) OBD 1810 (pair) - ( EAN# 4250479318175 ) 2 x OBD 1810 modules (Type A and Type B), 2 x AC power supplies, plastic transport case.
+
+Model # Includes Model# LC/SC SIM LC/PC to SC/PC Adapter Model# LC/ST SIM LC/PC to ST/SC Adapter
+
+Typical Application
+Bidirectional transmission and reception of SDI signals over a single fiber link
+Up to 10km @ 3Gbit/s (Singlemode)
+
+Specifications subject to change
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 27
+
+</slide>
+<slide>
+yellobrik
+®
+
+OTR 1441
+
+4K Fiber Transmission System
+• Support for 4 independent 3G/HD/SD-SDI channels • Transport 4K (uncompressed) up to 20km (12 miles) • Each channel supports resolutions up to 1080p/60Hz • Each channel individually reclocked • Embedded audio / metadata support • Integrated expansion port for future use • LED indicators for channel activity and power • Kit includes transmitter, receiver and power supplies • Optional 19” Rack tray to mount (max) 4 modules
+The OTR 1441 is a self contained fiber transmission kit for the transport of 4 x SDI signals (12G uncompressed) over a single fiber link for distances up to 20km (12miles). The kit includes the fiber transmitter, fiber receiver and power supplies. This is an ideal solution for the transmission of multiple uncompressed SDI streams over long distances with zero losses. Each SDI channel is fully independent. For 4K use the signal is split over 4 separate 3G SDI links (12G) and supports 4K resolution at 60fps. The system can also be used for any combination of SDI signals each with a different format and bit-rate if required. Each channel will automatically detect and reclock SDI bit rates of 270Mbit, 1.48Gbit and 2.97Gbit. LED Indicators are provided for channel presence and power. An optional 19” rack mount tray is available which can accommodate up to 4 modules.
+
+Technical Specifications
+SDI I/O
+4 x multi-format 3G/HD/SD-SDI inputs [OTX 1441] 4 x multi-format 3G/HD/SD-SDI outputs [ORX 1441] 75 Ω BNC connections SMPTE 259M-2008 , SMPTE 292-1:2012, SMPTE 292-2:2011 SMPTE 424M-2006 , DVB ASI Multi-standard / Multi-format operation auto-detect. Multi-rate reclocking: 270Mbit / 1.48Gbit / 2.97Gbit Return Loss: &gt; 15dB to 1.5Gbit and &gt; 10dB to 2.97Gbit Automatic Cable EQ (Belden 1694A cable) 250m@270Mbit, 140m@1.5BGbit, 80m@3Gbit
+
+Fiber I/O
+
+1 x Fiber optic I/O port (COM port) 1 x Fiber optic expansion port (UPG port) for future use LC/PC connections - Single Mode SMPTE 297M - 2006 Internal CWDM Multiplexing Wavelengths : 1270nm, 1290nm, 1310nm, 1330nm Optical budget: 10.6dB Maximum distance [typical]: 20km (12 miles) Fiber activity LEDS for each channel
+
+Power
+
++12VDC nominal. ORX1441 = 4.4W, OTX 1441 = 5.4W Supports external power input from 9 - 17 VDC 2 x Power LEDs provided 170 x 99.7 x 40.5mm (6.7” x 3.9” x 1.6) - (each Module) Weight: 600g (21.1oz) net - (each module) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) OTR 1441 LC - ( EAN# 4250479321151 ) OTX 1441 - 4K Fiber Transmitter module ORX 1441 - 4K Fiber Receiver module 2 x 12VDC [brick] power supplies
+
+Physical Ambient Model # Includes
+
+Fiber Adapter Options
+These adapter kits allow the use of ST or SC fiber connections on the modules. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation.
+
+Note. Internal CWDM optical multiplexing is utilized within the modules. This kit should be considered a self contained point to point solution and should not be integrated into external CWDM systems. An expansion port is included on each module (for future use) which will can be used to add additional SDI channels.
+
+Model# LC/SC SIM LC/PC to SC/PC Adapter
+
+Model# LC/ST SIM LC/PC to ST/PC Adapter
+Specifications subject to change
+
+LYNXTechnik AG |
+28
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+® OTX 1441 - 4K Fiber Transmitter
+
+OTR 1441
+
+The modules can be used to transport up to 4 x 3G/HD/SD uncompressed SDI signals, each channel is fully independent, with full auto-detect and SDI reclocking. SDI inputs and fiber connections support hot plugging. Combine all 4 channels for 12G (4K) transport over a single fiber link for up to 20km (12 miles)
+
+SDI 1 SDI 2 SDI 3 SDI 4
+
+SDI 1 SDI 2 SDI 3 SDI 4
+ORX 1441 - 4K Fiber Receiver
+
+Options
+P-TAP 1000
+Use with a standard battery P-TAP power source.
+
+RFR 1018
+
+19” Rack frame to mount up to 4 modules. No tools required, modules are clipped securely in place.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 29
+
+</slide>
+<slide>
+yellobrik
+®
+
+ODT 1510 ODT 1510 MM
+
+Serial and GPI Fiber Transceiver
+• Extend serial and GPI connections up to 10km • Supports serial RS232 or RS422 or RS485 • 2 x GPI connections • Singlemode fiber 1310nm up to 10km (6.2 miles) • Multimode fiber 850nm up to 550m (1,804 feet) • LC/PC duplex fiber connections • Switchable RX/TX crossover • Automatic or manual data direction • Switchable end of line termination • ‘Plug and Play’ - No PC software drivers needed • Supports all serial protocols (standard or proprietary)
+
+Technical Specifications
+Serial I/O
+EIA/ETA RS232C / RS422 / RS485 (selectable) Connector - RJ45 Baud rate - Auto sense and auto adjust from 300 to 460K Serial setting dip switch provides settings for: • Select RS232 / RS422/485 modes • Select serial termination (for end of line) • RX/TX crossover to flip the RX and TX if needed • Set RS422/485 data direction to automatic or manual if needed LED status indicators (under RJ 45 connector) Serial TX activity + Serial RX activity RS422/485 Max number of electrical nodes = 25 ESD protection for up to 26kV
+
+Singlemode SFP
+
+Multimode SFP
+
+Using the same basic module we provide two versions suitable for singlemode or multimode fiber. Each version has a different SFP installed.
+
+The ODT 1510 is a multi-function module which (when used with another ODT 1510 in the remote location) will extend the reach of serial RS232, RS422 or RS485 as well as two GPI (general purpose I/O) up to 10km (6.2 miles) over fiber. A single RJ45 electrical serial connection can be configured for RS232, RS422 or RS485 serial standards. A separate RJ45 connector is provided for two electrical GPI inputs and outputs. Serial communications and GPI are transmitted and extended over the same fiber link. The ODT 1510 is completely agnostic to the serial protocol used, and supports all standard protocols and proprietary protocols at data rates from 300 to 460K Baud (auto sensing and auto adjusting). The integrated dip switch provides precise control over the serial mode of operation with selections for the serial standard, serial termination, RX/TX crossover and RS422/485 data direction (automatic or manual). Data activity LEDs are provided for the serial port and the GPI port under the respective RJ45 connectors. The ODT 1510 also supports mixing and matching of serial standards. For example: the transmitting module can have a RS232 input, and the receiving module can be set for RS422 output.
+
+GPI I/O
+
+2 x general purpose inputs + 2 x general purpose outputs Connector - RJ45 GPI Inputs: • External passive closure between pins (short) to trigger • Max input switching frequency 25Hz (50 operations / second) • Input insulation 3.75kV GPI outputs: • Internal contact closure (relay) • Max switching frequency 25Hz (50 operations / second) • Max switching power 220VDC / 0.25A or 250VAC / 0.25A • Output insulation 3.75kV LED status indicators (under RJ45 connector) GPI Input 1 activity / GPI Input 2 activity GPI Output 1 activity / GPI Output 2 activity
+
+Fiber I/O
+
+1 x Fiber output (TX) and 1 x Fiber input (RX) Singlemode fiber or Multimode fiber. LC/PC connections
+
+Singlemode Version
+
+TX wavelength 1310nm, power -3dBm RX input range 1260nm to 1620nm, sensitivity -3dBm to -21dBm Max distance 10km (6.2miles)
+
+Multimode Version
+
+TX wavelength 850nm, power -2dBm to -7dBm RX input 850nm sensitivity 0dBm to -15dBm Max distance approx 550m (1804 feet) RX and TX activity LEDs on side of module next to fiber I/O
+
+Fiber Adapter Options (singlemode only not multimode)
+These adapter kits allow the use of ST or SC fiber connections on the module. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation.
+
+Power Size Ambient Model # Includes
+
++12VDC @ 2.0W nominal - ( supports 7 - 15VDC input range ) Size: 120mm x 42mm x 22mm (4.73” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) ODT 1510 singlemode - ( EAN# 4250479315136 ) ODT 1510 MM Multimode - ( EAN# 4250479321144 ) Module, AC power supply, transport case
+
+Model# LC/SC DUP LC/PC to SC/PC Adapter
+
+Model# LC/ST DUP LC/PC to ST/SC Adapter
+
+Specifications subject to change
+
+LYNXTechnik AG |
+30
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+® Connection Diagrams
+
+ODT 1510 ODT 1510 MM
+
+Power Adapter Options
+The module INCLUDES an AC power supply. The power adapters below are optional.
+
+P-TAP 1000
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 31
+
+</slide>
+<slide>
+yellobrik
+®
+
+OBD 1510 D
+
+Serial and GPI Bidirectional Fiber Transceiver
+• Bidirectional send and receive over single fiber link • Extend serial and GPI connections up to 10km • Supports serial RS232 or RS422 or RS485 • 2 x GPI connections • Singlemode fiber up to 10km (6.2 miles) • LC/PC duplex fiber connections • Switchable RX/TX crossover • Automatic or manual data direction • Switchable end of line termination • ‘Plug and Play’ - No PC software drivers needed • Supports all serial protocols (standard or proprietary) • 300 - 460K Baud (auto sensing and auto adjusting)
+The OBD 1510 D is a pair of multi-function modules which will extend the reach of serial RS232, RS422 or RS485 as well as two GPI (general purpose interface) up to 10km (6.2 miles) over a single bidirectional fiber link (WDM) A single RJ45 electrical serial connection can be configured for RS232, RS422 or RS485 serial standards. A separate RJ45 connector is provided for two electrical GPI inputs and outputs. Serial communications and GPI are transmitted and extended over the same fiber link. The OBD 1510 D is completely agnostic to the serial protocol used, and supports all standard protocols and proprietary protocols at data rates from 300 to 460K Baud (auto sensing and auto adjusting). The integrated dip switch provides precise control over the serial mode of operation with selections for the serial standard, serial termination, RX/TX crossover and RS422/485 data direction (automatic or manual). Data activity LEDs are provided for the serial port and the GPI port under the respective RJ45 connectors. The OBD 1510 D also supports mixing and matching of serial standards. For example: the transmitting module can have a RS232 input, and the receiving module can be set for RS422 output.
+Note. This system used WDM optical multiplexing and should only be used in point to point applications. This solution cannot be integrated into a CWDM multiplexed system. Fiber I/O GPI
+
+Technical Specifications
+Serial I/O
+EIA/ETA RS232C / RS422 / RS485 (selectable) Connector - RJ45 Baud rate - Auto sense and auto adjust from 300 to 460K Serial setting dip switch provides settings for: • Select RS232 / RS422/485 modes • Select serial termination (for end of line) • RX/TX crossover to flip the RX and TX if needed • Set RS422/485 data direction to automatic or manual if needed LED status indicators (under RJ45 connector). Serial RX and TX activity RS422/485 Maximum number of electical nodes = 25 ESD protection for up to 26kV 2 x general purpose inputs + 2 x general purpose outputs Connector - RJ45 GPI Inputs: • External passive closure between pins (short) to trigger • Max input switching frequency 25Hz (50 operations / second) • Input insulation 3.75kV GPI outputs: • Internal contact closure (relay) • Max switching frequency 25Hz (50 operations / second) • Max switching power 220VDC / 0.25A or 250VAC / 0.25A • Output insulation 3.75kV LED status indicators (under RJ45 connector) GPI Input 1 activity / GPI Input 2 activity GPI Output 1 activity / GPI Output 2 activity 1 x fiber optic I/O port (bidirectional) Simplex (single mode) using LC/PC Connection WDM using 1310nm and 1550nm wavelengths Optical budget = 18dB Maximum distance approx. 10km (6.2miles)
+
+Fiber Adapter Options
+These adapter kits allow the use of ST or SC fiber connections on the modules. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation.
+
+RX and TX activity LEDs on side of module next to fiber I/O
+
+Power Physical
+(each module)
+
++12VDC @ 2.0W nominal for each module - ( supports 7 - 15VDC input range ) Size: 120mm x 42mm x 22mm (4.73” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) OBD 1510 D - ( EAN# 4250479319103 ) 2 x OBD 1510 D modules (Type A and Type B), 2 x AC power supplies, plastic transport case
+
+Ambient Model # Includes
+
+Model# LC/SC SIM LC/PC to SC/PC Adapter
+
+Model# LC/ST SIM LC/PC to ST/SC Adapter
+Specifications subject to change
+
+LYNXTechnik AG |
+32
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+® Connection Diagrams
+
+OBD 1510 D
+
+Power Adapter Options
+The kit INCLUDES AC power supplies. The power adapters below are optional.
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 33
+
+</slide>
+<slide>
+yellobrik
+®
+
+OET 1510 OET 1510 MM
+
+Ethernet to Fiber Transceiver (switch)
+• Supports standard Ethernet inputs up to 1 Gbit • 3 port Ethernet switch (1 fiber, 2 electrical) • Auto (10/100/1000) electrical port speed detection • Manually force 10Mbit electrical speed (if needed) • Fiber transceiver speed always 1 Gbit • Auto or manual electrical crossover selection • Singlemode fiber 1310nm up to 10km (6.2 miles) • Multimode fiber 850nm up to 550m (1,804 feet) • Duplex LC optical connections • Supports hot swapping and hot plugging
+
+Technical Specifications
+Ethernet
+2 x Ethernet ports, RJ 45 Connectors. 10 BaseTUTP category 3,4 or 5 cable up to 328ft/100m (2 pairs) 100 BaseTXUTP category 5 cable up to 328ft/100m (2 pairs) 1000 BaseTXUTP category 5 cable up to 328ft/100m (4 pairs) Auto detect bit rate (10/100/1000), or force to 10Mbit for each port (selectable) Automatic crossover detection or force manually for each port (selectable) Port speed / activity LED indication (next to Ethernet port)
+
+Singlemode SFP
+
+Multimode SFP
+
+Fiber Optic
+
+1 x fiber optic input (TX) 1 x fiber optic output (RX) Duplex using LC/PC Connections IEEE 802.3z (1000BASE-X Gbit/s Ethernet over Fiber at 1 Gbit/s (125 MB/s)
+
+Using the same basic module we provide two versions suitable for singlemode or multimode fiber. Each version has a different SFP installed.
+
+The OET 1510 is a compact 3 port Ethernet switch, designed to extend the reach of electrical Ethernet signals over long distances using a constant (fixed) high speed 1 Gbit optical transceiver speed. When paired with another OET 1510 at the receiving end (using two fiber links) you have a cost effective Ethernet extender system for distances up to 10km providing a stable, high speed 1Gbit error free optical connection between locations. The OET 1510 has two standard RJ45 electrical Ethernet ports plus fiber I/O and functions as a 3 port Ethernet switch. For legacy system use; each electrical Ethernet port can be set for automatic speed detection (10/100/1000) or forced to 10Mbit, and each port can use auto crossover detection or be forced manually if needed. These functions are available using the dip switch.
+
+Singlemode Version
+
+TX wavelength 1310nm, power -3dBm RX input range 1260nm to 1620nm, sensitivity -3dBm to -21dBm Max distance 10km (6.2miles)
+
+Multimode Version
+
+TX wavelength 850nm, power -2dBm to -7dBm RX input 850nm sensitivity 0dBm to -15dBm Max distance approx 550m (1804 feet) Fiber TX active and RX active LEDs on side of module
+
+Power Physical Ambient Model # Includes
+
++12VDC @ 2.2W nominal - ( supports 7 - 15VDC input range ) Size: 120mm x 42mm x 22mm (4.73” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) OET 1510 (singlemode) - ( EAN# 4250479315129 ) OET 1510 MM (multimode) - ( EAN # 4250479321144 ) Module, AC power supply, transport case
+
+Fiber Adapter Options (singlemode only not multimode)
+
+These adapter kits allow the use of ST or SC fiber connections on the module. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation.
+
+Power Adapter Options
+
+The kit INCLUDES AC power supply. The power adapters below are optional. XLR 1000
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Model# LC/SC DUP LC/PC to SC/PC Adapter
+
+Model# LC/ST DUP LC/PC to ST/SC Adapter
+
+Specifications subject to change
+
+LYNXTechnik AG |
+34
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+OBD 1510 E
+
+Ethernet to Fiber Bidirectional Transceivers (switch)
+• Bidirectional send and receive over single fiber link • Supports standard Ethernet inputs up to 1Gbit • Closed loop WDM fiber system • Auto (10/100/1000) electrical port speed detection • Manually force 10Mbit electrical speed • Fiber connection speed always 1Gbit • Auto or manual electrical crossover selection • Distances up to 10km (6.2 miles) over SMF fiber • Supplied as matched pair (A and B version) • Supports hot swapping and hot plugging
+The OBD 1510 E is a matched pair of compact Ethernet switches designed to extend the reach of electrical Ethernet signals over long distances. The two switches are linked via single bidirectional fiber link which operates at a constant 1Ggit speed. This pair of modules uses WDM fiber technology in a closed loop arrangement and essentially functions as an Ethernet extender solution. The fiber link supports distances up to 10Km and provides a single, high speed 1Gbit error-free optical connection between the two locations. Each OBD 1510 E module has two standard RJ45 electrical Ethernet ports and the complete system functions as a 4 port Ethernet switch, providing two standard RJ45 Ethernet ports at each location bridged with fiber. For legacy systems, each electrical Ethernet port can be set for automatic speed detection (10/100/1000) or forced to 10Mbit. Each port uses auto crossover detection or can be forced manually if needed. These functions are available using the dip switch.
+Note. This system used WDM optical multiplexing and should only be used in point to point applications. This solution cannot be integrated into a CWDM multiplexed system. Fiber Optic
+
+Technical Specifications
+Ethernet
+2 x Ethernet ports, RJ45 Connectors. 10 BaseT UTP category 3,4 or 5 cable up to 328ft/100m (2 pairs) 100 BaseT XUTP category 5 cable up to 328ft/100m (2 pairs) 1000 BaseT XUTP category 5 cable up to 328ft/100m (4 pairs) Auto detect bit rate (10/100/1000), or force to 10Mbit for each port (selectable) Automatic crossover detection or force manually for each port (selectable) Port speed / activity LED indication (next to Ethernet port) 1 x fiber optic I/O port (bidirectional) Simplex (single mode) using LC/PC connection WDM using 1310nm and 1550nm wavelengths Optical budget = 18dB Fiber TX active and RX active LEDs on side of module Maximum distance approx. 10km (6.2 miles - Singlemode)
+
+Power Physical
+(each module)
+
++12VDC @ 1.9W nominal for each module - ( supports 7 - 15VDC input range ) Size: 120mm x 42mm x 22mm (4.73” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) OBD 1510 E - ( EAN# 4250479319110 ) 2 x OBD 1510 E modules (Type A and Type B), 2 x AC power supplies, plastic transport case
+
+Ambient Model #
+
+Fiber Adapter Options
+These adapter kits allow the use of ST or SC fiber connections on the modules. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation.
+
+Includes
+
+Model# LC/SC SIM LC/PC to SC/PC Adapter
+
+Model# LC/ST SIM LC/PC to ST/SC Adapter
+
+Power Adapter Options
+The kit INCLUDES AC power supplies. The power adapters below are optional.
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source
+
+Specifications subject to change
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 35
+
+</slide>
+<slide>
+yellobrik
+®
+
+OTX 1712
+yelloGUI compatible
+
+Analog Sync / Video Fiber Optic Transmitter
+• Supports analog black burst, bi-level, tri-level sync signals and NTSC and PAL composite video • Passive loop output • Broadcast quality performance • Error free optical transmission • Versions for LC, ST or SC fiber connections • Multimode version available • Up to 10km (6.2 miles) singlemode • Up to 300m (984 feet) multimode • Supports hot swapping and hot plugging • yelloGUI compatible to access additional internal settings
+
+OTX 1712 LC Version Shown
+
+Technical Specifications
+Analog Input
+Sync = analog black burst / SDTV bi-level / HDTV tri-level Video = NTSC / PAL composite video 1 x passive loop output (terminate if not used) 75 Ohm BNC connectors NTSC SMPTE 170M, PAL CCIR624 Analog tri-level sync SMPTE ST 274, ST 276 Multi-standard operation, auto-detect Return loss: 31dB to 10MHz
+
+singlemode
+
+LC
+
+singlemode
+
+ST
+
+singlemode
+
+SC
+
+multimode
+
+LC
+
+Fiber Out Singlemode
+
+1 x fiber optic singlemode output LC, ST or SC connection SMPTE 297M - 2006 Wavelength: 1310nm, Optical power -5dBm TX active LED on side of module
+
+Using the same basic module we provide four versions suitable for LC, ST or SC singlemode fiber connections, as well as a version for multimode fiber. Each version has a different SFP installed.
+
+The OTX 1712 is a compact analog sync or NTSC/PAL composite video to fiber optic transmitter. This device is specifically designed to combat the restrictions involved with the distribution of broadcast quality analog reference and composite video signals over long distances. When paired with the fiber optic receiver ORX 1702 you have a very cost effective optical transmission system for analog sync reference signals or NTSC/PAL composite video. This device is particularly useful for reference sync distribution between remote installations to maintain correct synchronization. Unlike other very basic analog to fiber conversion solutions, the OTX 1712 incorporates technology to maintain a very high degree of sync and burst phase stability during the conversion and fiber transmission. The module converts the NTSC/PAL video signal to an SDI signal (including reference and other relevant information) before it is converted to fiber. Therefore when the OTX 1712 is used for NTSC or PAL video sources it is possible to convert the fiber signal directly to SDI if required using an SDI receiver (e.g. ORX 1802). The OTX 1712 provides a passive loop output and support for LC, ST or SC singlemode fiber connections. An LC version suitable for multimode fiber is also available.
+
+Max. distance: 10km (6.2 miles - approx)
+
+Fiber Out Multimode
+
+1 x fiber optic multimode output LC connection SMPTE 297M - 2006 Wavelength: 850nm, Optical power -5dBm TX active LED on side of module Max. distance: 300m (984feet - approx)
+
+Power Physical Ambient Model #
+
++12VDC @ 3.4W nominal - ( supports 8 - 24VDC input range ) Size: 140mm x 42mm x 22mm (5.51” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) OTX 1712 LC - ( EAN# 4250479320345 ) OTX 1712 ST - ( EAN# 4250479320352 ) OTX 1712 SC - ( EAN# 4250479320369 ) OTX 1712 MM (multimode) - ( EAN# 4250479320376 ) Module, 12V DC power supply and plastic transport case
+
+Includes
+
+Power Adapter Options
+The kit INCLUDES AC power supply. The power adapters below are optional.
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Specifications subject to change
+
+LYNXTechnik AG |
+36
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+ORX 1702
+yelloGUI compatible
+
+Analog Sync / Video Fiber Optic Receiver
+• Supports analog black burst, bi-level, tri-level sync signals and NTSC and PAL composite video • Two outputs • Broadcast quality performance • Versions for LC, ST or SC fiber connections • Multimode version available • Supports hot swapping and hot plugging • yelloGUI compatible to access additional internal settings
+Fiber Input Singlemode
+
+ORX 1702 LC Version Shown
+
+Technical Specifications
+1 x fiber optic Input LC, ST or SC connection SMPTE 297M - 2006 Input range (wavelength): 1260nm to 1620nm
+
+singlemode
+
+LC
+
+singlemode
+
+ST
+
+singlemode
+
+SC
+
+multimode
+
+LC
+
+RX sensitivity: -3dBm to -19dBm RX active LED on side of module
+
+Using the same basic module we provide four versions suitable for LC, ST or SC singlemode fiber connections, as well as a version for multimode fiber. Each version has a different SFP installed.
+
+Fiber Input Multimode
+
+1 x fiber optic input LC connection SMPTE 297M - 2006 Input range (wavelength) 780nm to 880nm RX sensitivity: 0dBm to -15dBm RX active LED on side of module
+
+The ORX 1702 is a compact analog sync or NTSC/PAL composite video to fiber optic receiver. This device is specifically designed to combat the restrictions involved with the distribution of broadcast quality analog reference and composite video signals over long distances. When paired with the fiber optic transmitter OTX 1712 you have a very cost-effective optical transmission system for analog sync reference signals or NTSC/PAL composite video. This device is particularly useful for reference sync distribution between remote installations to maintain correct synchronization. Unlike other very basic analog to fiber conversion solutions, the ORX 1702 incorporates technology to maintain a very high degree of sync and burst phase stability during the fiber reception and analog conversion. The module receives an SDI signal (including reference and other relevant information) before it is converted to an analog signal. Therefore when the ORX 1702 is used for 525 or 625 SDI video sources it is possible to convert the signal to an analog NTSC or PAL composite output directly. For example: if the 525 or 625 signal is received from an SDI video transmitter OTX 1812. The ORX 1702 provides two analog outputs and support for LC, ST or SC singlemode fiber connections. An LC version suitable for multimode fiber is also available.
+
+Analog Output
+
+Sync = analog black burst / SDTV bi-level / HDTV tri-level Video = NTSC / PAL composite video 2 identical outputs provided 75 Ohm BNC connectors NTSC SMPTE 170M, PAL CCIR624 Analog tri-level sync SMPTE ST 274, ST 276 Return loss: 46.5dB to 10MHz
+
+Power Physical Ambient Model #
+
++12VDC @ 3.5W nominal - ( supports 8 - 24VDC input range ) Size: 140mm x 42mm x 22mm (5.51” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) ORX 1702 LC - ( EAN# 4250479320383 ) ORX 1702 ST - ( EAN# 4250479320390 ) ORX 1702 SC - ( EAN# 4250479320406 ) ORX 1702 MM (multimode) - ( EAN# 4250479320413 ) Module, 12V DC power supply and plastic transport case
+
+Includes
+
+Power Adapter Options
+The kit INCLUDES AC power supply. The power adapters below are optional.
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Specifications subject to change
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 37
+
+</slide>
+<slide>
+yellobrik
+®
+
+OTX 1910
+
+L-Band to Fiber Transmitter
+• Input frequency 700MHz - 2300MHz • L-Band output • LNB power selectable 13V/18V • 22kHz on/off for LNB local oscillator control • Simplex LC/PC singlemode optical connection • Up to 10km (6.2 miles)
+The OTX 1910 is an effective solution for transporting analog RF L-Band signals over long distances. The module supports RF signals within the extended L-Band range of 700MHz to 2300MHz. The module is configured using the integrated dip switch. This allows the LNB power to be activated and switched to 13V or 18V to select horizontal or vertical polarization. Additionally, the internal 22kHz tone generator can be turned on and off to select the high or low frequency range. When paired with the fiber optic receiver for RF signals (yellobrik ORX 1900) you have a very cost effective optical RF transmitter/receiver system for distances up to 10km.
+
+Technical Specifications
+RF Input
+Connector: 1 x 75 Ohm F-Type Frequency Range L-Band: 950MHz - 2150MHz Frequency Range Ext. L-Band: 700MHz - 2300MHz Return Loss: &gt;14dB Input Power Range: -10dBm to -65dBm
+
+LNB Power
+
+Voltage: (13V/18V) DC, On/Off Current max.: 450mA Protection: Short Circuit LO Control: 22kHz / 0kHz
+
+RF Output
+
+Connector: 1x 75 Ohm F-Type Frequency Range: 700MHz - 2300MHz Return Loss: &gt;14dB Flatness L-Band: +/- 1.5dB Flatness Ext. L-Band: +/- 2.0dB Output Level: Within +/- 2.0dB of input signal
+
+Fiber output
+
+Connector: 1 x LC/PC singlemode Wavelength: 1310nm Optical Power: 1dBm (+/- 1dBm)
+
+Fiber Adapter Options
+These adapter kits allow the use of ST or SC fiber connections on the modules. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation.
+
+Power Physical Ambient Model # Includes
+
++12VDC @ 3.5W nominal - (supports 9-14V input range) Size: 137mm x 42mm x 22mm (5.41” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) OTX 1910 - ( EAN# 4250479359741 ) Module, 12V DC power supply and plastic transport case
+
+Model# LC/SC SIM LC/PC to SC/PC Adapter
+
+Model# LC/ST SIM LC/PC to ST/SC Adapter
+
+Power Adapter Options
+The kit INCLUDES AC power supply. The power adapters below are optional.
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Specifications subject to change
+
+LYNXTechnik AG |
+38
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+ORX 1900
+
+Fiber to L-Band Receiver
+• Support L-Band frequencies 700MHz - 2300MHz • Dual L-Band RF outputs • Fiber input range 1270nm - 1610nm • Simplex LC/PC singlemode optical connection
+The ORX 1900 is a compact fiber optic receiver for RF signals within the extended L-Band range of 700MHz to 2300MHz. When paired with the OTX 1910 L-Band transmitter you have a very cost effective L-Band optical transmitter/receiver system for long distance applications.
+
+Technical Specifications
+Fiber Input
+Connector: 1 x LC/PC singlemode Frequency Range: 1270nm to 1610nm Input Range: +4 dBm to -6dBm
+
+RF Output
+
+Connector: 2 x 75 Ohm F-Type Frequency Range: 700MHz - 2300MHz Return Loss: &gt;14dB
+
+Power Physical Ambient Model # Includes
+
++12VDC @ 2.9W nominal - (supports 9-14V input range) 1Size: 137mm x 42mm x 22mm (5.41” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) ORX 1900 - ( EAN# 4250479359734 ) Module, 12V DC power supply and plastic transport case
+
+Fiber Adapter Options
+These adapter kits allow the use of ST or SC fiber connections on the modules. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation.
+
+Model# LC/SC SIM LC/PC to SC/PC Adapter
+
+Model# LC/ST SIM LC/PC to ST/SC Adapter
+
+Power Adapter Options
+The kit INCLUDES AC power supply. The power adapters below are optional.
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Specifications subject to change
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 39
+
+</slide>
+<slide>
+yellobrik
+®
+
+OTX 1842
+
+3Gbit SDI to Fiber Optic Transmitter (CWDM)
+• Supports SDI video inputs up to 3Gbit/s (1080p60) • 3Gbit Level A and Level B support (all formats) • Auto reclocking 270Mbit / 1.5Gbit / 2.97Gbit • Reclocked SDI loop output • 18 wavelength selections (ITU-T G.694.2) • Error free optical transmission • Up to 40km (24.85 miles) @ 3Gbit • Simplex LC singlemode optical connection • Supports hot swapping and hot plugging
+The OTX 1842 is a compact CWDM SDI to fiber optic transmitter designed to combat the restrictions involved with the distribution of uncompressed broadcast quality video signals over long distances. When paired with the fiber optic to SDI receiver (e.g. yellobrik ORX 1802) you have a very cost effective optical transmission / receiver system for signals up to 1080p60 (3Gbit/s), while preserving full uncompressed quality. Select from 18 wavelengths for full CWDM compatibility.
+Optical Output
+
+Technical Specifications
+Input
+1 x SDI video on 75 Ohm BNC connector with reclocked loop output SMPTE 424M, SMPTE 292M, SMPTE 259M, DVB-ASI Multi-standard operation from 270Mbit/s to 3Gbit/s Multirate reclocking 270Mbit/s - 1.48Gbit/s - 2.97Gbit/s Return Loss: &gt; 15dB to 1.5GHz and &gt; 10dB up to 3GHz Automatic cable EQ (Belden 1694A cable) 250m @ 270Mbit/s, 140m @ 1.5Gbit/s, 80m @ 3Gbit/s 1 x fiber optic output Simplex (singlemode) using LC Connection SMPTE 297M - 2006 Hot pluggable 18 Wavelength selections per ITU-T G.694.2 (see table) TX active LED on side of module
+
+The OTX 1842 will auto-detect and re-clock any 270Mbit / 1.5Gbit and 3Gbit SDI source prior to optical transmission. The module is fully compatible with 3Gbit Level A and Level B formats.
+
+Power Adapter Options
+The kit INCLUDES AC power supply. The power adapters below are optional.
+
+P-TAP 1000
+
+XLR 1000
+
+Max. distance approx. 40km (24.8 miles) @ 3Gbit/s (single mode)
+
+Use with a standard battery P-TAP power source.
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Power
+
++12VDC @ 1.3W nominal without SFP +12VDC @ 1.8W nominal with SFP ( supports 7 - 16VDC input range ) Size: 140mm x 42mm x 22mm (5.51” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) OTX 1842 - ( EAN# 4250479359857 ) Module, AC power supply, transport case
+
+Physical Ambient Model #
+
+Ordering Info:
+
+Includes
+
+Note. The OTX 1842 price DOES NOT INCLUDE the fiber transmitter SFP sub module. Please specify the required wavelength from the option list below
+
+CWDM Wavelength Options. ITU-T G.694.2 (select one)
+Wavelength
+1270nm 1290nm 1310nm 1330nm 1350nm 1370nm 1390nm 1410nm 1430nm
+
+Power
+-1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm
+
+Option #
+OH-TX-4-1270 OH-TX-4-1290 OH-TX-4-1310 OH-TX-4-1330 OH-TX-4-1350 OH-TX-4-1370 OH-TX-4-1390 OH-TX-4-1410 OH-TX-4-1430
+
+Wavelength
+1450nm 1470nm 1490nm 1510nm 1530nm 1550nm 1570nm 1590nm 1610nm
+
+Power
+-1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm
+
+Option #
+OH-TX-4-1450 OH-TX-4-1470 OH-TX-4-1490 OH-TX-4-1510 OH-TX-4-1530 OH-TX-4-1550 OH-TX-4-1570 OH-TX-4-1590 OH-TX-4-1610 Model# LC/SC SIM LC/PC to SC/PC Adapter Model# LC/ST SIM LC/PC to ST/PC Adapter
+Specifications subject to change
+
+Fiber Adapter Options
+These adapter kits allow the use of ST or SC fiber connections on the modules. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation.
+
+LYNXTechnik AG |
+40
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+OTT 1842
+
+Dual Channel 3Gbit SDI to Fiber Transmitter (CWDM)
+• Dual Channel • Supports SDI video inputs up to 3Gbit/s (1080p60) • 3Gbit Level A and Level B support (all formats) • Auto reclocking 270Mbit / 1.5Gbit / 2.97Gbit • Error free optical transmission • 18 Wavelength selections (ITU-T G.694.2) • Up to 40km (24.8 miles) @ 3Gbit/s • Duplex LC/PC single mode optical connections • Supports hot swapping and hot plugging
+The OTT 1842 is a compact CWDM dual channel SDI to fiber optic transmitter designed to combat the restrictions involved with the distribution of uncompressed broadcast quality video signals over long distances. 18 wavelength choices are provided. When combined with the dual channel fiber optic to SDI receiver module ORR 1802,and the OCM 1891/1892 CWDM multiplexers you have a very cost effective CWDM fiber system for up to 18 signals in a single fiber link. The OTT 1842 has two completely independent channels and each will auto-detect and re-clock any 270Mbit / 1.48Gbit and 2.97Gbit SDI source prior to optical transmission. The module is fully compatible with 3Gbit Level A and Level B formats.
+
+Technical Specifications
+Input
+2 x SDI video on 75 Ohm BNC connector SMPTE 424M, SMPTE 292M, SMPTE 259M, DVB-ASI Multi-standard operation from 270Mbit/s to 3Gbit/s Multirate reclocking 270Mbit/s - 1.48Gbit/s - 2.97Gbit/s Return Loss: &gt; 15dB to 1.5GHz and &gt; 10dB up to 3GHz Automatic cable EQ (Belden 1694A cable) 250m @ 270Mbit/s, 140m @ 1.5Gbit/s, 80m @ 3Gbit/s
+
+Optical Outputs
+
+2 x fiber optic outputs Simplex (single mode) using LC/PC Connections SMPTE 297M - 2006 18 Wavelength selections, in pairs - per ITU-T G.694.2 (see table) TX active LEDs on side of module Max. distance approx 40km (24.8 miles) @ 3Gbit/s (Singlemode)
+
+Power Adapter Options
+The kit INCLUDES AC power supply. The power adapters below are optional.
+
+P-TAP 1000
+
+XLR 1000
+
+Use with a standard battery P-TAP power source.
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Power
+
++12VDC @ 1.9W nominal without SFP +12VDC @ 2.6W nominal with SFP ( supports 7 - 16VDC input range ) Size: 140mm x 42mm x 22mm (5.51” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) OTT 1842 - ( EAN# 4250479318427 ) Module, AC power supply, transport case
+
+Physical Ambient Model # Includes
+
+Ordering Info:
+
+Note. The OTT 1842 price DOES NOT INCLUDE the dual fiber transmitter SFP sub module. Please specify the required wavelengths from the option list below when ordering.
+
+CWDM Wavelength Options. ITU-T G.694.2 (select one)
+Wavelengths
+1270nm, 1290nm 1310nm, 1330nm 1350nm, 1370nm 1390nm, 1410nm 1430nm, 1450nm 1470nm, 1490nm 1510nm, 1530nm 1550nm, 1570nm 1590nm, 1610nm
+
+Power
+-1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm
+
+Option #
+OH-TT-4-1270-1290 OH-TT-4-1310-1330 OH-TT-4-1350-1370 OH-TT-4-1390-1410 OH-TT-4-1430-1450 OH-TT-4-1470-1490 OH-TT-4-1510-1530 OH-TT-4-1550-1570 OH-TT-4-1590-1610 Model# LC/SC DUP LC/PC to SC/PC Adapter Model# LC/ST DUP LC/PC to ST/PC Adapter
+Specifications subject to change
+
+Fiber Adapter Options
+These adapter kits allow the use of ST or SC fiber connections on the module. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation.
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 41
+
+</slide>
+<slide>
+yellobrik
+®
+3Gbit Fiber Optic / SDI Transceiver (CWDM)
+• Optical receiver and transmitter in single package • Supports SDI video up to 3Gbit/s (1080p60) • 3Gbit Level A and Level B support (all formats) • Auto reclocking 270Mbit / 1.5Gbit / 2.97Gbit • CWDM with 18 wavelength selections • Error free optical connections • Up to 40km (24.8 miles) @ 3Gbit/s • Duplex LC/PC single mode optical connections • Supports hot swapping and hot plugging
+The OTR 1840 is a CWDM Fiber Optic to SDI transmitter and receiver combined in a compact self contained package. It is a convenient and cost effective solution to combat the restrictions involved with the distribution of uncompressed broadcast quality video signals over long distances. Each OTR 1840 CWDM tranceiver has an independant transmitter and receiver channel, which provides an effective solution for any SDI signal up to 1080p60 (3Gbit/s) while preserving full uncompressed quality. Select from 18 transmitter wavelengths for full CWDM compatibility (ITU-T G.694.2) The OTR 1840 will auto-detect and re-clock any 270Mbit / 1.5Gbit and 3Gbit SDI source prior to conversion. The module is fully compatible with 3Gbit Level A and Level B formats.
+Fiber Optic SDI Video
+
+OTR 1840
+
+Technical Specifications
+1 x SDI video input 1 x SDI Video output 75 Ohm BNC connectors SMPTE 424M, SMPTE 292M, SMPTE 259M, DVB-ASI Multi-standard operation from 270Mbit/s to 3Gbit/s Multi-rate reclocking 270Mbit/s - 1.48Gbit/s - 3Gbit/s Return Loss: &gt; 15dB to 1.5GHz and &gt; 10dB up to 3GHz Automatic cable EQ (Belden 1694A cable) 250m @ 270Mbit/s, 140m @ 1.5Gbit/s, 80m @ 3Gbit/s 1 x fiber optic input (Range 1260-1620nm, Sensitivity -3dBm to -19dBm) 1 x fiber optic output (CWDM - 18 selectable wavelengths - ITU-T G.694.2) Duplex (Singlemode) using LC/PC Connections SMPTE 297M - 2006 Hot pluggable TX active LED, and RX active on side of module Single mode transmit / receive (duplex connector) Max. distance approx. 40km (24.8 miles) @ 3Gbit/s (Singlemode)
+
+Power Adapter Options
+The kit INCLUDES AC power supply. The power adapters below are optional.
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+Power
+
++12VDC @ 1.9W nominal without SFP +12VDC @ 2.7W nominal with SFP ( supports 7 - 16VDC input range ) Size: 140mm x 42mm x 22mm (5.51” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) OTR 1840 - ( EAN# 4250479318403 ) Module, AC power supply, transport case
+
+Physical
+
+Ordering Info:
+
+Note. The OTR 1840 price DOES NOT INCLUDE the fiber transmitter SFP sub module. Please specify the required wavelength from the option list below when ordering.
+
+Ambient Model # Includes
+
+CWDM Wavelength Options. ITU-T G.694.2 (select one)
+Wavelength
+1270nm 1290nm 1310nm 1330nm 1350nm 1370nm 1390nm 1410nm 1430nm
+
+Power
+-1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm
+
+Option #
+OH-TR-4-1270 OH-TR-4-1290 OH-TR-4-1310 OH-TR-4-1330 OH-TR-4-1350 OH-TR-4-1370 OH-TR-4-1390 OH-TR-4-1410 OH-TR-4-1430
+
+Wavelength
+1450nm 1470nm 1490nm 1510nm 1530nm 1550nm 1570nm 1590nm 1610nm
+
+Power
+-1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm
+
+Option #
+OH-TR-4-1450 OH-TR-4-1470 OH-TR-4-1490 OH-TR-4-1510 OH-TR-4-1530 OH-TR-4-1550 OH-TR-4-1570 OH-TR-4-1590 OH-TR-4-1610 Model# LC/SC DUP LC/PC to SC/PC Adapter Model# LC/ST DUP LC/PC to ST/PC Adapter
+Specifications subject to change
+
+Fiber Adapter Options
+These adapter kits allow the use of ST or SC fiber connections on the module. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation.
+
+LYNXTechnik AG |
+42
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+OET 1540
+
+Ethernet to Fiber Transceiver (switch) - CWDM
+• Supports standard Ethernet inputs up to 1 Gbit • 3 port Ethernet switch (1 fiber, 2 electrical) • Auto (10/100/1000) port speed detection • Manually force 10Mbit electrical speed (if needed) • Fiber transceiver speed always 1 Gbit • Auto or manual electrical crossover selection • Distances up to 40km (24.8 miles) over fiber • 18 CWDM wavelength selections (ITU-T G.694.2)
+The OET 1540 is a compact CWDM compatible Ethernet 3 port switch, designed to extend the reach of electrical Ethernet signals over long distances using a constant (fixed) high speed 1 Gbit optical transceiver speed. 18 selectable CWDM wavelengths are provided to enable the module to be used in a multiplexed CWDM environment. When paired with another OET 1540 at the receiving end (using two fiber links) you have a cost effective Ethernet extender system for distances up to 40km - providing a stable, high speed 1Gbit error free optical connection between locations. The OET 1540 has two standard RJ45 electrical Ethernet ports plus fiber I/O and functions as a 3 port Ethernet switch. For legacy system use; each electrical Ethernet port can be set for automatic speed detection (10/100/1000) or forced to 10Mbit, and each port can use auto crossover detection or be forced manually if needed. These functions are available using the dip switch.
+Fiber Optic
+
+Technical Specifications
+Ethernet
+2 x Ethernet ports, RJ 45 Connectors. 10 BaseTUTP category 3,4 or 5 cable up to 328ft/100m (2 pairs) 100 BaseTXUTP category 5 cable up to 328ft/100m (2 pairs) 1000 BaseTXUTP category 5 cable up to 328ft/100m (4 pairs) Auto detect bit rate (10/100/1000), or force to 10Mbit for each port (selectable) Automatic crossover detection or force manually for each port (selectable) Port speed / activity LED indication (next to Ethernet port) 1 x fiber optic input (Range 1270-1610nm, Sensitivity -3dBm to -23dBm) 1 x fiber optic output CWDM (ITU-T G.694.2) 18 selectable wavelengths Duplex (Single mode) using LC/PC Connections IEEE 802.3z (1000BASE-X Gbit/s Ethernet over Fiber at 1 Gbit/s (125 MB/s) Fiber TX active and RX active LEDs on side of module
+
+Power Adapter Options
+The kit INCLUDES AC power supply. The power adapters below are optional.
+
+Max. distance approx. 40km (24.8 miles - Singlemode)
+
+Power
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+XLR 1000
+
++12VDC @ 1.5W nominal without SFP +12VDC @ 2.3W nominal with SFP ( supports 7 - 15VDC input range ) Size: 120mm x 42mm x 22mm (4.73” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) OET 1540 - ( EAN# 4250479315426 ) Module, AC power supply, transport case
+
+Use with a standard 4 pin XLR camera battery power source.
+
+Physical Ambient Model # Includes
+
+Ordering Info:
+
+Note. The OET 1540 price DOES NOT INCLUDE the fiber transceiver SFP sub module. Please specify the required wavelength from the option list below when ordering.
+
+CWDM TX Wavelength Options (select one)
+Wavelength 1270nm 1290nm 1310nm 1330nm 1350nm 1370nm 1390nm 1410nm 1430nm Power +2dBm +2dBm +2dBm +2dBm +2dBm +2dBm +2dBm +2dBm +2dBm Option # OH-TR-54-1270 OH-TR-54-1290 OH-TR-54-1310 OH-TR-54-1330 OH-TR-54-1350 OH-TR-54-1370 OH-TR-54-1390 OH-TR-54-1410 OH-TR-54-1430 Wavelength 1450nm 1470nm 1490nm 1510nm 1530nm 1550nm 1570nm 1590nm 1610nm Power +2dBm +2dBm +2dBm +2dBm +2dBm +2dBm +2dBm +2dBm +2dBm Option # OH-TR-54-1450 OH-TR-54-1470 OH-TR-54-1490 OH-TR-54-1510 OH-TR-54-1530 OH-TR-54-1550 OH-TR-54-1570 OH-TR-54-1590 OH-TR-54-1610 Model# LC/SC DUP LC/PC to SC/PC Adapter Model# LC/ST DUP LC/PC to ST/PC Adapter
+Specifications subject to change
+
+Fiber Adapter Options
+
+These adapter kits allow the use of ST or SC fiber connections on the module. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation.
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 43
+
+</slide>
+<slide>
+yellobrik
+®
+
+ODT 1540
+
+Serial and GPI Fiber Transceiver (CWDM)
+• Extend serial and GPI connections up to 40km • Supports serial RS232 or RS422 or RS485 • 2 x GPI connections • Select from 18 fiber wavelengths (CWDM) • LC/PC duplex fiber connections • Switchable RX/TX crossover • Automatic or manual data direction • Switchable end of line termination • ‘Plug and Play’ - No PC software drivers needed • Supports all serial protocols (standard or proprietary) • 300 - 460K Baud (auto sensing and auto adjusting)
+The ODT 1540 is a multi-function CWDM compatible module which (when used with another ODT 1540 in the remote location) will extend the reach of serial RS232, RS422 or RS485 as well as two GPI (general purpose I/O) up to 40km over fiber. 18 wavelength sections are provided for CWDM use. A single RJ45 electrical serial connection can be configured for RS232, RS422 or RS485 serial standards. A separate RJ45 connector is provided for two electrical GPI inputs and outputs. Serial communications and GPI are transmitted and extended over the same fiber link. The ODT 1540 is completely agnostic to the serial protocol used, and supports all standard protocols and proprietary protocols at data rates from 300 to 460K Baud (auto sensing and auto adjusting). The integrated dip switch provides precise control over the serial mode of operation with selections for the serial standard, serial termination, RX/TX crossover and RS422/485 data direction (automatic or manual). Data activity LEDs are provided for the serial port and the GPI port under the respective RJ45 connectors. The ODT 1540 also supports mixing and matching of serial standards. For example: the transmitting module can have a RS232 input, and the receiving module can be set for RS422 output. The ODT 1540 is 100% plug and play, hot pluggable and no special software drivers are required.
+
+Technical Specifications
+Serial I/O
+EIA/ETA RS232C / RS422 / RS485 (selectable) Connector - RJ45 Baud rate - Auto sense and auto adjust from 300 to 460K Serial setting dip switch provides settings for: • Select RS232 / RS422/485 modes • Select serial termination (for end of line) • RX/TX crossover to flip the RX and TX if needed • Set RS422/485 data direction to automatic or manual if needed LED status indicators (under RJ 45 connector) Serial TX activity Serial RX activity RS422/485 Max number of electical nodes = 25 ESD protection for up to 26kV
+
+GPI I/O
+
+2 x general purpose inputs + 2 x general purpose outputs Connector - RJ45 GPI Inputs: • External passive closure between pins (short) to trigger • Max input switching frequency 25Hz (50 operations / second) • Input insulation 3.75kV GPI outputs: • Internal contact closure (relay) • Max switching frequency 25Hz (50 operations / second) • Max switching power 220VDC / 0.25A or 250VAC / 0.25A • Output insulation 3.75kV LED status indicators (under RJ45 connector) GPI Input 1 activity , GPI Input 2 activity GPI Output 1 activity, GPI Output 2 activity
+
+Fiber I/O
+
+1 x fiber optic input (SMF) (Range 1270-1610nm, Sensitivity -3dBm to -23dBm) 1 x fiber optic output (SMF) CWDM (ITU-T G.694.2) 18 selectable wavelengths (see table) Duplex (Single mode) using LC/PC Connections Fiber TX active and RX active LEDs on side of module
+
+CWDM TX Wavelength Selections
+Wavelength 1270nm 1290nm 1310nm 1330nm 1350nm 1370nm 1390nm 1410nm 1430nm Power +2dBm +2dBm +2dBm +2dBm +2dBm +2dBm +2dBm +2dBm +2dBm Option # OH-TR-54-1270 OH-TR-54-1290 OH-TR-54-1310 OH-TR-54-1330 OH-TR-54-1350 OH-TR-54-1370 OH-TR-54-1390 OH-TR-54-1410 OH-TR-54-1430 Wavelength 1450nm 1470nm 1490nm 1510nm 1530nm 1550nm 1570nm 1590nm 1610nm Power +2dBm +2dBm +2dBm +2dBm +2dBm +2dBm +2dBm +2dBm +2dBm Option # OH-TR-54-1450 OH-TR-54-1470 OH-TR-54-1490 OH-TR-54-1510 OH-TR-54-1530 OH-TR-54-1550 OH-TR-54-1570 OH-TR-54-1590 OH-TR-54-1610 Physical Ambient Model # Includes Power
+
+Max. distance approx. 40km (24.8 miles - Singlemode) +12VDC @ 1.6W nominal without SFP +12VDC @ 2.1W nominal with SFP ( supports 7 - 15VDC input range ) Size: 120mm x 42mm x 22mm (4.73” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) ODT 1540 - ( EAN# 4250479315433 ) Module, AC power supply, transport case
+
+Specifications subject to change
+
+LYNXTechnik AG |
+44
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+® Connection Diagrams
+
+ODT 1540
+
+Power Adapter Options
+The module INCLUDES an AC power supply. The power adapters below are optional.
+
+Fiber Adapter Options XLR 1000
+These adapters enable the use of ST or SC fiber connections on the module. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation. Use with a standard 4 pin XLR camera battery power source
+
+P-TAP 1000
+
+Use with a standard battery P-TAP power source.
+
+LC/SC DUP
+LC/PC to SC/PC Adapter
+
+LC/ST DUP
+LC/PC to ST/PC Adapter
+
+Specifications subject to change
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 45
+
+</slide>
+<slide>
+yellobrik
+®
+
+OTX 1742
+yelloGUI compatible
+
+Analog Sync / Video Fiber Optic Transmitter (CWDM)
+• Supports analog black burst, bi-Level, tri-Level sync signals and NTSC and PAL composite video • Passive loop analog output • Broadcast quality performance • LC/PC fiber connection • 18 wavelength selections (ITU-T G.694.2) • Error free optical transmission • Up to 40km (24.8 miles) singlemode • Supports hot swapping and hot plugging • yelloGUI compatible to access additional internal settings
+The OTX 1742 is a compact analog sync or NTSC/PAL composite video to fiber optic transmitter (CWDM compatible). This device is specifically designed to combat the restrictions involved with the distribution of broadcast quality analog reference and composite video signals over long distances. When paired with the fiber optic receiver ORX 1702 you have a cost-effective optical transmission system for analog sync reference signals or NTSC/ PAL composite video. This device is particularly useful for reference sync distribution between remote installations to maintain correct synchronization. Unlike other very basic analog to fiber conversion solutions, the OTX 1742 incorporates technology to maintain a very high degree of sync and burst phase stability during the conversion and fiber transmission. The module converts the NTSC/PAL video signal to an SDI signal (including reference and other relevant information) before it is converted to fiber. Therefore when the OTX 1742 is used for NTSC or PAL video sources it is possible to convert the fiber signal directly to SDI if required using an SDI receiver (e.g. ORX 1802).
+
+Technical Specifications
+Analog Input
+Sync = analog black burst / SDTV bi-level / HDTV tri-level Video = NTSC / PAL Composite video 1 x passive loop output (terminate if not used) 75 Ohm BNC connectors NTSC SMPTE 170M, PAL CCIR624 Analog tri-level sync SMPTE ST 274, ST 276 Multi-standard operation, auto-detect Return loss: 31dB to 10MHz
+
+Fiber Out Singlemode
+
+1 x fiber optic singlemode output LC connection SMPTE 297M - 2006 18 Wavelength selections per ITU-T G.694.2 (see table) TX active LED on side of module Max. distance approx. 40km (24.8 miles)
+
+Power Physical Ambient Model # Includes
+
++12VDC @ 3.5W nominal ( supports 8 - 24VDC input range ) Size: 140mm x 42mm x 22mm (5.51” x 1.65” x 0.86”) including connectors Weight: 125g (4.4oz) 5 - 40ºC (41 - 104ºF) 90% Humidity (non condensing) OTX 1742 - ( EAN# 4250479320420 ) Module, 12V DC power supply and plastic transport case
+
+Ordering Info:
+
+Note. The OTX 1742 price DOES NOT INCLUDE the fiber transmitter SFP sub module. Please specify the required wavelength from the option list below when ordering.
+
+CWDM Wavelength Options. ITU-T G.694.2 (select one)
+Wavelength 1270nm 1290nm 1310nm 1330nm 1350nm 1370nm 1390nm 1410nm 1430nm Power -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm Option # OH-TX-4-1270 OH-TX-4-1290 OH-TX-4-1310 OH-TX-4-1330 OH-TX-4-1350 OH-TX-4-1370 OH-TX-4-1390 OH-TX-4-1410 OH-TX-4-1430 Wavelength 1450nm 1470nm 1490nm 1510nm 1530nm 1550nm 1570nm 1590nm 1610nm Power -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm -1dBm Option # OH-TX-4-1450 OH-TX-4-1470 OH-TX-4-1490 OH-TX-4-1510 OH-TX-4-1530 OH-TX-4-1550 OH-TX-4-1570 OH-TX-4-1590 OH-TX-4-1610
+Specifications subject to change
+
+Fiber Adapter Options
+These adapter kits allow the use of ST or SC fiber connections on the modules. SMF 0.5m (19.6”) tail introduces less than 0.25dB attenuation.
+
+Model# LC/SC SIM LC/PC to SC/PC Adapter
+
+Model# LC/ST SIM LC/PC to ST/PC Adapter
+
+LYNXTechnik AG |
+46
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+OCM 1841, OCM 1842 OCM 1843, OCM 1844
+
+4 Channel CWDM Multiplexers / Demultiplexers
+• Send / receive up to 4 channels over a single fiber link • Passive operation (no power required) • Combine all four modules for up to 16 channels • LC/PC single mode optical connections • Optional ½ RU 19” rack frame (RFR 1018)
+The OCM 1841, OCM 1842, OCM 1843, OCM 1844 are compact CWDM passive 4 channel optical multiplexers / demultiplexers designed to send and receive up to 4 individual signals over a single fiber link. Each module has an UPG (Upgrade) port to cascade into the other 4 channel modules, expanding the capability of the system to a maximum of 16 channels. The modules can be used standalone or integrated into the optional RFR 1018 1/2 RU 19” rack frame, which can accommodate all four modules. Ideal for system installations. Ideally suited for use with the CWDM yellobrik fiber modules (all 16 wavelengths are available).
+
+Model OCM 1841 OCM 1842 OCM 1843 OCM 1844
+
+Channel 1 1270nm 1350nm 1470nm 1550nm
+
+Channel 2 1290nm 1370nm 1490nm 1570nm
+
+Channel 3 1310nm 1390nm 1510nm 1590nm
+
+Channel 4 1330nm 1410nm 1530nm 1610nm
+
+Technical Specifications
+Optical I/O
+4 x Fiber Optic I/O channels Center frequencies taken from ITU-T G.694.2 OCM 1841 = 1270,1290,1310,1330nm OCM 1842 = 1350,1370,1390,1410nm OCM 1843 = 1470,1490,1510,1530nm OCM 1844 = 1550,1570,1590,1610nm 1 x COM (common) connection = multiplexed I/O 1 x UPG (Upgrade) I/O connection (pass band connection to other OCM 189x modules) LC/PC connectors SMF (single mode) Channel Insertion loss: 2.7dB , UPG Insertion loss: 2.7dB Polarization dependant loss: max 0.2dB Return Loss: &gt; 45dB Isolation (to adjacent channel): &gt; 30dB Directivity &gt; 55dB Temp. dependant loss: &lt; 0.005dB/ºC Temp. dependant change of wavelength: &lt; 0.003nm/ºC Max. input power: 500mw Single or full duplex operation
+
+Power Physical Model #
+
+None required (passive operation) Size: 120mm x 100mm x 18mm (4.72” x 3.93” x 0.75”) Weight: 140g (4.9oz) OCM 1841 - ( EAN# 4250479319417 ) OCM 1842 - ( EAN# 4250479319424 ) OCM 1843 - ( EAN# 4250479319431 ) OCM 1844 - ( EAN# 4250479319448 ) Module and transport case
+
+Includes
+
+Specifications subject to change
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 47
+
+</slide>
+<slide>
+yellobrik
+®
+• Send / receive up to 9 channels over a single fiber • 1270nm to 1430nm (ITU-T G.694.2) • Passive operation (no power required) • Combine with OCM 1892 for 18 channels • LC/PC single mode optical connections • Optional ½ RU 19” rack frame
+The OCM 1891 is a compact CWDM passive 9 channel optical multiplexer / demultiplexer designed to send or receive up to 9 individual signals over a single fiber link. The module has an UPG (Upgrade) port to connect to the OCM 1892, which expands the capability of the modules to 18 CWDM channels The modules can be used standalone or integrated into the optional RFR 1018 1/2 RU 19” rack frame, ideal for system installations. Ideally suited for use with the CWDM yellobrik fiber modules (all 18 wavelengths available).
+Optical I/O
+
+OCM 1891
+
+9 Channel CWDM Multiplexer / Demultiplexer [1270nm - 1430nm]
+
+Technical Specifications
+9 x Fiber Optic I/O channels (1 through 9) Center frequencies taken from ITU-T G.694.2 1270,1290,1310,1330,1350,1370,1390,1410,1430 nm 1 x COM (common) connection = multiplexed I/O 1 x UPG (Upgrade) I/O connection (pass band connection to OCM 1892 module) LC/PC connectors SMF (single mode) Channel Insertion loss: 2.7dB UPG Insertion loss: 2.7dB Polarization dependant loss: max 0.2dB Return Loss: &gt; 45dB Isolation (to adjacent channel): &gt; 30dB Directivity &gt; 55dB Temp. dependant loss: &lt; 0.005dB/ºC Temp. dependant change of wavelength: &lt; 0.003nm/ºC Max. input power: 500mw Single or full duplex operation
+
+Power Physical Model # Includes
+
+None required (passive operation) Size: L: 108mm x W: 198mm x H:19mm (4.25” x 7.79” x 0.75”) Weight: 230g (8.1oz) OCM 1891 - ( EAN# 4250479318915 ) Module and plastic transport case
+
+Optional RFR 1018 ½ RU 19” Rack chassis with 2 x OCM modules
+Specifications subject to change
+
+LYNXTechnik AG |
+48
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+• Send / receive up to 9 channels over a single fiber • 1450nm to 1610nm (ITU-T G.694.2) • Passive operation (no power required) • Combine with OCM 1891 for 18 channels • LC/PC single mode optical connections • Optional ½ RU 19” rack frame
+The OCM 1892 is a compact CWDM passive 9 channel optical multiplexer / demultiplexer designed to send or receive up to 9 individual signals over a single fiber link. The module has an UPG (Upgrade) port to connect to the OCM 1891, which expands the capability of the modules to 18 CWDM channels The modules can be used standalone or integrated into the optional RFR 1018 1/2 RU 19” rack frame, ideal for system installations. Ideally suited for use with the CWDM yellobrik fiber modules (all 18 wavelengths available).
+Optical I/O
+
+OCM 1892
+
+9 Channel CWDM Multiplexer / Demultiplexer [1450nm - 1610nm]
+
+Technical Specifications
+9 x Fiber Optic I/O channels (10 through 18) Center frequencies taken from ITU-T G.694.2 1450,1470,1490,1510,1530,1550,1570,1590,1610 nm 1 x COM (common) connection = multiplexed I/O 1 x UPG (Upgrade) I/O connection (pass band connection to OCM 1892 module) LC/PC connectors SMF (single mode) Channel Insertion loss: 2.7dB UPG Insertion loss: 2.7dB Polarization dependant loss: max 0.2dB Return Loss: &gt; 45dB Isolation (to adjacent channel): &gt; 30dB Directivity &gt; 55dB Temp. dependant loss: &lt; 0.005dB/ºC Temp. dependant change of wavelength: &lt; 0.003nm/ºC Max. input power: 500mw Single or full duplex operation
+
+Power Pnysical Model # Includes
+
+None required (passive operation) Size: L: 108mm x W: 198mm x H:19mm (4.25” x 7.79” x 0.75”) Weight: 230g (8.1oz) OCM 1892 - ( EAN# 4250479318922 ) Module and plastic transport case
+
+Optional RFR 1018 ½ RU 19” Rack chassis with 2 x OCM modules
+Specifications subject to change
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 49
+
+</slide>
+<slide>
+yellobrik
+®
+
+OSP 1812 OSP 1812 M OSP 1814
+
+Passive Optical Splitters / Combiners
+The OSP 1812, OSP 1812 M and OSP 1814 are compact optical splitters that are used to split or combine a fiber optic signal.
+
+Three versions are available:
+OSP 1812 One input (100%) and two outputs (each 50%) OSP 1812 M One input (100%) and two outputs, one at 90% power and a second at 10% power. Typically used as a monitoring output. OSP 1814 One input (100%) and four outputs (each 25%) These yellobriks are passive in operation, which means they require no power. They can be used as standalone modules or mounted into the yellobrik RFR 1018 19” rack frame.
+
+OSP 1812
+
+Technical Specifications
+OSP 1812 Optical I/O OSP 1812 M Optical I/O OSP 1814 Optical I/O
+1 x Fiber input 2 x Fiber outputs Split Ratio: 50% / 50% 1 x Fiber input 2 x Fiber outputs Split Ratio: 90% / 10% 1 x Fiber input 4 x Fiber outputs Split Ratio: 25% / 25% / 25% / 25% LC/PC (singlemode) Operating wavelength 1260nm - 1650nm Insertion loss (including connector) OSP 1812 and OSP 1812M = 4.0 dB OSP 1814 = 7.6dB Polarization dependant loss: max 0.3dB Return loss: &gt; 55dB Directivity: &gt; 55dB Max input power: 500mW
+
+OSP 1812 M
+
+Optical Connections Performance
+
+OSP 1814
+
+Power Physical Model #
+
+None required (passive operation) Size: L: 125mm x W: 100mm x H:19mm (4.92” x 3.93” x 0.75”) Weight: 120g (4.3oz) OSP 1812 - ( EAN# 4250479359796 ) OSP 1812 M - ( EAN# 4250479359802 ) OSP 1814 - ( EAN# 4250479359819 ) Module and plastic transport case
+
+Includes
+
+Specifications subject to change
+
+LYNXTechnik AG |
+50
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+RFR 1001
+
+Module Mounting Bracket for Single Yellobrik
+• Robust metal mounting bracket • Mount on any flat surface • Ideal for mounting on 19” rack rails • No tools needed for module installation
+The RFR 1001 is a robust metal mounting solution for a single yellobrik. The bracket can accommodate the smaller and larger modules using the mounting slots provided in the yellobrik. The bracket can be mounted on any flat surface using suitable screws or bolts (not supplied). The mounting holes are on 19” rack rail centers which makes it ideal for mounting yellobriks in the rear of equipment rack frames; keeping them secure and out of the way. No tools are required for module installation and removal, this is accomplished using a nylon thumbscrew.
+
+Bracket shown mounted on 19” rack rails
+
+Specifications subject to change
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 51
+
+</slide>
+<slide>
+yellobrik
+®
+
+RFR 1000
+
+yellobrik 19” 1RU Rack Frame
+• Compact 1 RU design • Will accommodate up to 14 yellobriks • External 12VDC power inputs • Primary and redundant power options • Power failure alarm GPO outputs
+The RFR 1000 is a compact 1 RU high mounting frame designed for yellobriks. Up to 14 yellobriks can be vertically mounted and are mechanically clamped securely in place. Each slot has its own integrated power connector on a central power bus. The rack has two external 12VDC inputs for power, one for primary power, the second for redundant backup. An optional external power brick is available which provides enough power for any combination of yellobriks. A second unit can be used for redundant backup. Primary and redundant power LED’s are located in the front panel as well as GPO connections for the power supply failure alarms. While the frame will accommodate all yellobriks, it is ideally suited for the yellobrik fiber converters, which are typically used in larger numbers. Fiber connections are on the front and the SDI copper connection in the rear. A space is left open on one side to route the fiber loops from front to rear making for a very clean installation. The module fiber RX and TX activity LED’s can be seen clearly from the front with the modules installed.
+
+Technical Specifications
+Power Inputs
+External +12VDC primary power input External +12VDC redundant power input Connector: Molex Mini Fit Series5557 Power LED’s on front of chassis Primary and redundant power failure GPO alarm outputs 19” Rack mount x 1RU high x 145mm deep (5.7”) 1.6 Kg (3.52 Lbs) - with no modules installed RFR 1000 - ( EAN# 4250479310001 ) RPS 1000 external power supply (12V 8A) (use 2 units for primary and redundant power protection) Rack Frame assembly (empty) and qty 14 module securing brackets
+
+Size Weight Model # Options Includes
+
+Power connectors on integrated power bus
+
+Rear of rack frame showing power connectors and one optional external power brick (use second brick for redundant protection)
+
+Modules are clamped securely into position
+Specifications subject to change
+
+LYNXTechnik AG |
+52
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+RFR 1018
+
+19” 0.5RU Mounting Tray
+
+• Small footprint only 0.5 RU High x 19” Rack mount • For use with: OCM 1891 / 1892 OCM 1842 / 1843 / 1844 OSP 1812 / 1812M / 1814 OTX 1441 / OTR 1441 • Easy module mounting - no tools needed • Combine with RFR 1000 frame for system use
+The RFR 1018 Mounting Tray is designed to accommodate a variety of LYNX yellobrik modules providing a secure mounting platform in any standard 19” rack. Modules are easily installed from the front and held securely in place a thumbscrew.
+
+Specifications
+Size Material Weight Model # Includes
+L 400mm (19”) x D 135mm (5.3”) x H 0.5RU Aluminum 0.4kg (0.9Lbs) RFR 1018 - ( EAN# 4250479310186 ) Mounting Chassis
+
+When combined with the RFR 1000 Chassis (which can accommodate up to 14 fiber yellobriks) a fully featured 18 channel modular CWDM system can be accommodated in a total of 1.5RU rack space - see below.
+
+Specifications subject to change
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 53
+
+</slide>
+<slide>
+yellobrik
+®
+
+yelloGUI
+
+yelloGUI - Overview
+yelloGUI is a complimentary software application. It allows users to access the yellobrik module controls and extended features via a PC. The software will scan the USB ports to detect the connected module. When a module is connected, the appropriate user interface is automatically displayed. The display is a graphical representation of the module’s layout for connections and I/O. The yelloGUI software application is designed to be intuitive and easy to use.
+
+Module’s status display Module I/O signals are detected and displayed when present yellobrik model number and serial number
+
+Module LED status
+
+Available settings can be selected via drop-down selections
+
+Access to additional information and screen displays are provided using the buttons along the bottom of the GUI
+
+Controls marked in red indicate physical switches on the module. Status is indicated but cannot be changed via the software, unless enabled under settings.
+
+LYNXTechnik AG |
+54
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+yelloGUI
+
+The signal flow screen (selected using the button at the bottom of the GUI) offers a useful graphics representation of the video
+
+and/or audio signal flow through the module. Relevant controls are also placed in the signal paths so you can see exactly what signal the setting is changing. The signal path only illuminates when signals are present.
+
+Click on the model number to bring up additional selections. The additional selections are used to undo or redo settings, import and export stored settings, and perform a factory reset. The “about” option is useful to determine the module’s firmware version.
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 55
+
+</slide>
+<slide>
+yellobrik
+®
+
+yelloGUI
+
+Some modules will have a “settings” button, which allows the user to override the local switch settings and change them using the GUI controls. The LED on the yellobrik will turn RED indicating that at least one of the local switch settings has been overwritten by the software.
+
+Note. As soon as any local switch is changed, the settings revert back to the physical switch settings.
+
+The GUI offers contextual help for many of the module’s functions. For enhanced help, click on the “question mark” and select “what’s this.” A small question mark will now appear on the mouse cursor. Simply click on the parameter you wish to know more about and more details will be provided.
+
+Get Connected
+Register for a direct connection to our update server and yelloGUI will automatically let you know when a new release of the firmware is available for download. Simply click and install the firmware update directly from the application. The new “simulate mode” will let you explore the GUI controls for all supported modules.
+
+Notification
+
+Click to Update
+
+LYNXTechnik AG |
+56
+
+Broadcast Television Equipment
+
+www.lynx-technik.com
+
+</slide>
+<slide>
+yellobrik
+®
+
+yelloGUI
+
+Downloading yelloGUI
+The yelloGUI application is a free download from the LYNX website.
+
+www.lynx-technik.com &gt; support &gt; download area &gt; yelloGUI software
+We are constantly adding yelloGUI compatibility to modules. Please check the website for a complete list of currently supported modules If the yellobrik has a USB port, then the firmware is upgradeable. We also have all firmware releases available for download from the LYNX website.
+
+Register Your Product to Stay Informed
+Please register your product on the LYNX Technik website. This activates the warranty coverage and provides you with access to any technical support you may need.. You can also save a list of all your purchased LYNX Technik products, which will help you to keep track of your products and warranty status. It also allows us to notify you with important firmware updates or service bulletins related to your products.
+
+Have Questions? Need Technical Support?
+Visit and search the knowledge base on the LYNX Technik website. We have lot of articles, tips and suggestions which should answer most of your questions. If you need further assistance or technical support, open a support ticket and we will respond quickly.
+
+www.lynx-technik.com &gt; support &gt; Tech. support
+
+LYNXTechnik AG |
+®
+
+Broadcast Television Equipment
+
+www.lynx-technik.com 57
+
+</slide>
+<slide>
+Warranty
+LYNX Technik AG warrants that the product will be free from defects in materials and workmanship for a period of three (3) years from the date of shipment. If this product proves defective during the warranty period, LYNX Technik AG at its option will either repair the defective product without charge for parts and labor, or will provide a replacement in exchange for the defective product. In order to obtain service under this warranty, customer must notify LYNX Technik of the defect before expiration of the warranty period and make suitable arrangements for the performance of service. Customer shall be responsible for packaging and shipping the defective product to the service center designated by LYNX Technik, with shipping charges prepaid. LYNX Technik shall pay for the return of the product to the customer if the shipment is within the country which the LYNX Technik service center is located. Customer shall be responsible for payment of all shipping charges, duties, taxes and any other charges for products returned to any other locations. This warranty shall not apply to any defect, failure, or damage caused by improper use or improper or inadequate maintenance and care. LYNX Technik shall not be obligated to furnish service under this warranty a) to repair damage resulting from attempts by personnel other than LYNX Technik representatives to install, repair or service the product; b) to repair damage resulting from improper use or connection to incompatible equipment; c) to repair any damage or malfunction caused by the use of non LYNX Technik supplies; or d) to service a product which has been modified or integrated with other products when the effect of such modification or integration increases the time or difficulty servicing the product. THIS WARRANTY IS GIVEN BY LYNX TECHNIK WITH RESPECT TO THIS PRODUCT IN LIEU OF ANY OTHER WARRANTIES, EXPRESS OR IMPLIED. LYNX TECHNIK AND ITS VENDORS DISCLAIM ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. LYNX TECHNIK`S RESPONISIBILITY TO REPAIR AND REPLACE DEFECTIVE PRODUCTS IS THE SOLE AND EXCLUSIVE REMEDY PROVIDED TO THE CUSTOMER FOR BREACH OF THIS WARRANTY. LYNX TECHNIK AND ITS VENDORS WILL NOT BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTIAL, OR CONSEQUENTIAL DAMAGES IRRESPECTIVE OF WHETHER LYNX TECHNIK OR THE VENDOR HAS ADVANCE NOTICE OF THE POSSIBILITY OF SUCH DAMAGES.
+
+58
+
+</slide>
+<slide>
+Notes: __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________
+
+59
+
+</slide>
+<slide>
+European Headquarters
+LYNX Technik AG
+Brunnenweg 3 D-64331 Weiterstadt Germany
+Phone: + 49 (0) 6150 1817 0 Fax: + 49 (0) 6150 1817 100 Email: info@lynx-technik.com
+
+APAC Headquarters
+LYNX Technik Pte Ltd
+19 Burn Road #01-01 Advance Building Singapore 369974
+Phone: + 65 6488 1622 Fax: + 65 6281 3371 Email: infoasia@lynx-technik.com
+
+USA Headquarters
+LYNX Technik Inc
+26366 Ruether Ave Santa Clarita, CA 91350 USA
+Phone: (661) 251 8600 Fax: (661) 251 8088 Email: infousa@lynx-technik.com
+
+www.lynx-technik.com
+
+LYNXTechnik AG
+
+®
+
+Broadcast Television Equipment
+
+</slide>
+</stringlist>
