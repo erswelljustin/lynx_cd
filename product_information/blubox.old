@@ -52,7 +52,6 @@
 							</ul>
 						<li><a href="s5000.html"> Series | 5000</a></li>
 						<li><a href="testor.html"> Testor</a></li>
-						<li class="active"><a href="blubox.html"> blueBox</a></li>
 						<li><a href="appolo.html"> APPolo | Control</a></li>
 							<ul class="nav nav-list sub-menu">
 								<li><a href="customcontrol.html"> CustomControl</a></li>
