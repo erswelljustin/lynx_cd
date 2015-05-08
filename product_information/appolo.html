@@ -172,16 +172,17 @@
 								<img border="0" src="assets/img/forward_2.gif" width="57" height="23" align="right" style="margin-top: 13px">
 							</div>
 							<div class="span4">
-								<h3><a id="APPOLO_GUI" href="./control-software/APPoloControlGUI-8.2.0.1259-RELEASE.exe">install <font color="#000000" face="Arial" size="6">APPolo</font><font color="#FF0000" size="6" face="Arial Black">GUI</font></a></h3>
+								<h3><a id="APPOLO_GUI" href="./software_appolo/appolocontrolserver/APPoloControlGUI-8.2.1.1283-RELEASE.exe">install <font color="#000000" face="Arial" size="6">APPolo</font><font color="#FF0000" size="6" face="Arial Black">GUI</font></a></h3>
 								<br> <br> <br> <br>
 							</div>
 							<div>
 								<p>
 								<ol>
-									<li> Click to install the APPolo Control System GUI <b><span>8.2.0</span></b> to your local system.<br>
+									<li> Click to install the APPolo Control System GUI <b><span>8.2.1</span></b> to your local system.<br>
 										<small class="muted"><b>Note:</b> The latest version is available from <a target="_blank" href="http://www.lynx-technik.com/en/support/download-area/appolo/">www.lynx-technik.com</a></small></li>
 									<li> start the application (double click icon on desktop)</li>
 									<li> select <u>Simulation</u> from the <u>View menu</u> to enter demo-mode</li>
+									<li> Optional: install the <a href="http://download.lynx-technik.de/public/c3_local/APPoloControlDatabase.2015-05-07.exe">APPolo Control Database</a></li>
 								</ol>
 								</p>
 							</div>
@@ -249,20 +250,20 @@
 	function replaceInfoFromFile(dir, fileName, href, tag) 
 	{
 		var rawFile=false;
-		/*@cc_on @*/
-		/*@if (@_jscript_version >= 5)
-		// JScript gives us Conditional compilation, we can cope with old IE versions.
-		// and security blocked creation of the objects.
-		try {
-			rawFile = new ActiveXObject("Msxml2.XMLHTTP");
-		} catch (e) {
-			try {
-				rawFile = new ActiveXObject("Microsoft.XMLHTTP");
-			} catch (E) {
-				rawFile = false;
-			}
-		}
-		@end @*/
+		// @cc_on @*/
+		// /*@if (@_jscript_version >= 5)
+		// // JScript gives us Conditional compilation, we can cope with old IE versions.
+		// // and security blocked creation of the objects.
+		// try {
+		// 	rawFile = new ActiveXObject("Msxml2.XMLHTTP");
+		// } catch (e) {
+		// 	try {
+		// 		rawFile = new ActiveXObject("Microsoft.XMLHTTP");
+		// 	} catch (E) {
+		// 		rawFile = false;
+		// 	}
+		// }
+		// @end @
 		if (!rawFile && typeof XMLHttpRequest!='undefined') {
 			try {
 				rawFile = new XMLHttpRequest();
